@@ -1,0 +1,146 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Portal.gd" type="Script" id=1]
+[ext_resource path="res://portal_mesh2.tres" type="CubeMesh" id=2]
+[ext_resource path="res://textures/layers/water.tres" type="Material" id=3]
+
+[sub_resource type="BoxShape" id=4]
+extents = Vector3( 0.001, 0.5, 0.5 )
+
+[sub_resource type="GDScript" id=5]
+
+[sub_resource type="Shader" id=3]
+code = "shader_type spatial;
+render_mode unshaded;
+uniform sampler2D viewport_texture : hint_normal;
+
+void fragment(){
+    ALBEDO = vec3(texture(viewport_texture, SCREEN_UV).rgb);
+
+}
+"
+script = SubResource( 5 )
+
+[sub_resource type="ViewportTexture" id=9]
+viewport_path = NodePath("Viewport")
+
+[sub_resource type="ShaderMaterial" id=10]
+resource_local_to_scene = true
+render_priority = 1
+shader = SubResource( 3 )
+shader_param/viewport_texture = SubResource( 9 )
+
+[node name="LimenA" type="CSGMesh"]
+transform = Transform( 1.94707e-07, 0, -1, 0, 1, 0, 1, 0, 1.94707e-07, -0.000233471, 0.00245911, 0.00327075 )
+layers = 8
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material = ExtResource( 3 )
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Viewport" type="Viewport" parent="."]
+process_priority = 1
+size = Vector2( 2, 2 )
+handle_input_locally = false
+use_32_bpc_depth = true
+keep_3d_linear = true
+usage = 3
+render_target_clear_mode = 1
+render_target_update_mode = 3
+gui_disable_input = true
+gui_snap_controls_to_pixels = false
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Camera" type="Camera" parent="Viewport"]
+cull_mask = 1048551
+current = true
+far = 70.0
+
+[node name="Flashlight" type="SpotLight" parent="Viewport/Camera"]
+visible = false
+portal_mode = 1
+light_color = Color( 1, 0.772549, 0.560784, 1 )
+light_energy = 10.0
+light_indirect_energy = 7.718
+light_specular = 0.0
+light_bake_mode = 0
+light_cull_mask = 4294966303
+shadow_bias = 0.234
+shadow_contact = 0.26
+spot_range = 48.074
+spot_attenuation = 0.60371
+spot_angle = 30.0
+spot_angle_attenuation = 0.0189465
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Area" type="Area" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 0, 0 )
+shape = SubResource( 4 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, -1, -2.84217e-14, 1, -4.37114e-08, -5.08219e-22, 0, 0, 1.2, 0.55, -0.544473, -0.00121117 )
+layers = 8
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 10 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1.1, 0, -1, 0, -4.37114e-08, 0.55, 0, 0.55 )
+layers = 8
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 10 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance3" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1.1, 0, -1, 0, -4.37114e-08, 0.55, 0, -0.551 )
+layers = 8
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 10 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 8.52651e-14, 0, 1.1, 0, 0, 0, 1.1, 1, 0, 0 )
+layers = 8
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 10 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance5" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1.2, 0.55, 0.551, 0 )
+layers = 8
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 10 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="VisibilityNotifier" type="VisibilityNotifier" parent="."]
+max_distance = 100.0

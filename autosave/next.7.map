@@ -1,0 +1,497 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/base;textures/layers;textures/materials;textures/orrery;textures/pbr;textures/pbr/military-panel;textures/shaders;textures/special"
+"_tb_mod" "textures"
+// brush 0
+{
+( -144 192 64 ) ( -144 193 64 ) ( -144 192 65 ) orrery/metal 0 0 0 1 1
+( -16 192 64 ) ( -16 192 65 ) ( -15 192 64 ) orrery/metal 0 0 0 1 1
+( -16 192 64 ) ( -15 192 64 ) ( -16 193 64 ) orrery/metal 0 0 0 1 1
+( 16 208 80 ) ( 16 209 80 ) ( 17 208 80 ) orrery/metal 0 0 0 1 1
+( 16 464 80 ) ( 17 464 80 ) ( 16 464 81 ) orrery/metal 0 0 0 1 1
+( 128 208 80 ) ( 128 208 81 ) ( 128 209 80 ) orrery/metal 0 0 0 1 1
+}
+// brush 1
+{
+( 64 192 80 ) ( 64 193 80 ) ( 64 192 81 ) layers/slime 0 0 0 1 1
+( 64 192 80 ) ( 64 192 81 ) ( 65 192 80 ) layers/slime 0 0 0 1 1
+( 64 192 80 ) ( 65 192 80 ) ( 64 193 80 ) layers/slime 0 0 0 1 1
+( 128 208 192 ) ( 128 209 192 ) ( 129 208 192 ) layers/slime 0 0 0 1 1
+( 128 208 96 ) ( 129 208 96 ) ( 128 208 97 ) layers/slime 0 0 0 1 1
+( 128 208 96 ) ( 128 208 97 ) ( 128 209 96 ) layers/slime 0 0 0 1 1
+}
+// brush 2
+{
+( 112 208 80 ) ( 112 209 80 ) ( 112 208 81 ) layers/slime 0 0 0 1 1
+( 112 208 80 ) ( 112 208 81 ) ( 113 208 80 ) layers/slime 0 0 0 1 1
+( 112 208 80 ) ( 113 208 80 ) ( 112 209 80 ) layers/slime 0 0 0 1 1
+( 128 464 192 ) ( 128 465 192 ) ( 129 464 192 ) layers/slime 0 0 0 1 1
+( 128 464 96 ) ( 129 464 96 ) ( 128 464 97 ) layers/slime 0 0 0 1 1
+( 128 464 96 ) ( 128 464 97 ) ( 128 465 96 ) layers/slime 0 0 0 1 1
+}
+// brush 3
+{
+( -144 192 80 ) ( -144 193 80 ) ( -144 192 81 ) layers/slime 0 0 0 1 1
+( -144 192 80 ) ( -144 192 81 ) ( -143 192 80 ) layers/slime 0 0 0 1 1
+( -144 192 80 ) ( -143 192 80 ) ( -144 193 80 ) layers/slime 0 0 0 1 1
+( -80 208 192 ) ( -80 209 192 ) ( -79 208 192 ) layers/slime 0 0 0 1 1
+( -80 208 96 ) ( -79 208 96 ) ( -80 208 97 ) layers/slime 0 0 0 1 1
+( -64 208 96 ) ( -64 208 97 ) ( -64 209 96 ) layers/slime 0 0 0 1 1
+}
+// brush 4
+{
+( -144 208 80 ) ( -144 209 80 ) ( -144 208 81 ) layers/slime 0 0 0 1 1
+( -144 208 80 ) ( -144 208 81 ) ( -143 208 80 ) layers/slime 0 0 0 1 1
+( -144 208 80 ) ( -143 208 80 ) ( -144 209 80 ) layers/slime 0 0 0 1 1
+( -128 464 192 ) ( -128 465 192 ) ( -127 464 192 ) layers/slime 0 0 0 1 1
+( -128 464 96 ) ( -127 464 96 ) ( -128 464 97 ) layers/slime 0 0 0 1 1
+( -128 464 96 ) ( -128 464 97 ) ( -128 465 96 ) layers/slime 0 0 0 1 1
+}
+// brush 5
+{
+( -144 192 192 ) ( -144 193 192 ) ( -144 192 193 ) layers/water 0 0 0 1 1
+( -144 192 192 ) ( -144 192 193 ) ( -143 192 192 ) layers/water 0 0 0 1 1
+( -144 192 192 ) ( -143 192 192 ) ( -144 193 192 ) layers/water 0 0 0 1 1
+( 112 400 208 ) ( 112 401 208 ) ( 113 400 208 ) layers/water 0 0 0 1 1
+( 112 464 208 ) ( 113 464 208 ) ( 112 464 209 ) layers/water 0 0 0 1 1
+( 128 400 208 ) ( 128 400 209 ) ( 128 401 208 ) layers/water 0 0 0 1 1
+}
+// brush 6
+{
+( -1072 464 64 ) ( -1072 465 64 ) ( -1072 464 65 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 128 464 64 ) ( 128 464 65 ) ( 129 464 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 128 464 64 ) ( 129 464 64 ) ( 128 465 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 208 1184 80 ) ( 208 1185 80 ) ( 209 1184 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 208 996 80 ) ( 209 996 80 ) ( 208 996 81 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1168 1184 80 ) ( 1168 1184 81 ) ( 1168 1185 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 7
+{
+( -704 608 80 ) ( -672 600 88 ) ( -672 600 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -672 616 88 ) ( -704 608 80 ) ( -672 616 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -640 608 80 ) ( -704 608 80 ) ( -672 600 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -640 608 88 ) ( -704 608 88 ) ( -672 616 88 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -640 608 88 ) ( -672 600 80 ) ( -672 600 88 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -640 608 88 ) ( -672 616 80 ) ( -640 608 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 8
+{
+( -807 715 96 ) ( -808 723 96 ) ( -808 723 192 ) base/checkerboard 0 0 0 1 1
+( -807 731 96 ) ( -807 731 192 ) ( -808 723 192 ) base/checkerboard 0 0 0 1 1
+( -807 715 192 ) ( -804 707 192 ) ( -804 707 96 ) base/checkerboard 0 0 0 1 1
+( -807 731 192 ) ( -807 731 96 ) ( -804 739 96 ) base/checkerboard 0 0 0 1 1
+( -804 707 192 ) ( -799 700 192 ) ( -799 700 96 ) base/checkerboard 0 0 0 1 1
+( -804 739 192 ) ( -804 739 96 ) ( -799 746 96 ) base/checkerboard 0 0 0 1 1
+( -799 700 192 ) ( -792 695 192 ) ( -792 695 96 ) base/checkerboard 0 0 0 1 1
+( -792 751 96 ) ( -792 751 192 ) ( -799 746 192 ) base/checkerboard 0 0 0 1 1
+( -792 695 192 ) ( -784 692 192 ) ( -784 692 96 ) base/checkerboard 0 0 0 1 1
+( -784 754 96 ) ( -784 754 192 ) ( -792 751 192 ) base/checkerboard 0 0 0 1 1
+( -784 692 192 ) ( -776 691 192 ) ( -776 691 96 ) base/checkerboard 0 0 0 1 1
+( -776 755 96 ) ( -776 755 192 ) ( -784 754 192 ) base/checkerboard 0 0 0 1 1
+( -745 715 96 ) ( -744 723 96 ) ( -745 731 96 ) base/checkerboard 0 0 0 1 1
+( -745 731 104 ) ( -744 723 104 ) ( -745 715 104 ) base/checkerboard 0 0 0 1 1
+( -776 691 192 ) ( -768 692 192 ) ( -768 692 96 ) base/checkerboard 0 0 0 1 1
+( -776 755 192 ) ( -776 755 96 ) ( -768 754 96 ) base/checkerboard 0 0 0 1 1
+( -768 692 192 ) ( -760 695 192 ) ( -760 695 96 ) base/checkerboard 0 0 0 1 1
+( -760 751 96 ) ( -760 751 192 ) ( -768 754 192 ) base/checkerboard 0 0 0 1 1
+( -760 695 192 ) ( -753 700 192 ) ( -753 700 96 ) base/checkerboard 0 0 0 1 1
+( -760 751 192 ) ( -760 751 96 ) ( -753 746 96 ) base/checkerboard 0 0 0 1 1
+( -753 700 192 ) ( -748 707 192 ) ( -748 707 96 ) base/checkerboard 0 0 0 1 1
+( -748 739 96 ) ( -748 739 192 ) ( -753 746 192 ) base/checkerboard 0 0 0 1 1
+( -748 707 192 ) ( -745 715 192 ) ( -745 715 96 ) base/checkerboard 0 0 0 1 1
+( -745 731 96 ) ( -745 731 192 ) ( -748 739 192 ) base/checkerboard 0 0 0 1 1
+( -745 715 192 ) ( -744 723 192 ) ( -744 723 96 ) base/checkerboard 0 0 0 1 1
+( -744 723 96 ) ( -744 723 192 ) ( -745 731 192 ) base/checkerboard 0 0 0 1 1
+}
+// brush 9
+{
+( -704 576 88 ) ( -704 577 88 ) ( -704 576 89 ) base/checkerboard 0 0 0 1 1
+( -704 576 88 ) ( -704 576 89 ) ( -703 576 88 ) base/checkerboard 0 0 0 1 1
+( -704 576 88 ) ( -703 576 88 ) ( -704 577 88 ) base/checkerboard 0 0 0 1 1
+( -640 640 96 ) ( -640 641 96 ) ( -639 640 96 ) base/checkerboard 0 0 0 1 1
+( -640 640 96 ) ( -639 640 96 ) ( -640 640 97 ) base/checkerboard 0 0 0 1 1
+( -640 640 96 ) ( -640 640 97 ) ( -640 641 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 10
+{
+( -704 576 97 ) ( -704 608 96 ) ( -704 608 97 ) base/checkerboard 0 0 0 1 1
+( -703 600 96 ) ( -704 608 96 ) ( -704 576 96 ) base/checkerboard 0 0 0 1 1
+( -703 600 97 ) ( -704 576 97 ) ( -704 608 97 ) base/checkerboard 0 0 0 1 1
+( -703 600 97 ) ( -704 608 96 ) ( -703 600 96 ) base/checkerboard 0 0 0 1 1
+( -703 600 97 ) ( -704 576 96 ) ( -704 576 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 11
+{
+( -704 576 97 ) ( -703 600 96 ) ( -703 600 97 ) base/checkerboard 0 0 0 1 1
+( -700 592 96 ) ( -703 600 96 ) ( -704 576 96 ) base/checkerboard 0 0 0 1 1
+( -700 592 97 ) ( -704 576 97 ) ( -703 600 97 ) base/checkerboard 0 0 0 1 1
+( -700 592 97 ) ( -703 600 96 ) ( -700 592 96 ) base/checkerboard 0 0 0 1 1
+( -700 592 97 ) ( -704 576 96 ) ( -704 576 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 12
+{
+( -704 576 97 ) ( -700 592 96 ) ( -700 592 97 ) base/checkerboard 0 0 0 1 1
+( -695 585 96 ) ( -700 592 96 ) ( -704 576 96 ) base/checkerboard 0 0 0 1 1
+( -695 585 97 ) ( -704 576 97 ) ( -700 592 97 ) base/checkerboard 0 0 0 1 1
+( -695 585 97 ) ( -704 576 96 ) ( -704 576 97 ) base/checkerboard 0 0 0 1 1
+( -695 585 97 ) ( -700 592 96 ) ( -695 585 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 13
+{
+( -704 576 97 ) ( -695 585 96 ) ( -695 585 97 ) base/checkerboard 0 0 0 1 1
+( -688 580 96 ) ( -695 585 96 ) ( -704 576 96 ) base/checkerboard 0 0 0 1 1
+( -688 580 97 ) ( -704 576 97 ) ( -695 585 97 ) base/checkerboard 0 0 0 1 1
+( -688 580 97 ) ( -704 576 96 ) ( -704 576 97 ) base/checkerboard 0 0 0 1 1
+( -688 580 97 ) ( -695 585 96 ) ( -688 580 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 14
+{
+( -704 576 97 ) ( -688 580 96 ) ( -688 580 97 ) base/checkerboard 0 0 0 1 1
+( -680 577 96 ) ( -688 580 96 ) ( -704 576 96 ) base/checkerboard 0 0 0 1 1
+( -680 577 97 ) ( -704 576 97 ) ( -688 580 97 ) base/checkerboard 0 0 0 1 1
+( -680 577 97 ) ( -704 576 96 ) ( -704 576 97 ) base/checkerboard 0 0 0 1 1
+( -680 577 97 ) ( -688 580 96 ) ( -680 577 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 15
+{
+( -704 576 97 ) ( -680 577 96 ) ( -680 577 97 ) base/checkerboard 0 0 0 1 1
+( -672 576 97 ) ( -704 576 96 ) ( -704 576 97 ) base/checkerboard 0 0 0 1 1
+( -672 576 96 ) ( -680 577 96 ) ( -704 576 96 ) base/checkerboard 0 0 0 1 1
+( -672 576 97 ) ( -704 576 97 ) ( -680 577 97 ) base/checkerboard 0 0 0 1 1
+( -680 577 96 ) ( -672 576 97 ) ( -680 577 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 16
+{
+( -748 616 97 ) ( -732 620 96 ) ( -732 620 97 ) base/checkerboard 0 0 0 1 1
+( -724 617 96 ) ( -732 620 96 ) ( -748 616 96 ) base/checkerboard 0 0 0 1 1
+( -724 617 97 ) ( -748 616 97 ) ( -732 620 97 ) base/checkerboard 0 0 0 1 1
+( -724 617 97 ) ( -748 616 96 ) ( -748 616 97 ) base/checkerboard 0 0 0 1 1
+( -724 617 97 ) ( -732 620 96 ) ( -724 617 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 17
+{
+( -748 616 97 ) ( -724 617 96 ) ( -724 617 97 ) base/checkerboard 0 0 0 1 1
+( -716 616 97 ) ( -748 616 96 ) ( -748 616 97 ) base/checkerboard 0 0 0 1 1
+( -716 616 96 ) ( -724 617 96 ) ( -748 616 96 ) base/checkerboard 0 0 0 1 1
+( -716 616 97 ) ( -748 616 97 ) ( -724 617 97 ) base/checkerboard 0 0 0 1 1
+( -724 617 96 ) ( -716 616 97 ) ( -724 617 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 18
+{
+( -748 616 97 ) ( -739 625 96 ) ( -739 625 97 ) base/checkerboard 0 0 0 1 1
+( -732 620 96 ) ( -739 625 96 ) ( -748 616 96 ) base/checkerboard 0 0 0 1 1
+( -732 620 97 ) ( -748 616 97 ) ( -739 625 97 ) base/checkerboard 0 0 0 1 1
+( -732 620 97 ) ( -748 616 96 ) ( -748 616 97 ) base/checkerboard 0 0 0 1 1
+( -732 620 97 ) ( -739 625 96 ) ( -732 620 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 19
+{
+( -748 616 97 ) ( -744 632 96 ) ( -744 632 97 ) base/checkerboard 0 0 0 1 1
+( -739 625 96 ) ( -744 632 96 ) ( -748 616 96 ) base/checkerboard 0 0 0 1 1
+( -739 625 97 ) ( -748 616 97 ) ( -744 632 97 ) base/checkerboard 0 0 0 1 1
+( -739 625 97 ) ( -748 616 96 ) ( -748 616 97 ) base/checkerboard 0 0 0 1 1
+( -739 625 97 ) ( -744 632 96 ) ( -739 625 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 20
+{
+( -748 616 97 ) ( -747 640 96 ) ( -747 640 97 ) base/checkerboard 0 0 0 1 1
+( -744 632 96 ) ( -747 640 96 ) ( -748 616 96 ) base/checkerboard 0 0 0 1 1
+( -744 632 97 ) ( -748 616 97 ) ( -747 640 97 ) base/checkerboard 0 0 0 1 1
+( -744 632 97 ) ( -747 640 96 ) ( -744 632 96 ) base/checkerboard 0 0 0 1 1
+( -744 632 97 ) ( -748 616 96 ) ( -748 616 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 21
+{
+( -748 616 97 ) ( -748 648 96 ) ( -748 648 97 ) base/checkerboard 0 0 0 1 1
+( -747 640 96 ) ( -748 648 96 ) ( -748 616 96 ) base/checkerboard 0 0 0 1 1
+( -747 640 97 ) ( -748 616 97 ) ( -748 648 97 ) base/checkerboard 0 0 0 1 1
+( -747 640 97 ) ( -748 648 96 ) ( -747 640 96 ) base/checkerboard 0 0 0 1 1
+( -747 640 97 ) ( -748 616 96 ) ( -748 616 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 22
+{
+( -868 806 97 ) ( -844 807 96 ) ( -844 807 97 ) base/checkerboard 0 0 0 1 1
+( -836 806 97 ) ( -868 806 96 ) ( -868 806 97 ) base/checkerboard 0 0 0 1 1
+( -836 806 96 ) ( -844 807 96 ) ( -868 806 96 ) base/checkerboard 0 0 0 1 1
+( -836 806 97 ) ( -868 806 97 ) ( -844 807 97 ) base/checkerboard 0 0 0 1 1
+( -844 807 96 ) ( -836 806 97 ) ( -844 807 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 23
+{
+( -868 806 97 ) ( -852 810 96 ) ( -852 810 97 ) base/checkerboard 0 0 0 1 1
+( -844 807 96 ) ( -852 810 96 ) ( -868 806 96 ) base/checkerboard 0 0 0 1 1
+( -844 807 97 ) ( -868 806 97 ) ( -852 810 97 ) base/checkerboard 0 0 0 1 1
+( -844 807 97 ) ( -868 806 96 ) ( -868 806 97 ) base/checkerboard 0 0 0 1 1
+( -844 807 97 ) ( -852 810 96 ) ( -844 807 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 24
+{
+( -868 806 97 ) ( -859 815 96 ) ( -859 815 97 ) base/checkerboard 0 0 0 1 1
+( -852 810 96 ) ( -859 815 96 ) ( -868 806 96 ) base/checkerboard 0 0 0 1 1
+( -852 810 97 ) ( -868 806 97 ) ( -859 815 97 ) base/checkerboard 0 0 0 1 1
+( -852 810 97 ) ( -868 806 96 ) ( -868 806 97 ) base/checkerboard 0 0 0 1 1
+( -852 810 97 ) ( -859 815 96 ) ( -852 810 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 25
+{
+( -868 806 97 ) ( -864 822 96 ) ( -864 822 97 ) base/checkerboard 0 0 0 1 1
+( -859 815 96 ) ( -864 822 96 ) ( -868 806 96 ) base/checkerboard 0 0 0 1 1
+( -859 815 97 ) ( -868 806 97 ) ( -864 822 97 ) base/checkerboard 0 0 0 1 1
+( -859 815 97 ) ( -868 806 96 ) ( -868 806 97 ) base/checkerboard 0 0 0 1 1
+( -859 815 97 ) ( -864 822 96 ) ( -859 815 96 ) base/checkerboard 0 0 0 1 1
+}
+// brush 26
+{
+( -868 806 97 ) ( -868 838 96 ) ( -868 838 97 ) base/checkerboard 0 0 0 1 1
+( -867 830 96 ) ( -868 838 96 ) ( -868 806 96 ) base/checkerboard 0 0 0 1 1
+( -867 830 97 ) ( -868 806 97 ) ( -868 838 97 ) base/checkerboard 0 0 0 1 1
+( -867 830 97 ) ( -868 838 96 ) ( -867 830 96 ) base/checkerboard 0 0 0 1 1
+( -867 830 97 ) ( -868 806 96 ) ( -868 806 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 27
+{
+( -868 806 97 ) ( -867 830 96 ) ( -867 830 97 ) base/checkerboard 0 0 0 1 1
+( -864 822 96 ) ( -867 830 96 ) ( -868 806 96 ) base/checkerboard 0 0 0 1 1
+( -864 822 97 ) ( -868 806 97 ) ( -867 830 97 ) base/checkerboard 0 0 0 1 1
+( -864 822 97 ) ( -867 830 96 ) ( -864 822 96 ) base/checkerboard 0 0 0 1 1
+( -864 822 97 ) ( -868 806 96 ) ( -868 806 97 ) base/checkerboard 0 0 0 1 1
+}
+// brush 28
+{
+( 736 992 64 ) ( 736 993 64 ) ( 736 992 65 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1072 992 64 ) ( 1072 992 65 ) ( 1073 992 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1072 992 64 ) ( 1073 992 64 ) ( 1072 993 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1168 1072 80 ) ( 1168 1073 80 ) ( 1169 1072 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1168 3616 80 ) ( 1169 3616 80 ) ( 1168 3616 81 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1168 1072 80 ) ( 1168 1072 81 ) ( 1168 1073 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 29
+{
+( -768 2480 64 ) ( -768 2481 64 ) ( -768 2480 65 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -768 2480 64 ) ( -768 2480 65 ) ( -767 2480 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -768 2480 64 ) ( -767 2480 64 ) ( -768 2481 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1168 2656 80 ) ( 1168 2657 80 ) ( 1169 2656 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 1168 3616 80 ) ( 1169 3616 80 ) ( 1168 3616 81 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 736 2656 80 ) ( 736 2656 81 ) ( 736 2657 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 30
+{
+( -1072 992 64 ) ( -1072 993 64 ) ( -1072 992 65 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -1072 992 64 ) ( -1072 992 65 ) ( -1071 992 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -1072 992 64 ) ( -1071 992 64 ) ( -1072 993 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -768 2544 80 ) ( -768 2545 80 ) ( -767 2544 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -768 3616 80 ) ( -767 3616 80 ) ( -768 3616 81 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -768 2544 80 ) ( -768 2544 81 ) ( -768 2545 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 31
+{
+( -767 1737 64 ) ( -743 1923 64 ) ( -743 1923 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -719.3946624590461 1730.8573651335403 64 ) ( -767 1737 48 ) ( -767 1737 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 1737 64 ) ( -695.3946652306619 1916.857365491168 80 ) ( -719.3946624590461 1730.8573651335403 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -695.3946652306619 1916.857365491168 64 ) ( -767 1737 48 ) ( -719.3946624590461 1730.8573651335403 48 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -695.3946652306619 1916.857365491168 80 ) ( -743 1923 64 ) ( -695.3946652306619 1916.857365491168 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -664 1912.8064417781377 80 ) ( -688 1726.8064414205098 48 ) ( -688 1726.8064414205098 64 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Hole"
+"_tb_id" "1"
+// brush 0
+{
+( 740 996 -2142 ) ( 717 1552 -2142 ) ( 717 1552 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 1737 -2142 ) ( 740 1737 80 ) ( 717 1552 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 996 -2142 ) ( 740 1737 -2142 ) ( 717 1552 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 717 1552 80 ) ( 740 1737 80 ) ( 740 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 996 80 ) ( 740 1737 80 ) ( 740 1737 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 1
+{
+( 528 2270 -2142 ) ( 363 2386 -2142 ) ( 363 2386 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 2479 -2142 ) ( 740 2479 80 ) ( 363 2386 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 528 2270 -2142 ) ( 740 2479 -2142 ) ( 363 2386 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 2386 80 ) ( 740 2479 80 ) ( 528 2270 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 528 2270 80 ) ( 740 2479 80 ) ( 740 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 2
+{
+( 646 1367 80 ) ( 528 1205 80 ) ( 528 1205 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 528 1205 80 ) ( 740 996 80 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 528 1205 -2142 ) ( 740 996 -2142 ) ( 646 1367 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 646 1367 80 ) ( 740 996 80 ) ( 528 1205 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 646 1367 80 ) ( 646 1367 -2142 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 3
+{
+( 646 1367 80 ) ( 740 996 80 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 717 1552 80 ) ( 646 1367 80 ) ( 646 1367 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 646 1367 -2142 ) ( 740 996 -2142 ) ( 717 1552 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 717 1552 80 ) ( 740 996 80 ) ( 646 1367 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 996 -2142 ) ( 740 996 80 ) ( 717 1552 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 4
+{
+( -197 2456 -2142 ) ( -761 2479 -2142 ) ( -761 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -197 2456 -2142 ) ( -8 2479 -2142 ) ( -761 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -761 2479 80 ) ( -8 2479 80 ) ( -197 2456 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -8 2479 -2142 ) ( -8 2479 80 ) ( -761 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -197 2456 80 ) ( -8 2479 80 ) ( -8 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 5
+{
+( 651 2108 -2142 ) ( 534 2270 -2142 ) ( 534 2270 82 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 534 2270 82 ) ( 534 2270 -2142 ) ( 746 2479 -2142 ) pbr/military-panel/military-panel_metallic -440 0 0 1 1
+( 651 2108 -2142 ) ( 746 2479 -2142 ) ( 534 2270 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 534 2270 82 ) ( 746 2479 82 ) ( 651 2108 82 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 651 2108 82 ) ( 746 2479 82 ) ( 746 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 6
+{
+( 746 2479 -2142 ) ( 746 2479 82 ) ( 651 2108 82 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 722 1923 -2142 ) ( 651 2108 -2142 ) ( 651 2108 82 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 722 1923 -2142 ) ( 746 2479 -2142 ) ( 651 2108 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 651 2108 82 ) ( 746 2479 82 ) ( 722 1923 82 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 722 1923 82 ) ( 746 2479 82 ) ( 746 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 7
+{
+( 175 2456 -2142 ) ( -14 2479 -2142 ) ( -14 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 175 2456 -2142 ) ( 740 2479 -2142 ) ( -14 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -14 2479 80 ) ( 740 2479 80 ) ( 175 2456 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 2479 -2142 ) ( 740 2479 80 ) ( -14 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 175 2456 80 ) ( 740 2479 80 ) ( 740 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 8
+{
+( 717 1923 80 ) ( 717 1923 -2142 ) ( 740 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 1737 -2142 ) ( 717 1923 -2142 ) ( 717 1923 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 1737 -2142 ) ( 740 2479 -2142 ) ( 717 1923 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 717 1923 80 ) ( 740 2479 80 ) ( 740 1737 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 1737 80 ) ( 740 2479 80 ) ( 740 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 9
+{
+( 528 1205 80 ) ( 363 1089 80 ) ( 363 1089 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 1089 80 ) ( 740 996 80 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 1089 -2142 ) ( 740 996 -2142 ) ( 528 1205 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 528 1205 80 ) ( 740 996 80 ) ( 363 1089 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 996 -2142 ) ( 740 996 80 ) ( 528 1205 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 10
+{
+( 175 1020 80 ) ( -14 996 80 ) ( -14 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -14 996 80 ) ( 740 996 80 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -14 996 -2142 ) ( 740 996 -2142 ) ( 175 1020 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 175 1020 80 ) ( 740 996 80 ) ( -14 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 996 -2142 ) ( 740 996 80 ) ( 175 1020 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 11
+{
+( 363 1089 80 ) ( 175 1020 80 ) ( 175 1020 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 175 1020 80 ) ( 740 996 80 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 175 1020 -2142 ) ( 740 996 -2142 ) ( 363 1089 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 1089 80 ) ( 740 996 80 ) ( 175 1020 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 1089 80 ) ( 363 1089 -2142 ) ( 740 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 12
+{
+( -390 2386 -2142 ) ( -767 2479 -2142 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -390 2386 -2142 ) ( -202 2456 -2142 ) ( -767 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 2479 80 ) ( -202 2456 80 ) ( -390 2386 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -202 2456 -2142 ) ( -202 2456 80 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -390 2386 80 ) ( -202 2456 80 ) ( -202 2456 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 13
+{
+( 363 2386 -2142 ) ( 175 2456 -2142 ) ( 175 2456 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 740 2479 -2142 ) ( 740 2479 80 ) ( 175 2456 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 2386 -2142 ) ( 740 2479 -2142 ) ( 175 2456 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 175 2456 80 ) ( 740 2479 80 ) ( 363 2386 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( 363 2386 80 ) ( 740 2479 80 ) ( 740 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 14
+{
+( -673 2108 -2142 ) ( -767 2479 -2142 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -673 2108 -2142 ) ( -555 2270 -2142 ) ( -767 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 2479 80 ) ( -555 2270 80 ) ( -673 2108 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -555 2270 -2142 ) ( -555 2270 80 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic -349.33325 0 0 1 1
+( -673 2108 80 ) ( -555 2270 80 ) ( -555 2270 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 15
+{
+( -743 1923 -2142 ) ( -767 2479 -2142 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -743 1923 -2142 ) ( -673 2108 -2142 ) ( -767 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 2479 80 ) ( -673 2108 80 ) ( -743 1923 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -743 1923 80 ) ( -673 2108 80 ) ( -673 2108 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -673 2108 -2142 ) ( -673 2108 80 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 16
+{
+( -767 2479 80 ) ( -767 1737 80 ) ( -767 1737 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 1737 -2142 ) ( -743 1923 -2142 ) ( -767 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 2479 80 ) ( -743 1923 80 ) ( -767 1737 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 1737 80 ) ( -743 1923 80 ) ( -743 1923 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -743 1923 -2142 ) ( -743 1923 80 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 17
+{
+( -555 2270 -2142 ) ( -767 2479 -2142 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic -349.33325 0 0 1 1
+( -555 2270 -2142 ) ( -390 2386 -2142 ) ( -767 2479 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 2479 80 ) ( -390 2386 80 ) ( -555 2270 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -390 2386 -2142 ) ( -390 2386 80 ) ( -767 2479 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -555 2270 80 ) ( -390 2386 80 ) ( -390 2386 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 18
+{
+( -555 1205 80 ) ( -767 996 80 ) ( -767 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 -2142 ) ( -390 1089 -2142 ) ( -555 1205 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -555 1205 80 ) ( -390 1089 80 ) ( -767 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 80 ) ( -390 1089 80 ) ( -390 1089 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -555 1205 80 ) ( -555 1205 -2142 ) ( -390 1089 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 19
+{
+( -767 1737 80 ) ( -767 996 80 ) ( -767 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 -2142 ) ( -743 1552 -2142 ) ( -767 1737 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 1737 80 ) ( -743 1552 80 ) ( -767 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -743 1552 -2142 ) ( -743 1552 80 ) ( -767 1737 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 80 ) ( -743 1552 80 ) ( -743 1552 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 20
+{
+( -743 1552 80 ) ( -767 996 80 ) ( -767 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 -2142 ) ( -673 1367 -2142 ) ( -743 1552 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -743 1552 80 ) ( -673 1367 80 ) ( -767 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -743 1552 80 ) ( -743 1552 -2142 ) ( -673 1367 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 80 ) ( -673 1367 80 ) ( -673 1367 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 21
+{
+( -202 1020 80 ) ( -767 996 80 ) ( -767 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 80 ) ( -14 996 80 ) ( -14 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 -2142 ) ( -14 996 -2142 ) ( -202 1020 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -202 1020 80 ) ( -14 996 80 ) ( -767 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -202 1020 80 ) ( -202 1020 -2142 ) ( -14 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 22
+{
+( -673 1367 80 ) ( -767 996 80 ) ( -767 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 -2142 ) ( -555 1205 -2142 ) ( -673 1367 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -673 1367 80 ) ( -555 1205 80 ) ( -767 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 80 ) ( -555 1205 80 ) ( -555 1205 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -555 1205 -2142 ) ( -555 1205 80 ) ( -673 1367 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+// brush 23
+{
+( -390 1089 80 ) ( -767 996 80 ) ( -767 996 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 -2142 ) ( -202 1020 -2142 ) ( -390 1089 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -390 1089 80 ) ( -202 1020 80 ) ( -767 996 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -767 996 80 ) ( -202 1020 80 ) ( -202 1020 -2142 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+( -202 1020 -2142 ) ( -202 1020 80 ) ( -390 1089 80 ) pbr/military-panel/military-panel_metallic 0 0 0 1 1
+}
+}

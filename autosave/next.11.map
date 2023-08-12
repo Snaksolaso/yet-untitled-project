@@ -1,0 +1,80 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/base;textures/layers;textures/materials;textures/orrery;textures/pbr;textures/pbr/military-panel;textures/shaders;textures/special"
+"_tb_mod" "textures"
+// brush 0
+{
+( 0 0 64 ) ( 0 1 64 ) ( 0 0 65 ) materials/grid_material 0 0 0 1 1
+( 128 0 64 ) ( 128 0 65 ) ( 129 0 64 ) materials/grid_material 0 0 0 1 1
+( 128 0 64 ) ( 129 0 64 ) ( 128 1 64 ) materials/grid_material 0 0 0 1 1
+( 160 16 80 ) ( 160 17 80 ) ( 161 16 80 ) materials/grid_material 0 0 0 1 1
+( 160 1024 80 ) ( 161 1024 80 ) ( 160 1024 81 ) materials/grid_material 0 0 0 1 1
+( 1024 16 80 ) ( 1024 16 81 ) ( 1024 17 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 1
+{
+( 128 128 64 ) ( 128 129 64 ) ( 128 128 65 ) materials/grid_material 0 0 0 1 1
+( 128 832 64 ) ( 128 832 65 ) ( 129 832 64 ) materials/grid_material 0 0 0 1 1
+( 128 128 64 ) ( 129 128 64 ) ( 128 129 64 ) materials/grid_material 0 0 0 1 1
+( 144 1024 96 ) ( 144 1025 96 ) ( 145 1024 96 ) materials/grid_material 0 0 0 1 1
+( 144 960 80 ) ( 145 960 80 ) ( 144 960 81 ) materials/grid_material 0 0 0 1 1
+( 144 1024 80 ) ( 144 1024 81 ) ( 144 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 2
+{
+( 256 128 64 ) ( 256 129 64 ) ( 256 128 65 ) materials/grid_material 0 0 0 1 1
+( 256 832 64 ) ( 256 832 65 ) ( 257 832 64 ) materials/grid_material 0 0 0 1 1
+( 256 128 64 ) ( 257 128 64 ) ( 256 129 64 ) materials/grid_material 0 0 0 1 1
+( 272 1024 112 ) ( 272 1025 112 ) ( 273 1024 112 ) materials/grid_material 0 0 0 1 1
+( 272 960 80 ) ( 273 960 80 ) ( 272 960 81 ) materials/grid_material 0 0 0 1 1
+( 272 1024 80 ) ( 272 1024 81 ) ( 272 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 3
+{
+( 384 128 64 ) ( 384 129 64 ) ( 384 128 65 ) materials/grid_material 0 0 0 1 1
+( 384 832 64 ) ( 384 832 65 ) ( 385 832 64 ) materials/grid_material 0 0 0 1 1
+( 384 128 64 ) ( 385 128 64 ) ( 384 129 64 ) materials/grid_material 0 0 0 1 1
+( 400 1024 128 ) ( 400 1025 128 ) ( 401 1024 128 ) materials/grid_material 0 0 0 1 1
+( 400 960 80 ) ( 401 960 80 ) ( 400 960 81 ) materials/grid_material 0 0 0 1 1
+( 400 1024 80 ) ( 400 1024 81 ) ( 400 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 4
+{
+( 512 128 64 ) ( 512 129 64 ) ( 512 128 65 ) materials/grid_material 0 0 0 1 1
+( 512 832 64 ) ( 512 832 65 ) ( 513 832 64 ) materials/grid_material 0 0 0 1 1
+( 512 128 64 ) ( 513 128 64 ) ( 512 129 64 ) materials/grid_material 0 0 0 1 1
+( 528 1024 144 ) ( 528 1025 144 ) ( 529 1024 144 ) materials/grid_material 0 0 0 1 1
+( 528 960 80 ) ( 529 960 80 ) ( 528 960 81 ) materials/grid_material 0 0 0 1 1
+( 528 1024 80 ) ( 528 1024 81 ) ( 528 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 5
+{
+( 640 128 64 ) ( 640 129 64 ) ( 640 128 65 ) materials/grid_material 0 0 0 1 1
+( 640 832 64 ) ( 640 832 65 ) ( 641 832 64 ) materials/grid_material 0 0 0 1 1
+( 640 128 64 ) ( 641 128 64 ) ( 640 129 64 ) materials/grid_material 0 0 0 1 1
+( 656 1024 160 ) ( 656 1025 160 ) ( 657 1024 160 ) materials/grid_material 0 0 0 1 1
+( 656 960 80 ) ( 657 960 80 ) ( 656 960 81 ) materials/grid_material 0 0 0 1 1
+( 656 1024 80 ) ( 656 1024 81 ) ( 656 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 6
+{
+( 768 128 64 ) ( 768 129 64 ) ( 768 128 65 ) materials/grid_material 0 0 0 1 1
+( 768 832 64 ) ( 768 832 65 ) ( 769 832 64 ) materials/grid_material 0 0 0 1 1
+( 768 128 64 ) ( 769 128 64 ) ( 768 129 64 ) materials/grid_material 0 0 0 1 1
+( 784 1024 176 ) ( 784 1025 176 ) ( 785 1024 176 ) materials/grid_material 0 0 0 1 1
+( 784 960 80 ) ( 785 960 80 ) ( 784 960 81 ) materials/grid_material 0 0 0 1 1
+( 784 1024 80 ) ( 784 1024 81 ) ( 784 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 7
+{
+( 896 128 64 ) ( 896 129 64 ) ( 896 128 65 ) materials/grid_material 0 0 0 1 1
+( 896 832 64 ) ( 896 832 65 ) ( 897 832 64 ) materials/grid_material 0 0 0 1 1
+( 896 128 64 ) ( 897 128 64 ) ( 896 129 64 ) materials/grid_material 0 0 0 1 1
+( 912 1024 192 ) ( 912 1025 192 ) ( 913 1024 192 ) materials/grid_material 0 0 0 1 1
+( 912 960 80 ) ( 913 960 80 ) ( 912 960 81 ) materials/grid_material 0 0 0 1 1
+( 912 1024 80 ) ( 912 1024 81 ) ( 912 1025 80 ) materials/grid_material 0 0 0 1 1
+}
+}

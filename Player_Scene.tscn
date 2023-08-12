@@ -1,0 +1,105 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://HUD.tscn" type="PackedScene" id=2]
+[ext_resource path="res://KinematicBody.gd" type="Script" id=3]
+[ext_resource path="res://Player_Scene.gd" type="Script" id=4]
+
+[sub_resource type="CapsuleShape" id=4]
+radius = 0.3
+height = 2.3
+
+[sub_resource type="RayShape" id=7]
+length = 4.0
+
+[sub_resource type="ConvexPolygonShape" id=5]
+points = PoolVector3Array( 0, 0, 0, 40, 40, -40, -40, 40, -40, -40, -40, -40, 40, -40, -40 )
+
+[sub_resource type="BoxShape" id=6]
+margin = 0.001
+extents = Vector3( 0.05, 0.05, 0.05 )
+
+[node name="Player" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0512276, 0.139716, -0.2966 )
+script = ExtResource( 4 )
+
+[node name="KinematicBody" type="KinematicBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3018, 1.81493, 4.93841 )
+collision_layer = 5
+collision_mask = 5
+script = ExtResource( 3 )
+
+[node name="CollisionShape" type="CollisionShape" parent="KinematicBody"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -0.174734, 0 )
+shape = SubResource( 4 )
+
+[node name="RayCast" type="RayCast" parent="KinematicBody"]
+transform = Transform( 0.999849, 0.017365, 0, -0.017365, 0.999849, 0, 0, 0, 1, -0.0489407, -0.635843, 0 )
+enabled = true
+cast_to = Vector3( 0, 2.5, 0 )
+
+[node name="CameraPivot" type="Spatial" parent="KinematicBody"]
+
+[node name="Camera" type="Camera" parent="KinematicBody/CameraPivot"]
+pause_mode = 2
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.55, 0 )
+doppler_tracking = 2
+current = true
+far = 8192.0
+
+[node name="PickerArea" type="Area" parent="KinematicBody/CameraPivot/Camera"]
+collision_layer = 0
+collision_mask = 64
+
+[node name="CollisionShape" type="CollisionShape" parent="KinematicBody/CameraPivot/Camera/PickerArea"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+shape = SubResource( 7 )
+
+[node name="VisibilityArea" type="Area" parent="KinematicBody/CameraPivot/Camera"]
+collision_layer = 0
+
+[node name="CollisionShape" type="CollisionShape" parent="KinematicBody/CameraPivot/Camera/VisibilityArea"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.34736 )
+shape = SubResource( 5 )
+
+[node name="Picker" type="RayCast" parent="KinematicBody/CameraPivot/Camera"]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
+enabled = true
+cast_to = Vector3( 4, 0, 0 )
+collision_mask = 5
+
+[node name="CarryArm" type="SpringArm" parent="KinematicBody/CameraPivot/Camera"]
+transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+spring_length = 1.25
+margin = 0.0
+
+[node name="RigidBody" type="RigidBody" parent="KinematicBody/CameraPivot/Camera/CarryArm"]
+transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, 0, 0 )
+collision_layer = 2
+collision_mask = 2
+custom_integrator = true
+continuous_cd = true
+can_sleep = false
+
+[node name="CollisionShape" type="CollisionShape" parent="KinematicBody/CameraPivot/Camera/CarryArm/RigidBody"]
+shape = SubResource( 6 )
+
+[node name="Flashlight" type="SpotLight" parent="."]
+pause_mode = 2
+physics_interpolation_mode = 2
+process_priority = 2
+transform = Transform( 1, 0, 0, 0, 0.998399, -0.0565708, 0, 0.0565708, 0.998399, 0, 0, 0 )
+visible = false
+portal_mode = 1
+light_color = Color( 1, 0.772549, 0.560784, 1 )
+light_energy = 10.0
+light_indirect_energy = 7.718
+light_specular = 0.0
+shadow_bias = 0.234
+shadow_contact = 0.26
+spot_range = 48.074
+spot_attenuation = 0.60371
+spot_angle = 30.0
+spot_angle_attenuation = 0.0189
+
+[node name="HUD" parent="." instance=ExtResource( 2 )]
+visible = false

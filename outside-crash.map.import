@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/outside-crash.map-ce8d30ccbc2fb90d7fcb3e9e10974747.tres"
+
+[deps]
+
+source_file="res://outside-crash.map"
+dest_files=[ "res://.import/outside-crash.map-ce8d30ccbc2fb90d7fcb3e9e10974747.tres" ]
+
+[params]
+

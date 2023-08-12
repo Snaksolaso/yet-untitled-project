@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/thehouse-crash.map-11bf1bc107b10b2387dc8372d3bd691b.tres"
+
+[deps]
+
+source_file="res://thehouse-crash.map"
+dest_files=[ "res://.import/thehouse-crash.map-11bf1bc107b10b2387dc8372d3bd691b.tres" ]
+
+[params]
+

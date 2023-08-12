@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/Hallway2.map-95c2857b0b6703137d72c5662078a10e.tres"
+
+[deps]
+
+source_file="res://Hallway2.map"
+dest_files=[ "res://.import/Hallway2.map-95c2857b0b6703137d72c5662078a10e.tres" ]
+
+[params]
+

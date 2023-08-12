@@ -1,0 +1,1474 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/materials"
+// brush 0
+{
+( -48 -64 -16 ) ( -48 -63 -16 ) ( -48 -64 -15 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -64 -16 ) ( -64 -64 -15 ) ( -63 -64 -16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -64 0 ) ( -63 -64 0 ) ( -64 -63 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 64 64 16 ) ( 65 64 16 ) ( 64 64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 64 16 ) ( 400 64 17 ) ( 400 65 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 1
+{
+( -64 80 16 ) ( -64 80 17 ) ( -64 79 16 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 64 64 32 ) ( 64 64 33 ) ( 65 64 32 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 32 80 16 ) ( 32 79 16 ) ( 33 80 16 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 64 64 208 ) ( 65 64 208 ) ( 64 63 208 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 32 80 16 ) ( 33 80 16 ) ( 32 80 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 32 64 32 ) ( 32 63 32 ) ( 32 64 33 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 2
+{
+( 144 80 16 ) ( 144 80 17 ) ( 144 79 16 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 160 64 32 ) ( 160 64 33 ) ( 161 64 32 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 128 80 16 ) ( 128 79 16 ) ( 129 80 16 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 160 64 208 ) ( 161 64 208 ) ( 160 63 208 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 128 128 16 ) ( 129 128 16 ) ( 128 128 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 160 64 32 ) ( 160 63 32 ) ( 160 64 33 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 3
+{
+( -64 80 208 ) ( -64 80 209 ) ( -64 79 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 144 64 224 ) ( 144 64 225 ) ( 145 64 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 32 80 208 ) ( 32 79 208 ) ( 33 80 208 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 144 64 256 ) ( 145 64 256 ) ( 144 63 256 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 32 80 208 ) ( 33 80 208 ) ( 32 80 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 32 64 224 ) ( 32 63 224 ) ( 32 64 225 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 4
+{
+( 32 64 0 ) ( 32 65 0 ) ( 32 64 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 48 64 0 ) ( 48 64 1 ) ( 49 64 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 48 64 0 ) ( 49 64 0 ) ( 48 65 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 144 80 16 ) ( 144 81 16 ) ( 145 80 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 144 128 16 ) ( 145 128 16 ) ( 144 128 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 160 80 16 ) ( 160 80 17 ) ( 160 81 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 5
+{
+( 32 64 16 ) ( 32 65 16 ) ( 32 64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 32 64 16 ) ( 32 64 17 ) ( 33 64 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 32 64 16 ) ( 33 64 16 ) ( 32 65 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 48 80 208 ) ( 48 81 208 ) ( 49 80 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 48 128 32 ) ( 49 128 32 ) ( 48 128 33 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 48 80 32 ) ( 48 80 33 ) ( 48 81 32 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 6
+{
+( 32 80 208 ) ( 32 80 209 ) ( 32 79 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 240 64 224 ) ( 240 64 225 ) ( 241 64 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 128 80 208 ) ( 128 79 208 ) ( 129 80 208 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 240 64 256 ) ( 241 64 256 ) ( 240 63 256 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 128 80 208 ) ( 129 80 208 ) ( 128 80 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 160 64 224 ) ( 160 63 224 ) ( 160 64 225 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 7
+{
+( 32 96 208 ) ( 32 96 209 ) ( 32 95 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 240 80 224 ) ( 240 80 225 ) ( 241 80 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 128 96 208 ) ( 128 95 208 ) ( 129 96 208 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 240 80 224 ) ( 241 80 224 ) ( 240 79 224 ) materials/Soapstone01_4K_Roughness 0 0 270 0.1 0.1
+( 128 128 208 ) ( 129 128 208 ) ( 128 128 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 160 80 224 ) ( 160 79 224 ) ( 160 80 225 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 8
+{
+( -64 -96 0 ) ( -64 -95 0 ) ( -64 -96 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -80 0 ) ( -64 -80 1 ) ( -63 -80 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -96 0 ) ( -63 -96 0 ) ( -64 -95 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 320 -64 256 ) ( 320 -63 256 ) ( 321 -64 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 320 -64 16 ) ( 321 -64 16 ) ( 320 -64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 -64 16 ) ( 352 -64 17 ) ( 352 -63 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 9
+{
+( 160 64 0 ) ( 160 65 0 ) ( 160 64 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 160 64 0 ) ( 160 64 1 ) ( 161 64 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 160 64 0 ) ( 161 64 0 ) ( 160 65 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 80 256 ) ( 352 81 256 ) ( 353 80 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 80 16 ) ( 353 80 16 ) ( 352 80 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 80 16 ) ( 352 80 17 ) ( 352 81 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 10
+{
+( 352 -80 0 ) ( 352 -79 0 ) ( 352 -80 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 -80 0 ) ( 352 -80 1 ) ( 353 -80 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 -80 0 ) ( 353 -80 0 ) ( 352 -79 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 -32 208 ) ( 368 -31 208 ) ( 369 -32 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 -64 16 ) ( 369 -64 16 ) ( 368 -64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 -32 16 ) ( 368 -32 17 ) ( 368 -31 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 11
+{
+( 352 48 0 ) ( 352 49 0 ) ( 352 48 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 64 0 ) ( 352 64 1 ) ( 353 64 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 48 0 ) ( 353 48 0 ) ( 352 49 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 208 ) ( 368 81 208 ) ( 369 80 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 16 ) ( 369 80 16 ) ( 368 80 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 16 ) ( 368 80 17 ) ( 368 81 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 12
+{
+( 352 -80 208 ) ( 352 -79 208 ) ( 352 -80 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 -80 208 ) ( 352 -80 209 ) ( 353 -80 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 352 -80 208 ) ( 353 -80 208 ) ( 352 -79 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 256 ) ( 368 81 256 ) ( 369 80 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 224 ) ( 369 80 224 ) ( 368 80 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 224 ) ( 368 80 225 ) ( 368 81 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 13
+{
+( -64 -80 256 ) ( -64 -79 256 ) ( -64 -80 257 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -80 256 ) ( -64 -80 257 ) ( -63 -80 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -80 256 ) ( -63 -80 256 ) ( -64 -79 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 208 80 272 ) ( 208 81 272 ) ( 209 80 272 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 208 80 272 ) ( 209 80 272 ) ( 208 80 273 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 368 80 272 ) ( 368 80 273 ) ( 368 81 272 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 14
+{
+( 352 -64 32 ) ( 352 -64 33 ) ( 352 -65 32 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 352 -64 32 ) ( 351 -64 32 ) ( 352 -64 33 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 368 -32 16 ) ( 367 -32 16 ) ( 368 -33 16 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 352 -64 208 ) ( 352 -65 208 ) ( 351 -64 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 368 -48 16 ) ( 368 -48 17 ) ( 367 -48 16 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 400 -32 16 ) ( 400 -33 16 ) ( 400 -32 17 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 15
+{
+( 368 -48 224 ) ( 368 -48 225 ) ( 368 -49 224 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 368 -64 224 ) ( 367 -64 224 ) ( 368 -64 225 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 384 64 208 ) ( 383 64 208 ) ( 384 63 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 368 -48 224 ) ( 368 -49 224 ) ( 367 -48 224 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 384 64 208 ) ( 384 64 209 ) ( 383 64 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 512 64 208 ) ( 512 63 208 ) ( 512 64 209 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 16
+{
+( 352 32 32 ) ( 352 32 33 ) ( 352 31 32 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 352 48 32 ) ( 351 48 32 ) ( 352 48 33 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 368 64 16 ) ( 367 64 16 ) ( 368 63 16 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 352 32 208 ) ( 352 31 208 ) ( 351 32 208 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 368 64 16 ) ( 368 64 17 ) ( 367 64 16 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+( 512 64 16 ) ( 512 63 16 ) ( 512 64 17 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 0.1
+}
+// brush 17
+{
+( 400 32 0 ) ( 400 33 0 ) ( 400 32 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -160 0 ) ( 416 -160 1 ) ( 417 -160 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 32 0 ) ( 417 32 0 ) ( 416 33 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 496 64 16 ) ( 496 65 16 ) ( 497 64 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 496 64 16 ) ( 497 64 16 ) ( 496 64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 16 ) ( 528 64 17 ) ( 528 65 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 18
+{
+( 400 -64 16 ) ( 400 -63 16 ) ( 400 -64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -160 16 ) ( 400 -160 17 ) ( 401 -160 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -64 16 ) ( 401 -64 16 ) ( 400 -63 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -48 208 ) ( 416 -47 208 ) ( 417 -48 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -48 32 ) ( 417 -48 32 ) ( 416 -48 33 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -48 32 ) ( 416 -48 33 ) ( 416 -47 32 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 19
+{
+( 400 -160 208 ) ( 400 -159 208 ) ( 400 -160 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -160 208 ) ( 416 -160 209 ) ( 417 -160 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -160 208 ) ( 417 -160 208 ) ( 416 -159 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 544 -144 768 ) ( 544 -143 768 ) ( 545 -144 768 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 544 -144 224 ) ( 545 -144 224 ) ( 544 -144 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 224 ) ( 528 -144 225 ) ( 528 -143 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 20
+{
+( 512 -160 0 ) ( 512 -159 0 ) ( 512 -160 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -160 0 ) ( 400 -160 1 ) ( 401 -160 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -160 0 ) ( 401 -160 0 ) ( 400 -159 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 96 ) ( 528 -143 96 ) ( 529 -144 96 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 16 ) ( 529 -144 16 ) ( 528 -144 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 16 ) ( 528 -144 17 ) ( 528 -143 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 21
+{
+( 512 -160 96 ) ( 512 -159 96 ) ( 512 -160 97 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -160 96 ) ( 400 -160 97 ) ( 401 -160 96 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -160 96 ) ( 401 -160 96 ) ( 400 -159 96 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 208 ) ( 528 -143 208 ) ( 529 -144 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 112 ) ( 529 -144 112 ) ( 528 -144 113 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -144 112 ) ( 528 -144 113 ) ( 528 -143 112 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 22
+{
+( 400 -144 208 ) ( 400 -143 208 ) ( 400 -144 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -144 208 ) ( 400 -144 209 ) ( 401 -144 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 400 -144 208 ) ( 401 -144 208 ) ( 400 -143 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -64 768 ) ( 416 -63 768 ) ( 417 -64 768 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -64 224 ) ( 417 -64 224 ) ( 416 -64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -64 224 ) ( 416 -64 225 ) ( 416 -63 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 23
+{
+( 400 -64 224 ) ( 400 -63 224 ) ( 400 -64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -64 224 ) ( 416 -64 225 ) ( 417 -64 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -64 224 ) ( 417 -64 224 ) ( 416 -63 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 544 -48 768 ) ( 544 -47 768 ) ( 545 -48 768 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 544 -48 240 ) ( 545 -48 240 ) ( 544 -48 241 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -48 240 ) ( 528 -48 241 ) ( 528 -47 240 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 24
+{
+( 512 -144 224 ) ( 512 -143 224 ) ( 512 -144 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -144 224 ) ( 512 -144 225 ) ( 513 -144 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -144 224 ) ( 513 -144 224 ) ( 512 -143 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -64 768 ) ( 528 -63 768 ) ( 529 -64 768 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -64 240 ) ( 529 -64 240 ) ( 528 -64 241 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -64 240 ) ( 528 -64 241 ) ( 528 -63 240 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 25
+{
+( 496 -144 240 ) ( 496 -143 240 ) ( 496 -144 241 ) materials/Soapstone01_4K_Roughness 0 192 0 0.1 0.1
+( 496 -144 240 ) ( 496 -144 241 ) ( 497 -144 240 ) materials/Soapstone01_4K_Roughness 0 192 0 0.1 0.1
+( 496 -144 240 ) ( 497 -144 240 ) ( 496 -143 240 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -96 256 ) ( 528 -95 256 ) ( 529 -96 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -96 256 ) ( 529 -96 256 ) ( 528 -96 257 ) materials/Soapstone01_4K_Roughness 0 192 0 0.1 0.1
+( 512 -96 256 ) ( 512 -96 257 ) ( 512 -95 256 ) materials/Soapstone01_4K_Roughness 0 192 0 0.1 0.1
+}
+// brush 26
+{
+( 512 48 208 ) ( 512 49 208 ) ( 512 48 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -144 208 ) ( 512 -144 209 ) ( 513 -144 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 128 ) ( 512 -128 128 ) ( 640 -128 128 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 65 224 ) ( 529 64 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 512 -96 64 ) ( 640 -96 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 64 225 ) ( 528 65 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 27
+{
+( 512 48 208 ) ( 512 49 208 ) ( 512 48 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 640 -96 64 ) ( 512 -96 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 512 -128 112 ) ( 640 -128 112 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 65 224 ) ( 529 64 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 529 64 224 ) ( 528 64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 64 225 ) ( 528 65 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 28
+{
+( 512 48 208 ) ( 512 49 208 ) ( 512 48 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -144 208 ) ( 512 -144 209 ) ( 513 -144 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 48 16 ) ( 513 48 16 ) ( 512 49 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 80 ) ( 640 -144 80 ) ( 512 -144 80 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 512 -96 64 ) ( 640 -96 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 64 225 ) ( 528 65 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 29
+{
+( 512 48 208 ) ( 512 49 208 ) ( 512 48 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 640 -96 64 ) ( 512 -96 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 64 ) ( 512 -144 64 ) ( 640 -144 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 640 -128 112 ) ( 512 -128 112 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 529 64 224 ) ( 528 64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 64 225 ) ( 528 65 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 30
+{
+( 512 48 208 ) ( 512 49 208 ) ( 512 48 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 112 ) ( 640 -96 64 ) ( 512 -96 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 48 16 ) ( 513 48 16 ) ( 512 49 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -96 64 ) ( 640 -144 64 ) ( 512 -144 64 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 529 64 224 ) ( 528 64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 64 224 ) ( 528 64 225 ) ( 528 65 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 31
+{
+( 416 -112 224 ) ( 416 -111 224 ) ( 416 -112 225 ) materials/Soapstone01_4K_Roughness -320 1760 0 0.1 0.1
+( 496 -96 224 ) ( 496 -96 225 ) ( 497 -96 224 ) materials/Soapstone01_4K_Roughness 0 1760 0 0.1 0.1
+( 496 -112 224 ) ( 497 -112 224 ) ( 496 -111 224 ) materials/Soapstone01_4K_Roughness 0 320 0 0.1 0.1
+( 528 -64 240 ) ( 528 -63 240 ) ( 529 -64 240 ) materials/Soapstone01_4K_Roughness 0 320 0 0.1 0.1
+( 528 -64 240 ) ( 529 -64 240 ) ( 528 -64 241 ) materials/Soapstone01_4K_Roughness 0 1760 0 0.1 0.1
+( 512 -64 240 ) ( 512 -64 241 ) ( 512 -63 240 ) materials/Soapstone01_4K_Roughness -320 1760 0 0.1 0.1
+}
+// brush 32
+{
+( 528 -144 64 ) ( 528 -143 64 ) ( 528 -144 65 ) materials/Soapstone01_4K_Roughness 0 160 0 0.1 0.1
+( 528 -144 64 ) ( 528 -144 65 ) ( 529 -144 64 ) materials/Soapstone01_4K_Roughness -32 160 0 0.1 0.1
+( 528 -144 64 ) ( 529 -144 64 ) ( 528 -143 64 ) materials/Soapstone01_4K_Roughness -32 0 0 0.1 0.1
+( 560 -96 80 ) ( 560 -95 80 ) ( 561 -96 80 ) materials/Soapstone01_4K_Roughness -32 0 0 0.1 0.1
+( 560 -96 80 ) ( 561 -96 80 ) ( 560 -96 81 ) materials/Soapstone01_4K_Roughness -32 160 0 0.1 0.1
+( 3056 -96 80 ) ( 3056 -96 81 ) ( 3056 -95 80 ) materials/Soapstone01_4K_Roughness 0 160 0 0.1 0.1
+}
+// brush 33
+{
+( 528 -160 128 ) ( 528 -160 127 ) ( 528 -159 128 ) materials/Soapstone01_4K_Roughness -160 2016 270 0.1 0.1
+( 528 -160 128 ) ( 529 -160 128 ) ( 528 -160 127 ) materials/Soapstone01_4K_Roughness -32 160 0 0.1 -0.1
+( 560 -144 64 ) ( 561 -144 64 ) ( 560 -143 64 ) materials/Soapstone01_4K_Roughness -32 2016 0 0.1 0.1
+( 528 -160 144 ) ( 528 -159 144 ) ( 529 -160 144 ) materials/Soapstone01_4K_Roughness -32 2016 0 0.1 0.1
+( 560 -144 80 ) ( 560 -144 79 ) ( 561 -144 80 ) materials/Soapstone01_4K_Roughness -32 160 0 0.1 -0.1
+( 3056 -144 80 ) ( 3056 -143 80 ) ( 3056 -144 79 ) materials/Soapstone01_4K_Roughness -160 2016 270 0.1 0.1
+}
+// brush 34
+{
+( 528 -96 128 ) ( 528 -96 127 ) ( 528 -95 128 ) materials/Soapstone01_4K_Roughness -160 2656 270 0.1 0.1
+( 528 -96 128 ) ( 529 -96 128 ) ( 528 -96 127 ) materials/Soapstone01_4K_Roughness -32 160 0 0.1 -0.1
+( 560 -80 64 ) ( 561 -80 64 ) ( 560 -79 64 ) materials/Soapstone01_4K_Roughness -32 2656 0 0.1 0.1
+( 528 -96 144 ) ( 528 -95 144 ) ( 529 -96 144 ) materials/Soapstone01_4K_Roughness -32 2656 0 0.1 0.1
+( 560 -80 80 ) ( 560 -80 79 ) ( 561 -80 80 ) materials/Soapstone01_4K_Roughness -32 160 0 0.1 -0.1
+( 3056 -80 80 ) ( 3056 -79 80 ) ( 3056 -80 79 ) materials/Soapstone01_4K_Roughness -160 2656 270 0.1 0.1
+}
+// brush 35
+{
+( 528 -144 128 ) ( 528 -143 128 ) ( 528 -144 129 ) materials/Soapstone01_4K_Roughness 0 800 0 0.1 0.1
+( 528 -144 128 ) ( 528 -144 129 ) ( 529 -144 128 ) materials/Soapstone01_4K_Roughness -32 800 0 0.1 0.1
+( 528 -144 128 ) ( 529 -144 128 ) ( 528 -143 128 ) materials/Soapstone01_4K_Roughness -32 0 0 0.1 0.1
+( 560 -96 144 ) ( 560 -95 144 ) ( 561 -96 144 ) materials/Soapstone01_4K_Roughness -32 0 0 0.1 0.1
+( 560 -96 144 ) ( 561 -96 144 ) ( 560 -96 145 ) materials/Soapstone01_4K_Roughness -32 800 0 0.1 0.1
+( 3056 -96 144 ) ( 3056 -96 145 ) ( 3056 -95 144 ) materials/Soapstone01_4K_Roughness 0 800 0 0.1 0.1
+}
+// brush 36
+{
+( 3248 -176 16 ) ( 3248 -175 16 ) ( 3248 -176 17 ) materials/Soapstone01_4K_Roughness 0 -32 0 1 1
+( 3248 -240 16 ) ( 3248 -240 17 ) ( 3249 -240 16 ) materials/Soapstone01_4K_Roughness -192 -32 0 1 1
+( 3248 -176 16 ) ( 3249 -176 16 ) ( 3248 -175 16 ) materials/Soapstone01_4K_Roughness -192 0 0 1 1
+( 3264 -80 192 ) ( 3264 -79 192 ) ( 3265 -80 192 ) materials/Soapstone01_4K_Roughness -192 0 0 1 1
+( 3264 32 32 ) ( 3265 32 32 ) ( 3264 32 33 ) materials/Soapstone01_4K_Roughness -192 -32 0 1 1
+( 3264 -80 32 ) ( 3264 -80 33 ) ( 3264 -79 32 ) materials/Soapstone01_4K_Roughness 0 -32 0 1 1
+}
+// brush 37
+{
+( 3072 -176 32 ) ( 3072 -177 32 ) ( 3072 -176 31 ) materials/Soapstone01_4K_Roughness 3088 128 270 1 -1
+( 3168 -240 16 ) ( 3169 -240 16 ) ( 3168 -240 15 ) materials/Soapstone01_4K_Roughness 3088 3248 270 1 1
+( 3168 -192 16 ) ( 3168 -193 16 ) ( 3169 -192 16 ) materials/Soapstone01_4K_Roughness -3248 128 0 1 -1
+( 3072 -176 32 ) ( 3073 -176 32 ) ( 3072 -177 32 ) materials/Soapstone01_4K_Roughness -3248 128 0 1 -1
+( 3072 96 32 ) ( 3072 96 31 ) ( 3073 96 32 ) materials/Soapstone01_4K_Roughness 3088 3248 270 1 1
+( 3376 -192 16 ) ( 3376 -192 15 ) ( 3376 -193 16 ) materials/Soapstone01_4K_Roughness 3088 128 270 1 -1
+}
+// brush 38
+{
+( 416 -176 16 ) ( 416 -175 16 ) ( 416 -176 17 ) materials/Soapstone01_4K_Roughness 160 0 0 0.1 0.1
+( 416 -176 16 ) ( 416 -176 17 ) ( 417 -176 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 416 -176 16 ) ( 417 -176 16 ) ( 416 -175 16 ) materials/Soapstone01_4K_Roughness 0 -160 0 0.1 0.1
+( 512 -160 208 ) ( 512 -159 208 ) ( 513 -160 208 ) materials/Soapstone01_4K_Roughness 0 -160 0 0.1 0.1
+( 512 -160 32 ) ( 513 -160 32 ) ( 512 -160 33 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 512 -160 32 ) ( 512 -160 33 ) ( 512 -159 32 ) materials/Soapstone01_4K_Roughness 160 0 0 0.1 0.1
+}
+// brush 39
+{
+( 400 -160 800 ) ( 400 -159 800 ) ( 400 -160 801 ) materials/Soapstone01_4K_Roughness 0 32 0 0.1 0.1
+( 400 -160 800 ) ( 400 -160 801 ) ( 401 -160 800 ) materials/Soapstone01_4K_Roughness 0 32 0 0.1 0.1
+( 400 -160 800 ) ( 401 -160 800 ) ( 400 -159 800 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -48 816 ) ( 528 -47 816 ) ( 529 -48 816 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( 528 -48 816 ) ( 529 -48 816 ) ( 528 -48 817 ) materials/Soapstone01_4K_Roughness 0 32 0 0.1 0.1
+( 528 -48 816 ) ( 528 -48 817 ) ( 528 -47 816 ) materials/Soapstone01_4K_Roughness 0 32 0 0.1 0.1
+}
+// brush 40
+{
+( -256 688 0 ) ( -256 688 1 ) ( -256 687 0 ) materials/Soapstone01_4K_Roughness 1504 0 180 0.1 -0.1
+( -128 704 16 ) ( -128 704 17 ) ( -127 704 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 688 0 ) ( -256 687 0 ) ( -255 688 0 ) materials/Soapstone01_4K_Roughness 1504 2176 270 0.1 0.1
+( -128 672 16 ) ( -127 672 16 ) ( -128 671 16 ) materials/Soapstone01_4K_Roughness 1504 2176 270 0.1 0.1
+( -256 784 0 ) ( -255 784 0 ) ( -256 784 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 672 16 ) ( -128 671 16 ) ( -128 672 17 ) materials/Soapstone01_4K_Roughness 1504 0 180 0.1 -0.1
+}
+// brush 41
+{
+( -128 752 0 ) ( -128 752 1 ) ( -128 751 0 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+( -112 688 16 ) ( -112 688 17 ) ( -111 688 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 752 0 ) ( -128 751 0 ) ( -127 752 0 ) materials/Soapstone01_4K_Roughness 1664 -480 270 0.1 0.1
+( -112 688 256 ) ( -111 688 256 ) ( -112 687 256 ) materials/Soapstone01_4K_Roughness 1664 -480 270 0.1 0.1
+( -128 800 0 ) ( -127 800 0 ) ( -128 800 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 688 16 ) ( -112 687 16 ) ( -112 688 17 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+}
+// brush 42
+{
+( -272 736 256 ) ( -272 736 257 ) ( -272 735 256 ) materials/Soapstone01_4K_Roughness 1504 160 180 0.1 -0.1
+( -128 688 272 ) ( -128 688 273 ) ( -127 688 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 736 256 ) ( -256 735 256 ) ( -255 736 256 ) materials/Soapstone01_4K_Roughness 1504 2176 270 0.1 0.1
+( -128 688 272 ) ( -127 688 272 ) ( -128 687 272 ) materials/Soapstone01_4K_Roughness 1504 2176 270 0.1 0.1
+( -256 800 256 ) ( -255 800 256 ) ( -256 800 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 688 272 ) ( -112 687 272 ) ( -112 688 273 ) materials/Soapstone01_4K_Roughness 1504 160 180 0.1 -0.1
+}
+// brush 43
+{
+( -272 768 0 ) ( -272 768 1 ) ( -272 767 0 ) materials/Soapstone01_4K_Roughness 1824 0 180 0.1 -0.1
+( -256 688 16 ) ( -256 688 17 ) ( -255 688 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 768 0 ) ( -272 767 0 ) ( -271 768 0 ) materials/Soapstone01_4K_Roughness 1824 2176 270 0.1 0.1
+( -256 704 256 ) ( -255 704 256 ) ( -256 703 256 ) materials/Soapstone01_4K_Roughness 1824 2176 270 0.1 0.1
+( -272 800 0 ) ( -271 800 0 ) ( -272 800 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 704 16 ) ( -256 703 16 ) ( -256 704 17 ) materials/Soapstone01_4K_Roughness 1824 0 180 0.1 -0.1
+}
+// brush 44
+{
+( -256 848 0 ) ( -256 848 1 ) ( -256 847 0 ) materials/Soapstone01_4K_Roughness -992 0 180 0.1 -0.1
+( -128 864 16 ) ( -128 864 17 ) ( -127 864 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 848 0 ) ( -256 847 0 ) ( -255 848 0 ) materials/Soapstone01_4K_Roughness -992 2176 270 0.1 0.1
+( -128 832 16 ) ( -127 832 16 ) ( -128 831 16 ) materials/Soapstone01_4K_Roughness -992 2176 270 0.1 0.1
+( -256 1120 0 ) ( -255 1120 0 ) ( -256 1120 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 832 16 ) ( -128 831 16 ) ( -128 832 17 ) materials/Soapstone01_4K_Roughness -992 0 180 0.1 -0.1
+}
+// brush 45
+{
+( -272 928 0 ) ( -272 928 1 ) ( -272 927 0 ) materials/Soapstone01_4K_Roughness -672 0 180 0.1 -0.1
+( -256 848 16 ) ( -256 848 17 ) ( -255 848 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 928 0 ) ( -272 927 0 ) ( -271 928 0 ) materials/Soapstone01_4K_Roughness -672 2176 270 0.1 0.1
+( -256 864 256 ) ( -255 864 256 ) ( -256 863 256 ) materials/Soapstone01_4K_Roughness -672 2176 270 0.1 0.1
+( -272 1136 0 ) ( -271 1136 0 ) ( -272 1136 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 864 16 ) ( -256 863 16 ) ( -256 864 17 ) materials/Soapstone01_4K_Roughness -672 0 180 0.1 -0.1
+}
+// brush 46
+{
+( -128 912 0 ) ( -128 912 1 ) ( -128 911 0 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+( -112 848 16 ) ( -112 848 17 ) ( -111 848 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 912 0 ) ( -128 911 0 ) ( -127 912 0 ) materials/Soapstone01_4K_Roughness -832 -480 270 0.1 0.1
+( -112 848 256 ) ( -111 848 256 ) ( -112 847 256 ) materials/Soapstone01_4K_Roughness -832 -480 270 0.1 0.1
+( -128 1136 0 ) ( -127 1136 0 ) ( -128 1136 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 848 16 ) ( -112 847 16 ) ( -112 848 17 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+}
+// brush 47
+{
+( -272 896 256 ) ( -272 896 257 ) ( -272 895 256 ) materials/Soapstone01_4K_Roughness -992 160 180 0.1 -0.1
+( -128 848 272 ) ( -128 848 273 ) ( -127 848 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 896 256 ) ( -256 895 256 ) ( -255 896 256 ) materials/Soapstone01_4K_Roughness -992 2176 270 0.1 0.1
+( -128 848 272 ) ( -127 848 272 ) ( -128 847 272 ) materials/Soapstone01_4K_Roughness -992 2176 270 0.1 0.1
+( -256 1136 256 ) ( -255 1136 256 ) ( -256 1136 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 848 272 ) ( -112 847 272 ) ( -112 848 273 ) materials/Soapstone01_4K_Roughness -992 160 180 0.1 -0.1
+}
+// brush 48
+{
+( -256 -64 0 ) ( -256 -63 0 ) ( -256 -64 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -144 -64 0 ) ( -144 -64 1 ) ( -143 -64 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -144 -64 0 ) ( -143 -64 0 ) ( -144 -63 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 64 16 ) ( -128 65 16 ) ( -127 64 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 64 16 ) ( -127 64 16 ) ( -128 64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 64 16 ) ( -128 64 17 ) ( -128 65 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 49
+{
+( -256 -80 0 ) ( -256 -79 0 ) ( -256 -80 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -256 -80 0 ) ( -256 -80 1 ) ( -255 -80 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -256 -80 0 ) ( -255 -80 0 ) ( -256 -79 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 -64 256 ) ( -128 -63 256 ) ( -127 -64 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 -64 16 ) ( -127 -64 16 ) ( -128 -64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 -64 16 ) ( -128 -64 17 ) ( -128 -63 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 50
+{
+( -272 64 16 ) ( -272 65 16 ) ( -272 64 17 ) materials/Soapstone01_4K_Roughness -1920 0 0 0.1 0.1
+( -256 -64 0 ) ( -257 -64 0 ) ( -256 -64 1 ) materials/Soapstone01_4K_Roughness -3360 0 180 0.1 -0.1
+( -256 -64 0 ) ( -256 -63 0 ) ( -257 -64 0 ) materials/Soapstone01_4K_Roughness -1920 3360 90 0.1 0.1
+( -272 64 256 ) ( -273 64 256 ) ( -272 65 256 ) materials/Soapstone01_4K_Roughness -1920 3360 90 0.1 0.1
+( -272 64 16 ) ( -272 64 17 ) ( -273 64 16 ) materials/Soapstone01_4K_Roughness -3360 0 180 0.1 -0.1
+( -256 -64 0 ) ( -256 -64 1 ) ( -256 -63 0 ) materials/Soapstone01_4K_Roughness -1920 0 0 0.1 0.1
+}
+// brush 51
+{
+( -256 -64 256 ) ( -256 -63 256 ) ( -256 -64 257 ) materials/Soapstone01_4K_Roughness 0 2560 0 0.1 0.1
+( -144 -64 256 ) ( -144 -64 257 ) ( -143 -64 256 ) materials/Soapstone01_4K_Roughness 0 2560 0 0.1 0.1
+( -144 -64 256 ) ( -143 -64 256 ) ( -144 -63 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 64 272 ) ( -128 65 272 ) ( -127 64 272 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 64 272 ) ( -127 64 272 ) ( -128 64 273 ) materials/Soapstone01_4K_Roughness 0 2560 0 0.1 0.1
+( -128 64 272 ) ( -128 64 273 ) ( -128 65 272 ) materials/Soapstone01_4K_Roughness 0 2560 0 0.1 0.1
+}
+// brush 52
+{
+( -128 1248 0 ) ( -128 1248 1 ) ( -128 1247 0 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+( -112 1184 16 ) ( -112 1184 17 ) ( -111 1184 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 1248 0 ) ( -128 1247 0 ) ( -127 1248 0 ) materials/Soapstone01_4K_Roughness -1568 -480 270 0.1 0.1
+( -112 1184 256 ) ( -111 1184 256 ) ( -112 1183 256 ) materials/Soapstone01_4K_Roughness -1568 -480 270 0.1 0.1
+( -128 1808 0 ) ( -127 1808 0 ) ( -128 1808 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 1184 16 ) ( -112 1183 16 ) ( -112 1184 17 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+}
+// brush 53
+{
+( -272 1232 256 ) ( -272 1232 257 ) ( -272 1231 256 ) materials/Soapstone01_4K_Roughness 2368 160 180 0.1 -0.1
+( -128 1184 272 ) ( -128 1184 273 ) ( -127 1184 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 1232 256 ) ( -256 1231 256 ) ( -255 1232 256 ) materials/Soapstone01_4K_Roughness 2368 2176 270 0.1 0.1
+( -128 1184 272 ) ( -127 1184 272 ) ( -128 1183 272 ) materials/Soapstone01_4K_Roughness 2368 2176 270 0.1 0.1
+( -256 1808 256 ) ( -255 1808 256 ) ( -256 1808 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 1184 272 ) ( -112 1183 272 ) ( -112 1184 273 ) materials/Soapstone01_4K_Roughness 2368 160 180 0.1 -0.1
+}
+// brush 54
+{
+( -272 1264 0 ) ( -272 1264 1 ) ( -272 1263 0 ) materials/Soapstone01_4K_Roughness -1408 0 180 0.1 -0.1
+( -256 1184 16 ) ( -256 1184 17 ) ( -255 1184 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 1264 0 ) ( -272 1263 0 ) ( -271 1264 0 ) materials/Soapstone01_4K_Roughness -1408 2176 270 0.1 0.1
+( -256 1200 256 ) ( -255 1200 256 ) ( -256 1199 256 ) materials/Soapstone01_4K_Roughness -1408 2176 270 0.1 0.1
+( -272 1808 0 ) ( -271 1808 0 ) ( -272 1808 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1200 16 ) ( -256 1199 16 ) ( -256 1200 17 ) materials/Soapstone01_4K_Roughness -1408 0 180 0.1 -0.1
+}
+// brush 55
+{
+( -272 1904 256 ) ( -272 1904 257 ) ( -272 1903 256 ) materials/Soapstone01_4K_Roughness 896 160 180 0.1 -0.1
+( -128 1856 272 ) ( -128 1856 273 ) ( -127 1856 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 1904 256 ) ( -256 1903 256 ) ( -255 1904 256 ) materials/Soapstone01_4K_Roughness 896 2176 270 0.1 0.1
+( -128 1856 272 ) ( -127 1856 272 ) ( -128 1855 272 ) materials/Soapstone01_4K_Roughness 896 2176 270 0.1 0.1
+( -256 3664 256 ) ( -255 3664 256 ) ( -256 3664 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 1856 272 ) ( -112 1855 272 ) ( -112 1856 273 ) materials/Soapstone01_4K_Roughness 896 160 180 0.1 -0.1
+}
+// brush 56
+{
+( -128 1920 0 ) ( -128 1920 1 ) ( -128 1919 0 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+( -112 1856 16 ) ( -112 1856 17 ) ( -111 1856 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 1920 0 ) ( -128 1919 0 ) ( -127 1920 0 ) materials/Soapstone01_4K_Roughness 1056 -480 270 0.1 0.1
+( -112 1856 256 ) ( -111 1856 256 ) ( -112 1855 256 ) materials/Soapstone01_4K_Roughness 1056 -480 270 0.1 0.1
+( -128 3664 0 ) ( -127 3664 0 ) ( -128 3664 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 1856 16 ) ( -112 1855 16 ) ( -112 1856 17 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+}
+// brush 57
+{
+( -272 1936 0 ) ( -272 1936 1 ) ( -272 1935 0 ) materials/Soapstone01_4K_Roughness 1216 0 180 0.1 -0.1
+( -256 1856 16 ) ( -256 1856 17 ) ( -255 1856 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 1936 0 ) ( -272 1935 0 ) ( -271 1936 0 ) materials/Soapstone01_4K_Roughness 1216 2176 270 0.1 0.1
+( -256 1872 256 ) ( -255 1872 256 ) ( -256 1871 256 ) materials/Soapstone01_4K_Roughness 1216 2176 270 0.1 0.1
+( -272 3664 0 ) ( -271 3664 0 ) ( -272 3664 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1872 16 ) ( -256 1871 16 ) ( -256 1872 17 ) materials/Soapstone01_4K_Roughness 1216 0 180 0.1 -0.1
+}
+// brush 58
+{
+( -128 3776 0 ) ( -128 3776 1 ) ( -128 3775 0 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+( -112 3712 16 ) ( -112 3712 17 ) ( -111 3712 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 3776 0 ) ( -128 3775 0 ) ( -127 3776 0 ) materials/Soapstone01_4K_Roughness 3232 -480 270 0.1 0.1
+( -112 3712 256 ) ( -111 3712 256 ) ( -112 3711 256 ) materials/Soapstone01_4K_Roughness 3232 -480 270 0.1 0.1
+( -128 10496 0 ) ( -127 10496 0 ) ( -128 10496 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 3712 16 ) ( -112 3711 16 ) ( -112 3712 17 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+}
+// brush 59
+{
+( -272 3792 0 ) ( -272 3792 1 ) ( -272 3791 0 ) materials/Soapstone01_4K_Roughness 3392 0 180 0.1 -0.1
+( -256 3712 16 ) ( -256 3712 17 ) ( -255 3712 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -272 3792 0 ) ( -272 3791 0 ) ( -271 3792 0 ) materials/Soapstone01_4K_Roughness 3392 -1920 270 0.1 0.1
+( -256 3728 256 ) ( -255 3728 256 ) ( -256 3727 256 ) materials/Soapstone01_4K_Roughness 3392 -1920 270 0.1 0.1
+( -272 10496 0 ) ( -271 10496 0 ) ( -272 10496 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 3728 16 ) ( -256 3727 16 ) ( -256 3728 17 ) materials/Soapstone01_4K_Roughness 3392 0 180 0.1 -0.1
+}
+// brush 60
+{
+( -272 3760 256 ) ( -272 3760 257 ) ( -272 3759 256 ) materials/Soapstone01_4K_Roughness 3072 160 180 0.1 -0.1
+( -128 3712 272 ) ( -128 3712 273 ) ( -127 3712 272 ) materials/Soapstone01_4K_Roughness 1920 160 0 0.1 0.1
+( -256 3760 256 ) ( -256 3759 256 ) ( -255 3760 256 ) materials/Soapstone01_4K_Roughness 3072 -1920 270 0.1 0.1
+( -128 3712 272 ) ( -127 3712 272 ) ( -128 3711 272 ) materials/Soapstone01_4K_Roughness 3072 -1920 270 0.1 0.1
+( -256 10496 256 ) ( -255 10496 256 ) ( -256 10496 257 ) materials/Soapstone01_4K_Roughness 1920 160 0 0.1 0.1
+( -112 3712 272 ) ( -112 3711 272 ) ( -112 3712 273 ) materials/Soapstone01_4K_Roughness 3072 160 180 0.1 -0.1
+}
+// brush 61
+{
+( -256 1184 0 ) ( -256 1184 1 ) ( -256 1183 0 ) materials/Soapstone01_4K_Roughness 2368 0 180 0.1 -0.1
+( -128 1200 16 ) ( -128 1200 17 ) ( -127 1200 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1184 0 ) ( -256 1183 0 ) ( -255 1184 0 ) materials/Soapstone01_4K_Roughness 2368 2176 270 0.1 0.1
+( -128 1168 16 ) ( -127 1168 16 ) ( -128 1167 16 ) materials/Soapstone01_4K_Roughness 2368 2176 270 0.1 0.1
+( -256 1792 0 ) ( -255 1792 0 ) ( -256 1792 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1168 16 ) ( -128 1167 16 ) ( -128 1168 17 ) materials/Soapstone01_4K_Roughness 2368 0 180 0.1 -0.1
+}
+// brush 62
+{
+( -256 1856 0 ) ( -256 1856 1 ) ( -256 1855 0 ) materials/Soapstone01_4K_Roughness 896 0 180 0.1 -0.1
+( -128 1872 16 ) ( -128 1872 17 ) ( -127 1872 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1856 0 ) ( -256 1855 0 ) ( -255 1856 0 ) materials/Soapstone01_4K_Roughness 896 2176 270 0.1 0.1
+( -128 1840 16 ) ( -127 1840 16 ) ( -128 1839 16 ) materials/Soapstone01_4K_Roughness 896 2176 270 0.1 0.1
+( -256 3648 0 ) ( -255 3648 0 ) ( -256 3648 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1840 16 ) ( -128 1839 16 ) ( -128 1840 17 ) materials/Soapstone01_4K_Roughness 896 0 180 0.1 -0.1
+}
+// brush 63
+{
+( -256 3712 0 ) ( -256 3712 1 ) ( -256 3711 0 ) materials/Soapstone01_4K_Roughness 3072 0 180 0.1 -0.1
+( -128 3728 16 ) ( -128 3728 17 ) ( -127 3728 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 3712 0 ) ( -256 3711 0 ) ( -255 3712 0 ) materials/Soapstone01_4K_Roughness 3072 -1920 270 0.1 0.1
+( -128 3696 16 ) ( -127 3696 16 ) ( -128 3695 16 ) materials/Soapstone01_4K_Roughness 3072 -1920 270 0.1 0.1
+( -256 10464 0 ) ( -255 10464 0 ) ( -256 10464 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 3696 16 ) ( -128 3695 16 ) ( -128 3696 17 ) materials/Soapstone01_4K_Roughness 3072 0 180 0.1 -0.1
+}
+}
+// entity 1
+{
+"classname" "light"
+"origin" "3096 88 232"
+}
+// entity 2
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "1"
+// brush 0
+{
+( -128 -64 208 ) ( -128 -63 208 ) ( -128 -64 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -128 -64 208 ) ( -128 -64 209 ) ( -127 -64 208 ) materials/Soapstone01_4K_Roughness 640 0 0 0.1 0.1
+( -128 -64 208 ) ( -127 -64 208 ) ( -128 -63 208 ) materials/Soapstone01_4K_Roughness 640 0 0 0.1 0.1
+( -112 48 256 ) ( -112 49 256 ) ( -111 48 256 ) materials/Soapstone01_4K_Roughness 640 0 0 0.1 0.1
+( -112 64 224 ) ( -111 64 224 ) ( -112 64 225 ) materials/Soapstone01_4K_Roughness 640 0 0 0.1 0.1
+( -112 48 224 ) ( -112 48 225 ) ( -112 49 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 1
+{
+( -128 -64 0 ) ( -128 -63 0 ) ( -128 -64 1 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -112 -64 0 ) ( -112 -64 1 ) ( -111 -64 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -112 -64 0 ) ( -111 -64 0 ) ( -112 -63 0 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -80 64 16 ) ( -80 65 16 ) ( -79 64 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -80 64 16 ) ( -79 64 16 ) ( -80 64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 64 16 ) ( -48 64 17 ) ( -48 65 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 2
+{
+( -128 32 16 ) ( -128 33 16 ) ( -128 32 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 48 16 ) ( -64 48 17 ) ( -63 48 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 32 16 ) ( -63 32 16 ) ( -64 33 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 64 208 ) ( -48 65 208 ) ( -47 64 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 64 32 ) ( -47 64 32 ) ( -48 64 33 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 64 32 ) ( -48 64 33 ) ( -48 65 32 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 3
+{
+( -64 -64 208 ) ( -64 -63 208 ) ( -64 -64 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -64 208 ) ( -64 -64 209 ) ( -63 -64 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -64 208 ) ( -63 -64 208 ) ( -64 -63 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 48 256 ) ( -48 49 256 ) ( -47 48 256 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 64 224 ) ( -47 64 224 ) ( -48 64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 48 224 ) ( -48 48 225 ) ( -48 49 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 4
+{
+( -112 -64 208 ) ( -112 -63 208 ) ( -112 -64 209 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -80 -64 208 ) ( -80 -64 209 ) ( -79 -64 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -80 -64 208 ) ( -79 -64 208 ) ( -80 -63 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 48 224 ) ( -64 49 224 ) ( -63 48 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 64 224 ) ( -63 64 224 ) ( -64 64 225 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 48 224 ) ( -64 48 225 ) ( -64 49 224 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+// brush 5
+{
+( -128 -64 16 ) ( -128 -63 16 ) ( -128 -64 17 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -64 16 ) ( -64 -64 17 ) ( -63 -64 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -64 -64 16 ) ( -63 -64 16 ) ( -64 -63 16 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 -32 208 ) ( -48 -31 208 ) ( -47 -32 208 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 -48 32 ) ( -47 -48 32 ) ( -48 -48 33 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+( -48 -32 32 ) ( -48 -32 33 ) ( -48 -31 32 ) materials/Soapstone01_4K_Roughness 0 0 0 0.1 0.1
+}
+}
+// entity 3
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "2"
+// brush 0
+{
+( -256 704 208 ) ( -256 704 209 ) ( -256 703 208 ) materials/Soapstone01_4K_Roughness 2304 0 180 0.1 -0.1
+( -144 688 224 ) ( -144 688 225 ) ( -143 688 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 704 208 ) ( -256 703 208 ) ( -255 704 208 ) materials/Soapstone01_4K_Roughness 2304 2176 270 0.1 0.1
+( -144 688 256 ) ( -143 688 256 ) ( -144 687 256 ) materials/Soapstone01_4K_Roughness 2304 2176 270 0.1 0.1
+( -256 704 208 ) ( -255 704 208 ) ( -256 704 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 688 224 ) ( -128 687 224 ) ( -128 688 225 ) materials/Soapstone01_4K_Roughness 2304 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 688 0 ) ( -256 688 1 ) ( -256 687 0 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+( -128 624 16 ) ( -128 624 17 ) ( -127 624 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 688 0 ) ( -256 687 0 ) ( -255 688 0 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -128 656 16 ) ( -127 656 16 ) ( -128 655 16 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -256 704 0 ) ( -255 704 0 ) ( -256 704 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 656 16 ) ( -128 655 16 ) ( -128 656 17 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 640 16 ) ( -144 640 17 ) ( -144 639 16 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+( -128 624 32 ) ( -128 624 33 ) ( -127 624 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -160 640 16 ) ( -160 639 16 ) ( -159 640 16 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -128 624 208 ) ( -127 624 208 ) ( -128 623 208 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -160 704 16 ) ( -159 704 16 ) ( -160 704 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 624 32 ) ( -128 623 32 ) ( -128 624 33 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 640 208 ) ( -256 640 209 ) ( -256 639 208 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+( -144 624 224 ) ( -144 624 225 ) ( -143 624 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 640 208 ) ( -256 639 208 ) ( -255 640 208 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -144 624 256 ) ( -143 624 256 ) ( -144 623 256 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -256 640 208 ) ( -255 640 208 ) ( -256 640 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 624 224 ) ( -128 623 224 ) ( -128 624 225 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 656 208 ) ( -256 656 209 ) ( -256 655 208 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+( -144 640 224 ) ( -144 640 225 ) ( -143 640 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 656 208 ) ( -256 655 208 ) ( -255 656 208 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -144 640 224 ) ( -143 640 224 ) ( -144 639 224 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -256 688 208 ) ( -255 688 208 ) ( -256 688 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 640 224 ) ( -128 639 224 ) ( -128 640 225 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 640 16 ) ( -256 640 17 ) ( -256 639 16 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+( -224 624 32 ) ( -224 624 33 ) ( -223 624 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 640 16 ) ( -256 639 16 ) ( -255 640 16 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -224 624 208 ) ( -223 624 208 ) ( -224 623 208 ) materials/Soapstone01_4K_Roughness 1664 2176 270 0.1 0.1
+( -256 704 16 ) ( -255 704 16 ) ( -256 704 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -240 624 32 ) ( -240 623 32 ) ( -240 624 33 ) materials/Soapstone01_4K_Roughness 1664 0 180 0.1 -0.1
+}
+}
+// entity 4
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "3"
+// brush 0
+{
+( -256 864 208 ) ( -256 864 209 ) ( -256 863 208 ) materials/Soapstone01_4K_Roughness -192 0 180 0.1 -0.1
+( -144 848 224 ) ( -144 848 225 ) ( -143 848 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 864 208 ) ( -256 863 208 ) ( -255 864 208 ) materials/Soapstone01_4K_Roughness -192 2176 270 0.1 0.1
+( -144 848 256 ) ( -143 848 256 ) ( -144 847 256 ) materials/Soapstone01_4K_Roughness -192 2176 270 0.1 0.1
+( -256 864 208 ) ( -255 864 208 ) ( -256 864 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 848 224 ) ( -128 847 224 ) ( -128 848 225 ) materials/Soapstone01_4K_Roughness -192 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 848 0 ) ( -256 848 1 ) ( -256 847 0 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+( -128 784 16 ) ( -128 784 17 ) ( -127 784 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 848 0 ) ( -256 847 0 ) ( -255 848 0 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -128 816 16 ) ( -127 816 16 ) ( -128 815 16 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -256 864 0 ) ( -255 864 0 ) ( -256 864 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 816 16 ) ( -128 815 16 ) ( -128 816 17 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 800 16 ) ( -144 800 17 ) ( -144 799 16 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+( -128 784 32 ) ( -128 784 33 ) ( -127 784 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -160 800 16 ) ( -160 799 16 ) ( -159 800 16 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -128 784 208 ) ( -127 784 208 ) ( -128 783 208 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -160 864 16 ) ( -159 864 16 ) ( -160 864 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 784 32 ) ( -128 783 32 ) ( -128 784 33 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 800 208 ) ( -256 800 209 ) ( -256 799 208 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+( -144 784 224 ) ( -144 784 225 ) ( -143 784 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 800 208 ) ( -256 799 208 ) ( -255 800 208 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -144 784 256 ) ( -143 784 256 ) ( -144 783 256 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -256 800 208 ) ( -255 800 208 ) ( -256 800 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 784 224 ) ( -128 783 224 ) ( -128 784 225 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 816 208 ) ( -256 816 209 ) ( -256 815 208 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+( -144 800 224 ) ( -144 800 225 ) ( -143 800 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 816 208 ) ( -256 815 208 ) ( -255 816 208 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -144 800 224 ) ( -143 800 224 ) ( -144 799 224 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -256 848 208 ) ( -255 848 208 ) ( -256 848 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 800 224 ) ( -128 799 224 ) ( -128 800 225 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 800 16 ) ( -256 800 17 ) ( -256 799 16 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+( -224 784 32 ) ( -224 784 33 ) ( -223 784 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 800 16 ) ( -256 799 16 ) ( -255 800 16 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -224 784 208 ) ( -223 784 208 ) ( -224 783 208 ) materials/Soapstone01_4K_Roughness -832 2176 270 0.1 0.1
+( -256 864 16 ) ( -255 864 16 ) ( -256 864 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -240 784 32 ) ( -240 783 32 ) ( -240 784 33 ) materials/Soapstone01_4K_Roughness -832 0 180 0.1 -0.1
+}
+}
+// entity 5
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "4"
+// brush 0
+{
+( -256 1200 208 ) ( -256 1200 209 ) ( -256 1199 208 ) materials/Soapstone01_4K_Roughness -928 0 180 0.1 -0.1
+( -144 1184 224 ) ( -144 1184 225 ) ( -143 1184 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1200 208 ) ( -256 1199 208 ) ( -255 1200 208 ) materials/Soapstone01_4K_Roughness -928 2176 270 0.1 0.1
+( -144 1184 256 ) ( -143 1184 256 ) ( -144 1183 256 ) materials/Soapstone01_4K_Roughness -928 2176 270 0.1 0.1
+( -256 1200 208 ) ( -255 1200 208 ) ( -256 1200 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1184 224 ) ( -128 1183 224 ) ( -128 1184 225 ) materials/Soapstone01_4K_Roughness -928 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 1184 0 ) ( -256 1184 1 ) ( -256 1183 0 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+( -128 1120 16 ) ( -128 1120 17 ) ( -127 1120 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1184 0 ) ( -256 1183 0 ) ( -255 1184 0 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -128 1152 16 ) ( -127 1152 16 ) ( -128 1151 16 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -256 1200 0 ) ( -255 1200 0 ) ( -256 1200 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1152 16 ) ( -128 1151 16 ) ( -128 1152 17 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 1136 16 ) ( -144 1136 17 ) ( -144 1135 16 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+( -128 1120 32 ) ( -128 1120 33 ) ( -127 1120 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -160 1136 16 ) ( -160 1135 16 ) ( -159 1136 16 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -128 1120 208 ) ( -127 1120 208 ) ( -128 1119 208 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -160 1200 16 ) ( -159 1200 16 ) ( -160 1200 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1120 32 ) ( -128 1119 32 ) ( -128 1120 33 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 1136 208 ) ( -256 1136 209 ) ( -256 1135 208 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+( -144 1120 224 ) ( -144 1120 225 ) ( -143 1120 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1136 208 ) ( -256 1135 208 ) ( -255 1136 208 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -144 1120 256 ) ( -143 1120 256 ) ( -144 1119 256 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -256 1136 208 ) ( -255 1136 208 ) ( -256 1136 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1120 224 ) ( -128 1119 224 ) ( -128 1120 225 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 1152 208 ) ( -256 1152 209 ) ( -256 1151 208 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+( -144 1136 224 ) ( -144 1136 225 ) ( -143 1136 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1152 208 ) ( -256 1151 208 ) ( -255 1152 208 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -144 1136 224 ) ( -143 1136 224 ) ( -144 1135 224 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -256 1184 208 ) ( -255 1184 208 ) ( -256 1184 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1136 224 ) ( -128 1135 224 ) ( -128 1136 225 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 1136 16 ) ( -256 1136 17 ) ( -256 1135 16 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+( -224 1120 32 ) ( -224 1120 33 ) ( -223 1120 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1136 16 ) ( -256 1135 16 ) ( -255 1136 16 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -224 1120 208 ) ( -223 1120 208 ) ( -224 1119 208 ) materials/Soapstone01_4K_Roughness -1568 2176 270 0.1 0.1
+( -256 1200 16 ) ( -255 1200 16 ) ( -256 1200 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -240 1120 32 ) ( -240 1119 32 ) ( -240 1120 33 ) materials/Soapstone01_4K_Roughness -1568 0 180 0.1 -0.1
+}
+}
+// entity 6
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "8"
+// brush 0
+{
+( -256 592 208 ) ( -256 592 209 ) ( -256 591 208 ) materials/Soapstone01_4K_Roughness 1184 0 180 0.1 -0.1
+( -144 576 224 ) ( -144 576 225 ) ( -143 576 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 592 208 ) ( -256 591 208 ) ( -255 592 208 ) materials/Soapstone01_4K_Roughness 1184 -1920 270 0.1 0.1
+( -144 576 256 ) ( -143 576 256 ) ( -144 575 256 ) materials/Soapstone01_4K_Roughness 1184 -1920 270 0.1 0.1
+( -256 592 208 ) ( -255 592 208 ) ( -256 592 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 576 224 ) ( -128 575 224 ) ( -128 576 225 ) materials/Soapstone01_4K_Roughness 1184 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 576 0 ) ( -256 576 1 ) ( -256 575 0 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+( -128 512 16 ) ( -128 512 17 ) ( -127 512 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 576 0 ) ( -256 575 0 ) ( -255 576 0 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -128 544 16 ) ( -127 544 16 ) ( -128 543 16 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -256 592 0 ) ( -255 592 0 ) ( -256 592 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 544 16 ) ( -128 543 16 ) ( -128 544 17 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 528 16 ) ( -144 528 17 ) ( -144 527 16 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+( -128 512 32 ) ( -128 512 33 ) ( -127 512 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -160 528 16 ) ( -160 527 16 ) ( -159 528 16 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -128 512 208 ) ( -127 512 208 ) ( -128 511 208 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -160 592 16 ) ( -159 592 16 ) ( -160 592 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 512 32 ) ( -128 511 32 ) ( -128 512 33 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 528 208 ) ( -256 528 209 ) ( -256 527 208 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+( -144 512 224 ) ( -144 512 225 ) ( -143 512 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 528 208 ) ( -256 527 208 ) ( -255 528 208 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -144 512 256 ) ( -143 512 256 ) ( -144 511 256 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -256 528 208 ) ( -255 528 208 ) ( -256 528 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 512 224 ) ( -128 511 224 ) ( -128 512 225 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 544 208 ) ( -256 544 209 ) ( -256 543 208 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+( -144 528 224 ) ( -144 528 225 ) ( -143 528 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 544 208 ) ( -256 543 208 ) ( -255 544 208 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -144 528 224 ) ( -143 528 224 ) ( -144 527 224 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -256 576 208 ) ( -255 576 208 ) ( -256 576 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 528 224 ) ( -128 527 224 ) ( -128 528 225 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 528 16 ) ( -256 528 17 ) ( -256 527 16 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+( -224 512 32 ) ( -224 512 33 ) ( -223 512 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 528 16 ) ( -256 527 16 ) ( -255 528 16 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -224 512 208 ) ( -223 512 208 ) ( -224 511 208 ) materials/Soapstone01_4K_Roughness 544 -1920 270 0.1 0.1
+( -256 592 16 ) ( -255 592 16 ) ( -256 592 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -240 512 32 ) ( -240 511 32 ) ( -240 512 33 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+}
+}
+// entity 7
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Hall_Segment"
+"_tb_id" "9"
+// brush 0
+{
+( -256 576 0 ) ( -256 576 1 ) ( -256 575 0 ) materials/Soapstone01_4K_Roughness 384 0 180 0.1 -0.1
+( -128 592 16 ) ( -128 592 17 ) ( -127 592 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 576 0 ) ( -256 575 0 ) ( -255 576 0 ) materials/Soapstone01_4K_Roughness 384 2176 270 0.1 0.1
+( -128 560 16 ) ( -127 560 16 ) ( -128 559 16 ) materials/Soapstone01_4K_Roughness 384 2176 270 0.1 0.1
+( -256 624 0 ) ( -255 624 0 ) ( -256 624 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 560 16 ) ( -128 559 16 ) ( -128 560 17 ) materials/Soapstone01_4K_Roughness 384 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -128 640 0 ) ( -128 640 1 ) ( -128 639 0 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+( -112 576 16 ) ( -112 576 17 ) ( -111 576 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 640 0 ) ( -128 639 0 ) ( -127 640 0 ) materials/Soapstone01_4K_Roughness 544 -480 270 0.1 0.1
+( -112 576 256 ) ( -111 576 256 ) ( -112 575 256 ) materials/Soapstone01_4K_Roughness 544 -480 270 0.1 0.1
+( -128 640 0 ) ( -127 640 0 ) ( -128 640 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 576 16 ) ( -112 575 16 ) ( -112 576 17 ) materials/Soapstone01_4K_Roughness 544 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -272 656 0 ) ( -272 656 1 ) ( -272 655 0 ) materials/Soapstone01_4K_Roughness 704 0 180 0.1 -0.1
+( -256 576 16 ) ( -256 576 17 ) ( -255 576 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 656 0 ) ( -272 655 0 ) ( -271 656 0 ) materials/Soapstone01_4K_Roughness 704 2176 270 0.1 0.1
+( -256 592 256 ) ( -255 592 256 ) ( -256 591 256 ) materials/Soapstone01_4K_Roughness 704 2176 270 0.1 0.1
+( -272 640 0 ) ( -271 640 0 ) ( -272 640 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 592 16 ) ( -256 591 16 ) ( -256 592 17 ) materials/Soapstone01_4K_Roughness 704 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -272 624 256 ) ( -272 624 257 ) ( -272 623 256 ) materials/Soapstone01_4K_Roughness 384 160 180 0.1 -0.1
+( -128 576 272 ) ( -128 576 273 ) ( -127 576 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 624 256 ) ( -256 623 256 ) ( -255 624 256 ) materials/Soapstone01_4K_Roughness 384 2176 270 0.1 0.1
+( -128 576 272 ) ( -127 576 272 ) ( -128 575 272 ) materials/Soapstone01_4K_Roughness 384 2176 270 0.1 0.1
+( -256 640 256 ) ( -255 640 256 ) ( -256 640 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 576 272 ) ( -112 575 272 ) ( -112 576 273 ) materials/Soapstone01_4K_Roughness 384 160 180 0.1 -0.1
+}
+}
+// entity 8
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Hall_Segment"
+"_tb_id" "10"
+// brush 0
+{
+( -256 464 0 ) ( -256 464 1 ) ( -256 463 0 ) materials/Soapstone01_4K_Roughness -736 0 180 0.1 -0.1
+( -128 480 16 ) ( -128 480 17 ) ( -127 480 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 464 0 ) ( -256 463 0 ) ( -255 464 0 ) materials/Soapstone01_4K_Roughness -736 2176 270 0.1 0.1
+( -128 448 16 ) ( -127 448 16 ) ( -128 447 16 ) materials/Soapstone01_4K_Roughness -736 2176 270 0.1 0.1
+( -256 512 0 ) ( -255 512 0 ) ( -256 512 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 448 16 ) ( -128 447 16 ) ( -128 448 17 ) materials/Soapstone01_4K_Roughness -736 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -128 528 0 ) ( -128 528 1 ) ( -128 527 0 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+( -112 464 16 ) ( -112 464 17 ) ( -111 464 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 528 0 ) ( -128 527 0 ) ( -127 528 0 ) materials/Soapstone01_4K_Roughness -576 -480 270 0.1 0.1
+( -112 464 256 ) ( -111 464 256 ) ( -112 463 256 ) materials/Soapstone01_4K_Roughness -576 -480 270 0.1 0.1
+( -128 528 0 ) ( -127 528 0 ) ( -128 528 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 464 16 ) ( -112 463 16 ) ( -112 464 17 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -272 544 0 ) ( -272 544 1 ) ( -272 543 0 ) materials/Soapstone01_4K_Roughness -416 0 180 0.1 -0.1
+( -256 464 16 ) ( -256 464 17 ) ( -255 464 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 544 0 ) ( -272 543 0 ) ( -271 544 0 ) materials/Soapstone01_4K_Roughness -416 2176 270 0.1 0.1
+( -256 480 256 ) ( -255 480 256 ) ( -256 479 256 ) materials/Soapstone01_4K_Roughness -416 2176 270 0.1 0.1
+( -272 528 0 ) ( -271 528 0 ) ( -272 528 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 480 16 ) ( -256 479 16 ) ( -256 480 17 ) materials/Soapstone01_4K_Roughness -416 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -272 512 256 ) ( -272 512 257 ) ( -272 511 256 ) materials/Soapstone01_4K_Roughness -736 160 180 0.1 -0.1
+( -128 464 272 ) ( -128 464 273 ) ( -127 464 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 512 256 ) ( -256 511 256 ) ( -255 512 256 ) materials/Soapstone01_4K_Roughness -736 2176 270 0.1 0.1
+( -128 464 272 ) ( -127 464 272 ) ( -128 463 272 ) materials/Soapstone01_4K_Roughness -736 2176 270 0.1 0.1
+( -256 528 256 ) ( -255 528 256 ) ( -256 528 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 464 272 ) ( -112 463 272 ) ( -112 464 273 ) materials/Soapstone01_4K_Roughness -736 160 180 0.1 -0.1
+}
+}
+// entity 9
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "11"
+// brush 0
+{
+( -256 480 208 ) ( -256 480 209 ) ( -256 479 208 ) materials/Soapstone01_4K_Roughness 64 0 180 0.1 -0.1
+( -144 464 224 ) ( -144 464 225 ) ( -143 464 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 480 208 ) ( -256 479 208 ) ( -255 480 208 ) materials/Soapstone01_4K_Roughness 64 -1920 270 0.1 0.1
+( -144 464 256 ) ( -143 464 256 ) ( -144 463 256 ) materials/Soapstone01_4K_Roughness 64 -1920 270 0.1 0.1
+( -256 480 208 ) ( -255 480 208 ) ( -256 480 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 464 224 ) ( -128 463 224 ) ( -128 464 225 ) materials/Soapstone01_4K_Roughness 64 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 464 0 ) ( -256 464 1 ) ( -256 463 0 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+( -128 400 16 ) ( -128 400 17 ) ( -127 400 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 464 0 ) ( -256 463 0 ) ( -255 464 0 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -128 432 16 ) ( -127 432 16 ) ( -128 431 16 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -256 480 0 ) ( -255 480 0 ) ( -256 480 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 432 16 ) ( -128 431 16 ) ( -128 432 17 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 416 16 ) ( -144 416 17 ) ( -144 415 16 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+( -128 400 32 ) ( -128 400 33 ) ( -127 400 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -160 416 16 ) ( -160 415 16 ) ( -159 416 16 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -128 400 208 ) ( -127 400 208 ) ( -128 399 208 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -160 480 16 ) ( -159 480 16 ) ( -160 480 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 400 32 ) ( -128 399 32 ) ( -128 400 33 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 416 208 ) ( -256 416 209 ) ( -256 415 208 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+( -144 400 224 ) ( -144 400 225 ) ( -143 400 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 416 208 ) ( -256 415 208 ) ( -255 416 208 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -144 400 256 ) ( -143 400 256 ) ( -144 399 256 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -256 416 208 ) ( -255 416 208 ) ( -256 416 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 400 224 ) ( -128 399 224 ) ( -128 400 225 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 432 208 ) ( -256 432 209 ) ( -256 431 208 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+( -144 416 224 ) ( -144 416 225 ) ( -143 416 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 432 208 ) ( -256 431 208 ) ( -255 432 208 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -144 416 224 ) ( -143 416 224 ) ( -144 415 224 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -256 464 208 ) ( -255 464 208 ) ( -256 464 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 416 224 ) ( -128 415 224 ) ( -128 416 225 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 416 16 ) ( -256 416 17 ) ( -256 415 16 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+( -224 400 32 ) ( -224 400 33 ) ( -223 400 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 416 16 ) ( -256 415 16 ) ( -255 416 16 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -224 400 208 ) ( -223 400 208 ) ( -224 399 208 ) materials/Soapstone01_4K_Roughness -576 -1920 270 0.1 0.1
+( -256 480 16 ) ( -255 480 16 ) ( -256 480 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -240 400 32 ) ( -240 399 32 ) ( -240 400 33 ) materials/Soapstone01_4K_Roughness -576 0 180 0.1 -0.1
+}
+}
+// entity 10
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Hall_Segment"
+"_tb_id" "12"
+// brush 0
+{
+( -256 352 0 ) ( -256 352 1 ) ( -256 351 0 ) materials/Soapstone01_4K_Roughness 2240 0 180 0.1 -0.1
+( -128 368 16 ) ( -128 368 17 ) ( -127 368 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 352 0 ) ( -256 351 0 ) ( -255 352 0 ) materials/Soapstone01_4K_Roughness 2240 2176 270 0.1 0.1
+( -128 336 16 ) ( -127 336 16 ) ( -128 335 16 ) materials/Soapstone01_4K_Roughness 2240 2176 270 0.1 0.1
+( -256 400 0 ) ( -255 400 0 ) ( -256 400 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 336 16 ) ( -128 335 16 ) ( -128 336 17 ) materials/Soapstone01_4K_Roughness 2240 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -128 416 0 ) ( -128 416 1 ) ( -128 415 0 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+( -112 352 16 ) ( -112 352 17 ) ( -111 352 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 416 0 ) ( -128 415 0 ) ( -127 416 0 ) materials/Soapstone01_4K_Roughness -1696 -480 270 0.1 0.1
+( -112 352 256 ) ( -111 352 256 ) ( -112 351 256 ) materials/Soapstone01_4K_Roughness -1696 -480 270 0.1 0.1
+( -128 416 0 ) ( -127 416 0 ) ( -128 416 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 352 16 ) ( -112 351 16 ) ( -112 352 17 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -272 432 0 ) ( -272 432 1 ) ( -272 431 0 ) materials/Soapstone01_4K_Roughness -1536 0 180 0.1 -0.1
+( -256 352 16 ) ( -256 352 17 ) ( -255 352 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 432 0 ) ( -272 431 0 ) ( -271 432 0 ) materials/Soapstone01_4K_Roughness -1536 2176 270 0.1 0.1
+( -256 368 256 ) ( -255 368 256 ) ( -256 367 256 ) materials/Soapstone01_4K_Roughness -1536 2176 270 0.1 0.1
+( -272 416 0 ) ( -271 416 0 ) ( -272 416 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 368 16 ) ( -256 367 16 ) ( -256 368 17 ) materials/Soapstone01_4K_Roughness -1536 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -272 400 256 ) ( -272 400 257 ) ( -272 399 256 ) materials/Soapstone01_4K_Roughness 2240 160 180 0.1 -0.1
+( -128 352 272 ) ( -128 352 273 ) ( -127 352 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 400 256 ) ( -256 399 256 ) ( -255 400 256 ) materials/Soapstone01_4K_Roughness 2240 2176 270 0.1 0.1
+( -128 352 272 ) ( -127 352 272 ) ( -128 351 272 ) materials/Soapstone01_4K_Roughness 2240 2176 270 0.1 0.1
+( -256 416 256 ) ( -255 416 256 ) ( -256 416 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 352 272 ) ( -112 351 272 ) ( -112 352 273 ) materials/Soapstone01_4K_Roughness 2240 160 180 0.1 -0.1
+}
+}
+// entity 11
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "13"
+// brush 0
+{
+( -256 368 208 ) ( -256 368 209 ) ( -256 367 208 ) materials/Soapstone01_4K_Roughness -1056 0 180 0.1 -0.1
+( -144 352 224 ) ( -144 352 225 ) ( -143 352 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 368 208 ) ( -256 367 208 ) ( -255 368 208 ) materials/Soapstone01_4K_Roughness -1056 -1920 270 0.1 0.1
+( -144 352 256 ) ( -143 352 256 ) ( -144 351 256 ) materials/Soapstone01_4K_Roughness -1056 -1920 270 0.1 0.1
+( -256 368 208 ) ( -255 368 208 ) ( -256 368 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 352 224 ) ( -128 351 224 ) ( -128 352 225 ) materials/Soapstone01_4K_Roughness -1056 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 352 0 ) ( -256 352 1 ) ( -256 351 0 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+( -128 288 16 ) ( -128 288 17 ) ( -127 288 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 352 0 ) ( -256 351 0 ) ( -255 352 0 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -128 320 16 ) ( -127 320 16 ) ( -128 319 16 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -256 368 0 ) ( -255 368 0 ) ( -256 368 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 320 16 ) ( -128 319 16 ) ( -128 320 17 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 304 16 ) ( -144 304 17 ) ( -144 303 16 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+( -128 288 32 ) ( -128 288 33 ) ( -127 288 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -160 304 16 ) ( -160 303 16 ) ( -159 304 16 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -128 288 208 ) ( -127 288 208 ) ( -128 287 208 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -160 368 16 ) ( -159 368 16 ) ( -160 368 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 288 32 ) ( -128 287 32 ) ( -128 288 33 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 304 208 ) ( -256 304 209 ) ( -256 303 208 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+( -144 288 224 ) ( -144 288 225 ) ( -143 288 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 304 208 ) ( -256 303 208 ) ( -255 304 208 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -144 288 256 ) ( -143 288 256 ) ( -144 287 256 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -256 304 208 ) ( -255 304 208 ) ( -256 304 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 288 224 ) ( -128 287 224 ) ( -128 288 225 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 320 208 ) ( -256 320 209 ) ( -256 319 208 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+( -144 304 224 ) ( -144 304 225 ) ( -143 304 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 320 208 ) ( -256 319 208 ) ( -255 320 208 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -144 304 224 ) ( -143 304 224 ) ( -144 303 224 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -256 352 208 ) ( -255 352 208 ) ( -256 352 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 304 224 ) ( -128 303 224 ) ( -128 304 225 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 304 16 ) ( -256 304 17 ) ( -256 303 16 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+( -224 288 32 ) ( -224 288 33 ) ( -223 288 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 304 16 ) ( -256 303 16 ) ( -255 304 16 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -224 288 208 ) ( -223 288 208 ) ( -224 287 208 ) materials/Soapstone01_4K_Roughness -1696 -1920 270 0.1 0.1
+( -256 368 16 ) ( -255 368 16 ) ( -256 368 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -240 288 32 ) ( -240 287 32 ) ( -240 288 33 ) materials/Soapstone01_4K_Roughness -1696 0 180 0.1 -0.1
+}
+}
+// entity 12
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Hall_Segment"
+"_tb_id" "14"
+// brush 0
+{
+( -256 240 0 ) ( -256 240 1 ) ( -256 239 0 ) materials/Soapstone01_4K_Roughness 1120 0 180 0.1 -0.1
+( -128 256 16 ) ( -128 256 17 ) ( -127 256 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 240 0 ) ( -256 239 0 ) ( -255 240 0 ) materials/Soapstone01_4K_Roughness 1120 2176 270 0.1 0.1
+( -128 224 16 ) ( -127 224 16 ) ( -128 223 16 ) materials/Soapstone01_4K_Roughness 1120 2176 270 0.1 0.1
+( -256 288 0 ) ( -255 288 0 ) ( -256 288 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 224 16 ) ( -128 223 16 ) ( -128 224 17 ) materials/Soapstone01_4K_Roughness 1120 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -128 304 0 ) ( -128 304 1 ) ( -128 303 0 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+( -112 240 16 ) ( -112 240 17 ) ( -111 240 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 304 0 ) ( -128 303 0 ) ( -127 304 0 ) materials/Soapstone01_4K_Roughness 1280 -480 270 0.1 0.1
+( -112 240 256 ) ( -111 240 256 ) ( -112 239 256 ) materials/Soapstone01_4K_Roughness 1280 -480 270 0.1 0.1
+( -128 304 0 ) ( -127 304 0 ) ( -128 304 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 240 16 ) ( -112 239 16 ) ( -112 240 17 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -272 320 0 ) ( -272 320 1 ) ( -272 319 0 ) materials/Soapstone01_4K_Roughness 1440 0 180 0.1 -0.1
+( -256 240 16 ) ( -256 240 17 ) ( -255 240 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 320 0 ) ( -272 319 0 ) ( -271 320 0 ) materials/Soapstone01_4K_Roughness 1440 2176 270 0.1 0.1
+( -256 256 256 ) ( -255 256 256 ) ( -256 255 256 ) materials/Soapstone01_4K_Roughness 1440 2176 270 0.1 0.1
+( -272 304 0 ) ( -271 304 0 ) ( -272 304 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 256 16 ) ( -256 255 16 ) ( -256 256 17 ) materials/Soapstone01_4K_Roughness 1440 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -272 288 256 ) ( -272 288 257 ) ( -272 287 256 ) materials/Soapstone01_4K_Roughness 1120 160 180 0.1 -0.1
+( -128 240 272 ) ( -128 240 273 ) ( -127 240 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 288 256 ) ( -256 287 256 ) ( -255 288 256 ) materials/Soapstone01_4K_Roughness 1120 2176 270 0.1 0.1
+( -128 240 272 ) ( -127 240 272 ) ( -128 239 272 ) materials/Soapstone01_4K_Roughness 1120 2176 270 0.1 0.1
+( -256 304 256 ) ( -255 304 256 ) ( -256 304 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 240 272 ) ( -112 239 272 ) ( -112 240 273 ) materials/Soapstone01_4K_Roughness 1120 160 180 0.1 -0.1
+}
+}
+// entity 13
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "15"
+// brush 0
+{
+( -256 256 208 ) ( -256 256 209 ) ( -256 255 208 ) materials/Soapstone01_4K_Roughness 1920 0 180 0.1 -0.1
+( -144 240 224 ) ( -144 240 225 ) ( -143 240 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 256 208 ) ( -256 255 208 ) ( -255 256 208 ) materials/Soapstone01_4K_Roughness 1920 -1920 270 0.1 0.1
+( -144 240 256 ) ( -143 240 256 ) ( -144 239 256 ) materials/Soapstone01_4K_Roughness 1920 -1920 270 0.1 0.1
+( -256 256 208 ) ( -255 256 208 ) ( -256 256 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 240 224 ) ( -128 239 224 ) ( -128 240 225 ) materials/Soapstone01_4K_Roughness 1920 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 240 0 ) ( -256 240 1 ) ( -256 239 0 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+( -128 176 16 ) ( -128 176 17 ) ( -127 176 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 240 0 ) ( -256 239 0 ) ( -255 240 0 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -128 208 16 ) ( -127 208 16 ) ( -128 207 16 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -256 256 0 ) ( -255 256 0 ) ( -256 256 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 208 16 ) ( -128 207 16 ) ( -128 208 17 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 192 16 ) ( -144 192 17 ) ( -144 191 16 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+( -128 176 32 ) ( -128 176 33 ) ( -127 176 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -160 192 16 ) ( -160 191 16 ) ( -159 192 16 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -128 176 208 ) ( -127 176 208 ) ( -128 175 208 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -160 256 16 ) ( -159 256 16 ) ( -160 256 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 176 32 ) ( -128 175 32 ) ( -128 176 33 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 192 208 ) ( -256 192 209 ) ( -256 191 208 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+( -144 176 224 ) ( -144 176 225 ) ( -143 176 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 192 208 ) ( -256 191 208 ) ( -255 192 208 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -144 176 256 ) ( -143 176 256 ) ( -144 175 256 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -256 192 208 ) ( -255 192 208 ) ( -256 192 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 176 224 ) ( -128 175 224 ) ( -128 176 225 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 208 208 ) ( -256 208 209 ) ( -256 207 208 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+( -144 192 224 ) ( -144 192 225 ) ( -143 192 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 208 208 ) ( -256 207 208 ) ( -255 208 208 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -144 192 224 ) ( -143 192 224 ) ( -144 191 224 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -256 240 208 ) ( -255 240 208 ) ( -256 240 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 192 224 ) ( -128 191 224 ) ( -128 192 225 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 192 16 ) ( -256 192 17 ) ( -256 191 16 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+( -224 176 32 ) ( -224 176 33 ) ( -223 176 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 192 16 ) ( -256 191 16 ) ( -255 192 16 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -224 176 208 ) ( -223 176 208 ) ( -224 175 208 ) materials/Soapstone01_4K_Roughness 1280 -1920 270 0.1 0.1
+( -256 256 16 ) ( -255 256 16 ) ( -256 256 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -240 176 32 ) ( -240 175 32 ) ( -240 176 33 ) materials/Soapstone01_4K_Roughness 1280 0 180 0.1 -0.1
+}
+}
+// entity 14
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Hall_Segment"
+"_tb_id" "16"
+// brush 0
+{
+( -256 128 0 ) ( -256 128 1 ) ( -256 127 0 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 -0.1
+( -128 144 16 ) ( -128 144 17 ) ( -127 144 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 128 0 ) ( -256 127 0 ) ( -255 128 0 ) materials/Soapstone01_4K_Roughness 0 2176 270 0.1 0.1
+( -128 112 16 ) ( -127 112 16 ) ( -128 111 16 ) materials/Soapstone01_4K_Roughness 0 2176 270 0.1 0.1
+( -256 176 0 ) ( -255 176 0 ) ( -256 176 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 112 16 ) ( -128 111 16 ) ( -128 112 17 ) materials/Soapstone01_4K_Roughness 0 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -128 192 0 ) ( -128 192 1 ) ( -128 191 0 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+( -112 128 16 ) ( -112 128 17 ) ( -111 128 16 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -128 192 0 ) ( -128 191 0 ) ( -127 192 0 ) materials/Soapstone01_4K_Roughness 160 -480 270 0.1 0.1
+( -112 128 256 ) ( -111 128 256 ) ( -112 127 256 ) materials/Soapstone01_4K_Roughness 160 -480 270 0.1 0.1
+( -128 192 0 ) ( -127 192 0 ) ( -128 192 1 ) materials/Soapstone01_4K_Roughness 480 0 0 0.1 0.1
+( -112 128 16 ) ( -112 127 16 ) ( -112 128 17 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -272 208 0 ) ( -272 208 1 ) ( -272 207 0 ) materials/Soapstone01_4K_Roughness 320 0 180 0.1 -0.1
+( -256 128 16 ) ( -256 128 17 ) ( -255 128 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -272 208 0 ) ( -272 207 0 ) ( -271 208 0 ) materials/Soapstone01_4K_Roughness 320 2176 270 0.1 0.1
+( -256 144 256 ) ( -255 144 256 ) ( -256 143 256 ) materials/Soapstone01_4K_Roughness 320 2176 270 0.1 0.1
+( -272 192 0 ) ( -271 192 0 ) ( -272 192 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 144 16 ) ( -256 143 16 ) ( -256 144 17 ) materials/Soapstone01_4K_Roughness 320 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -272 176 256 ) ( -272 176 257 ) ( -272 175 256 ) materials/Soapstone01_4K_Roughness 0 160 180 0.1 -0.1
+( -128 128 272 ) ( -128 128 273 ) ( -127 128 272 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -256 176 256 ) ( -256 175 256 ) ( -255 176 256 ) materials/Soapstone01_4K_Roughness 0 2176 270 0.1 0.1
+( -128 128 272 ) ( -127 128 272 ) ( -128 127 272 ) materials/Soapstone01_4K_Roughness 0 2176 270 0.1 0.1
+( -256 192 256 ) ( -255 192 256 ) ( -256 192 257 ) materials/Soapstone01_4K_Roughness -2176 160 0 0.1 0.1
+( -112 128 272 ) ( -112 127 272 ) ( -112 128 273 ) materials/Soapstone01_4K_Roughness 0 160 180 0.1 -0.1
+}
+}
+// entity 15
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "17"
+// brush 0
+{
+( -256 144 208 ) ( -256 144 209 ) ( -256 143 208 ) materials/Soapstone01_4K_Roughness 800 0 180 0.1 -0.1
+( -144 128 224 ) ( -144 128 225 ) ( -143 128 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 144 208 ) ( -256 143 208 ) ( -255 144 208 ) materials/Soapstone01_4K_Roughness 800 -1920 270 0.1 0.1
+( -144 128 256 ) ( -143 128 256 ) ( -144 127 256 ) materials/Soapstone01_4K_Roughness 800 -1920 270 0.1 0.1
+( -256 144 208 ) ( -255 144 208 ) ( -256 144 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 128 224 ) ( -128 127 224 ) ( -128 128 225 ) materials/Soapstone01_4K_Roughness 800 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 128 0 ) ( -256 128 1 ) ( -256 127 0 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+( -128 64 16 ) ( -128 64 17 ) ( -127 64 16 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 128 0 ) ( -256 127 0 ) ( -255 128 0 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -128 96 16 ) ( -127 96 16 ) ( -128 95 16 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -256 144 0 ) ( -255 144 0 ) ( -256 144 1 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 96 16 ) ( -128 95 16 ) ( -128 96 17 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 80 16 ) ( -144 80 17 ) ( -144 79 16 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+( -128 64 32 ) ( -128 64 33 ) ( -127 64 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -160 80 16 ) ( -160 79 16 ) ( -159 80 16 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -128 64 208 ) ( -127 64 208 ) ( -128 63 208 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -160 144 16 ) ( -159 144 16 ) ( -160 144 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 64 32 ) ( -128 63 32 ) ( -128 64 33 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 80 208 ) ( -256 80 209 ) ( -256 79 208 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+( -144 64 224 ) ( -144 64 225 ) ( -143 64 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 80 208 ) ( -256 79 208 ) ( -255 80 208 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -144 64 256 ) ( -143 64 256 ) ( -144 63 256 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -256 80 208 ) ( -255 80 208 ) ( -256 80 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 64 224 ) ( -128 63 224 ) ( -128 64 225 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 96 208 ) ( -256 96 209 ) ( -256 95 208 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+( -144 80 224 ) ( -144 80 225 ) ( -143 80 224 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 96 208 ) ( -256 95 208 ) ( -255 96 208 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -144 80 224 ) ( -143 80 224 ) ( -144 79 224 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -256 128 208 ) ( -255 128 208 ) ( -256 128 209 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -128 80 224 ) ( -128 79 224 ) ( -128 80 225 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 80 16 ) ( -256 80 17 ) ( -256 79 16 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+( -224 64 32 ) ( -224 64 33 ) ( -223 64 32 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -256 80 16 ) ( -256 79 16 ) ( -255 80 16 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -224 64 208 ) ( -223 64 208 ) ( -224 63 208 ) materials/Soapstone01_4K_Roughness 160 -1920 270 0.1 0.1
+( -256 144 16 ) ( -255 144 16 ) ( -256 144 17 ) materials/Soapstone01_4K_Roughness 1920 0 0 0.1 0.1
+( -240 64 32 ) ( -240 63 32 ) ( -240 64 33 ) materials/Soapstone01_4K_Roughness 160 0 180 0.1 -0.1
+}
+}
+// entity 16
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "18"
+// brush 0
+{
+( -256 1872 208 ) ( -256 1872 209 ) ( -256 1871 208 ) materials/Soapstone01_4K_Roughness 1696 0 180 0.1 -0.1
+( -144 1856 224 ) ( -144 1856 225 ) ( -143 1856 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1872 208 ) ( -256 1871 208 ) ( -255 1872 208 ) materials/Soapstone01_4K_Roughness 1696 2176 270 0.1 0.1
+( -144 1856 256 ) ( -143 1856 256 ) ( -144 1855 256 ) materials/Soapstone01_4K_Roughness 1696 2176 270 0.1 0.1
+( -256 1872 208 ) ( -255 1872 208 ) ( -256 1872 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1856 224 ) ( -128 1855 224 ) ( -128 1856 225 ) materials/Soapstone01_4K_Roughness 1696 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 1856 0 ) ( -256 1856 1 ) ( -256 1855 0 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+( -128 1792 16 ) ( -128 1792 17 ) ( -127 1792 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1856 0 ) ( -256 1855 0 ) ( -255 1856 0 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -128 1824 16 ) ( -127 1824 16 ) ( -128 1823 16 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -256 1872 0 ) ( -255 1872 0 ) ( -256 1872 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1824 16 ) ( -128 1823 16 ) ( -128 1824 17 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 1808 16 ) ( -144 1808 17 ) ( -144 1807 16 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+( -128 1792 32 ) ( -128 1792 33 ) ( -127 1792 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -160 1808 16 ) ( -160 1807 16 ) ( -159 1808 16 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -128 1792 208 ) ( -127 1792 208 ) ( -128 1791 208 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -160 1872 16 ) ( -159 1872 16 ) ( -160 1872 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1792 32 ) ( -128 1791 32 ) ( -128 1792 33 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 1808 208 ) ( -256 1808 209 ) ( -256 1807 208 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+( -144 1792 224 ) ( -144 1792 225 ) ( -143 1792 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1808 208 ) ( -256 1807 208 ) ( -255 1808 208 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -144 1792 256 ) ( -143 1792 256 ) ( -144 1791 256 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -256 1808 208 ) ( -255 1808 208 ) ( -256 1808 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1792 224 ) ( -128 1791 224 ) ( -128 1792 225 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 1824 208 ) ( -256 1824 209 ) ( -256 1823 208 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+( -144 1808 224 ) ( -144 1808 225 ) ( -143 1808 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1824 208 ) ( -256 1823 208 ) ( -255 1824 208 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -144 1808 224 ) ( -143 1808 224 ) ( -144 1807 224 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -256 1856 208 ) ( -255 1856 208 ) ( -256 1856 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 1808 224 ) ( -128 1807 224 ) ( -128 1808 225 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 1808 16 ) ( -256 1808 17 ) ( -256 1807 16 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+( -224 1792 32 ) ( -224 1792 33 ) ( -223 1792 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 1808 16 ) ( -256 1807 16 ) ( -255 1808 16 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -224 1792 208 ) ( -223 1792 208 ) ( -224 1791 208 ) materials/Soapstone01_4K_Roughness 1056 2176 270 0.1 0.1
+( -256 1872 16 ) ( -255 1872 16 ) ( -256 1872 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -240 1792 32 ) ( -240 1791 32 ) ( -240 1792 33 ) materials/Soapstone01_4K_Roughness 1056 0 180 0.1 -0.1
+}
+}
+// entity 17
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Doorway"
+"_tb_id" "19"
+// brush 0
+{
+( -256 3728 208 ) ( -256 3728 209 ) ( -256 3727 208 ) materials/Soapstone01_4K_Roughness -224 0 180 0.1 -0.1
+( -144 3712 224 ) ( -144 3712 225 ) ( -143 3712 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 3728 208 ) ( -256 3727 208 ) ( -255 3728 208 ) materials/Soapstone01_4K_Roughness -224 2176 270 0.1 0.1
+( -144 3712 256 ) ( -143 3712 256 ) ( -144 3711 256 ) materials/Soapstone01_4K_Roughness -224 2176 270 0.1 0.1
+( -256 3728 208 ) ( -255 3728 208 ) ( -256 3728 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 3712 224 ) ( -128 3711 224 ) ( -128 3712 225 ) materials/Soapstone01_4K_Roughness -224 0 180 0.1 -0.1
+}
+// brush 1
+{
+( -256 3712 0 ) ( -256 3712 1 ) ( -256 3711 0 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+( -128 3648 16 ) ( -128 3648 17 ) ( -127 3648 16 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 3712 0 ) ( -256 3711 0 ) ( -255 3712 0 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -128 3680 16 ) ( -127 3680 16 ) ( -128 3679 16 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -256 3728 0 ) ( -255 3728 0 ) ( -256 3728 1 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 3680 16 ) ( -128 3679 16 ) ( -128 3680 17 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+}
+// brush 2
+{
+( -144 3664 16 ) ( -144 3664 17 ) ( -144 3663 16 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+( -128 3648 32 ) ( -128 3648 33 ) ( -127 3648 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -160 3664 16 ) ( -160 3663 16 ) ( -159 3664 16 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -128 3648 208 ) ( -127 3648 208 ) ( -128 3647 208 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -160 3728 16 ) ( -159 3728 16 ) ( -160 3728 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 3648 32 ) ( -128 3647 32 ) ( -128 3648 33 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+}
+// brush 3
+{
+( -256 3664 208 ) ( -256 3664 209 ) ( -256 3663 208 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+( -144 3648 224 ) ( -144 3648 225 ) ( -143 3648 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 3664 208 ) ( -256 3663 208 ) ( -255 3664 208 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -144 3648 256 ) ( -143 3648 256 ) ( -144 3647 256 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -256 3664 208 ) ( -255 3664 208 ) ( -256 3664 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 3648 224 ) ( -128 3647 224 ) ( -128 3648 225 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+}
+// brush 4
+{
+( -256 3680 208 ) ( -256 3680 209 ) ( -256 3679 208 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+( -144 3664 224 ) ( -144 3664 225 ) ( -143 3664 224 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 3680 208 ) ( -256 3679 208 ) ( -255 3680 208 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -144 3664 224 ) ( -143 3664 224 ) ( -144 3663 224 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -256 3712 208 ) ( -255 3712 208 ) ( -256 3712 209 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -128 3664 224 ) ( -128 3663 224 ) ( -128 3664 225 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+}
+// brush 5
+{
+( -256 3664 16 ) ( -256 3664 17 ) ( -256 3663 16 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+( -224 3648 32 ) ( -224 3648 33 ) ( -223 3648 32 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -256 3664 16 ) ( -256 3663 16 ) ( -255 3664 16 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -224 3648 208 ) ( -223 3648 208 ) ( -224 3647 208 ) materials/Soapstone01_4K_Roughness 3232 2176 270 0.1 0.1
+( -256 3728 16 ) ( -255 3728 16 ) ( -256 3728 17 ) materials/Soapstone01_4K_Roughness -2176 0 0 0.1 0.1
+( -240 3648 32 ) ( -240 3647 32 ) ( -240 3648 33 ) materials/Soapstone01_4K_Roughness 3232 0 180 0.1 -0.1
+}
+}

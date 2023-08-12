@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/house.3.map-80f8ae699771e9361193fcd334b7789b.tres"
+
+[deps]
+
+source_file="res://autosave/house.3.map"
+dest_files=[ "res://.import/house.3.map-80f8ae699771e9361193fcd334b7789b.tres" ]
+
+[params]
+

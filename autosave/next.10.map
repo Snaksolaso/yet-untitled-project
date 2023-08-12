@@ -1,0 +1,17 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/base;textures/layers;textures/materials;textures/orrery;textures/pbr;textures/pbr/military-panel;textures/shaders;textures/special"
+"_tb_mod" "textures"
+// brush 0
+{
+( -144 192 64 ) ( -144 193 64 ) ( -144 192 65 ) materials/grid_material 0 0 0 1 1
+( -16 192 64 ) ( -16 192 65 ) ( -15 192 64 ) materials/grid_material 0 0 0 1 1
+( -16 192 64 ) ( -15 192 64 ) ( -16 193 64 ) materials/grid_material 0 0 0 1 1
+( 16 208 80 ) ( 16 209 80 ) ( 17 208 80 ) materials/grid_material 0 0 0 1 1
+( 16 912 80 ) ( 17 912 80 ) ( 16 912 81 ) materials/grid_material 0 0 0 1 1
+( 128 208 80 ) ( 128 208 81 ) ( 128 209 80 ) materials/grid_material 0 0 0 1 1
+}
+}

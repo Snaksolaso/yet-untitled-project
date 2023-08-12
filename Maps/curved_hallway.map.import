@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/curved_hallway.map-48dd1192519978b9bfb52d16a76b43f2.tres"
+
+[deps]
+
+source_file="res://Maps/curved_hallway.map"
+dest_files=[ "res://.import/curved_hallway.map-48dd1192519978b9bfb52d16a76b43f2.tres" ]
+
+[params]
+

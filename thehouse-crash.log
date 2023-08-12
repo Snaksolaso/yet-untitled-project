@@ -1,0 +1,24 @@
+Renderer info: Mesa Intel(R) Xe Graphics (TGL GT2) version 4.6 (Compatibility Profile) Mesa 23.0.4 from Intel
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Loading document from /home/snax/Documents/Godot-Projects/YUP/thehouse.map
+Unquoted float default value 0 (line 31, column 37)
+Unquoted float default value 1 (line 35, column 22)
+Unquoted float default value 1 (line 36, column 22)
+Unquoted float default value 1 (line 61, column 23)
+Unquoted float default value 360 (line 67, column 37)
+Unquoted float default value 1 (line 71, column 22)
+Unquoted float default value 0.8 (line 77, column 23)
+Unquoted float default value 0 (line 78, column 36)
+Unquoted float default value 0 (line 79, column 31)
+Unquoted float default value 0 (line 80, column 38)
+Unquoted float default value 8 (line 81, column 23)
+Unquoted float default value 0 (line 82, column 38)
+Loaded entity definition file Qodot.fgd
+Loaded texture collection 'textures' in 0ms
+Loaded /home/snax/Documents/Godot-Projects/YUP/thehouse.map in 131ms
+Loaded texture collection 'textures' in 0ms
+Reloading texture collections
+Loaded texture collection 'textures' in 0ms
+Adding file system path /usr/share/TrenchBroom/defaults/assets

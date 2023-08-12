@@ -1,0 +1,61 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/base;textures/layers;textures/materials;textures/orrery;textures/pbr;textures/pbr/military-panel;textures/shaders;textures/special"
+// brush 0
+{
+( -64 -64 -16 ) ( -64 -63 -16 ) ( -64 -64 -15 ) materials/grid_material 0 0 0 1 1
+( -64 -64 -16 ) ( -64 -64 -15 ) ( -63 -64 -16 ) materials/grid_material 0 0 0 1 1
+( -64 -64 0 ) ( -63 -64 0 ) ( -64 -63 0 ) materials/grid_material 0 0 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) materials/grid_material 0 0 0 1 1
+( 64 64 16 ) ( 65 64 16 ) ( 64 64 17 ) materials/grid_material 0 0 0 1 1
+( 64 64 16 ) ( 64 64 17 ) ( 64 65 16 ) materials/grid_material 0 0 0 1 1
+}
+// brush 1
+{
+( 48 -64 16 ) ( 48 -63 16 ) ( 48 -64 17 ) materials/grid_material 0 0 0 1 1
+( 48 -64 16 ) ( 48 -64 17 ) ( 49 -64 16 ) materials/grid_material 0 0 0 1 1
+( 48 -64 16 ) ( 49 -64 16 ) ( 48 -63 16 ) materials/grid_material 0 0 0 1 1
+( 64 64 128 ) ( 64 65 128 ) ( 65 64 128 ) materials/grid_material 0 0 0 1 1
+( 64 64 32 ) ( 65 64 32 ) ( 64 64 33 ) materials/grid_material 0 0 0 1 1
+( 64 64 32 ) ( 64 64 33 ) ( 64 65 32 ) materials/grid_material 0 0 0 1 1
+}
+// brush 2
+{
+( -64 -64 16 ) ( -64 -63 16 ) ( -64 -64 17 ) materials/grid_material 0 0 0 1 1
+( -64 -64 16 ) ( -64 -64 17 ) ( -63 -64 16 ) materials/grid_material 0 0 0 1 1
+( -64 -64 16 ) ( -63 -64 16 ) ( -64 -63 16 ) materials/grid_material 0 0 0 1 1
+( -48 48 128 ) ( -48 49 128 ) ( -47 48 128 ) materials/grid_material 0 0 0 1 1
+( -48 64 32 ) ( -47 64 32 ) ( -48 64 33 ) materials/grid_material 0 0 0 1 1
+( -48 48 32 ) ( -48 48 33 ) ( -48 49 32 ) materials/grid_material 0 0 0 1 1
+}
+// brush 3
+{
+( -48 -64 16 ) ( -48 -63 16 ) ( -48 -64 17 ) materials/grid_material 0 0 0 1 1
+( -48 -64 16 ) ( -48 -64 17 ) ( -47 -64 16 ) materials/grid_material 0 0 0 1 1
+( -48 -64 16 ) ( -47 -64 16 ) ( -48 -63 16 ) materials/grid_material 0 0 0 1 1
+( 48 -48 128 ) ( 48 -47 128 ) ( 49 -48 128 ) materials/grid_material 0 0 0 1 1
+( 48 -48 32 ) ( 49 -48 32 ) ( 48 -48 33 ) materials/grid_material 0 0 0 1 1
+( 48 -48 32 ) ( 48 -48 33 ) ( 48 -47 32 ) materials/grid_material 0 0 0 1 1
+}
+// brush 4
+{
+( -48 -48 112 ) ( -48 -47 112 ) ( -48 -48 113 ) materials/grid_material 0 0 0 1 1
+( -48 -48 112 ) ( -48 -48 113 ) ( -47 -48 112 ) materials/grid_material 0 0 0 1 1
+( -48 -48 112 ) ( -47 -48 112 ) ( -48 -47 112 ) materials/grid_material 0 0 0 1 1
+( -32 48 128 ) ( -32 49 128 ) ( -31 48 128 ) materials/grid_material 0 0 0 1 1
+( -32 48 128 ) ( -31 48 128 ) ( -32 48 129 ) materials/grid_material 0 0 0 1 1
+( 48 48 128 ) ( 48 48 129 ) ( 48 49 128 ) materials/grid_material 0 0 0 1 1
+}
+// brush 5
+{
+( -16 64 0 ) ( -16 65 0 ) ( -16 64 1 ) materials/grid_material 0 0 0 1 1
+( -16 64 0 ) ( -16 64 1 ) ( -15 64 0 ) materials/grid_material 0 0 0 1 1
+( -16 64 0 ) ( -15 64 0 ) ( -16 65 0 ) materials/grid_material 0 0 0 1 1
+( 16 80 80 ) ( 16 81 80 ) ( 17 80 80 ) materials/grid_material 0 0 0 1 1
+( 16 192 16 ) ( 17 192 16 ) ( 16 192 17 ) materials/grid_material 0 0 0 1 1
+( 16 80 16 ) ( 16 80 17 ) ( 16 81 16 ) materials/grid_material 0 0 0 1 1
+}
+}

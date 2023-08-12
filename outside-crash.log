@@ -1,0 +1,39 @@
+Renderer info: Mesa Intel(R) Xe Graphics (TGL GT2) version 4.6 (Compatibility Profile) Mesa 23.0.4 from Intel
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/.
+Loading document from /home/snax/Documents/Godot-Projects/YUP/outside.map
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/.
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/autosave
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/addons
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/textures
+Unquoted float default value 0 (line 31, column 37)
+Unquoted float default value 1 (line 35, column 22)
+Unquoted float default value 1 (line 36, column 22)
+Unquoted float default value 1 (line 61, column 23)
+Unquoted float default value 360 (line 67, column 37)
+Unquoted float default value 1 (line 71, column 22)
+Unquoted float default value 0.8 (line 77, column 23)
+Unquoted float default value 0 (line 78, column 36)
+Unquoted float default value 0 (line 79, column 31)
+Unquoted float default value 0 (line 80, column 38)
+Unquoted float default value 8 (line 81, column 23)
+Unquoted float default value 0 (line 82, column 38)
+Loaded entity definition file Qodot.fgd
+Loaded texture collection 'textures/TinyTextures/Pack1-128x128/Bricks' in 92ms
+Loaded texture collection 'textures/TinyTextures/Pack1-128x128/Grass' in 77ms
+Loaded texture collection 'textures/TinyTextures/Pack1-128x128/Roofs' in 91ms
+Loaded texture collection 'textures/TinyTextures/Pack1-128x128/Tile' in 83ms
+Loaded texture collection 'textures/TinyTextures/Pack1-128x128/Wood' in 83ms
+Loaded texture collection 'textures/special' in 17ms
+Loaded /home/snax/Documents/Godot-Projects/YUP/outside.map in 622ms
+Created autosave backup at /home/snax/Documents/Godot-Projects/YUP/autosave/outside.32.map
+Snapped vertices of 1 brush
+Snapped vertices of 3 brushes
+Snapped vertices of 3 brushes
+Created autosave backup at /home/snax/Documents/Godot-Projects/YUP/autosave/outside.33.map
+Snapped vertices of 3 brushes
+Created autosave backup at /home/snax/Documents/Godot-Projects/YUP/autosave/outside.34.map
+Could not clip brush: Brush is empty

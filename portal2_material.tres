@@ -1,0 +1,20 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=2]
+
+[sub_resource type="GDScript" id=1855]
+
+[sub_resource type="Shader" id=1856]
+code = "shader_type spatial;
+render_mode unshaded;
+uniform sampler2D viewport_texture;
+
+void fragment(){
+    ALBEDO = vec3(texture(viewport_texture, SCREEN_UV).rgb);
+	    EMISSION = ALBEDO * vec3(2,2,2);
+}
+"
+script = SubResource( 1855 )
+
+[resource]
+resource_local_to_scene = true
+render_priority = 1
+shader = SubResource( 1856 )

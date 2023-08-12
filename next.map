@@ -1,0 +1,134 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures;textures/base;textures/layers;textures/materials;textures/orrery;textures/pbr;textures/pbr/military-panel;textures/shaders;textures/special"
+"_tb_mod" "textures"
+// brush 0
+{
+( 0 0 64 ) ( 0 1 64 ) ( 0 0 65 ) materials/grid_material 0 0 0 1 1
+( 128 0 64 ) ( 128 0 65 ) ( 129 0 64 ) materials/grid_material 0 0 0 1 1
+( 128 0 64 ) ( 129 0 64 ) ( 128 1 64 ) materials/grid_material 0 0 0 1 1
+( 160 16 80 ) ( 160 17 80 ) ( 161 16 80 ) materials/grid_material 0 0 0 1 1
+( 160 1024 80 ) ( 161 1024 80 ) ( 160 1024 81 ) materials/grid_material 0 0 0 1 1
+( 1024 16 80 ) ( 1024 16 81 ) ( 1024 17 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 1
+{
+( 120 136 64 ) ( 120 137 64 ) ( 120 136 65 ) materials/grid_material 0 0 0 1 1
+( 120 840 64 ) ( 120 840 65 ) ( 121 840 64 ) materials/grid_material 0 0 0 1 1
+( 120 968 112 ) ( 136 968 112 ) ( 120 840 80 ) materials/grid_material 0 0 0 1 1
+( 120 136 64 ) ( 121 136 64 ) ( 120 137 64 ) materials/grid_material 0 0 0 1 1
+( 136 968 80 ) ( 137 968 80 ) ( 136 968 81 ) materials/grid_material 0 0 0 1 1
+( 136 1032 80 ) ( 136 1032 81 ) ( 136 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 2
+{
+( 184 136 64 ) ( 184 137 64 ) ( 184 136 65 ) materials/grid_material 0 0 0 1 1
+( 184 840 64 ) ( 184 840 65 ) ( 185 840 64 ) materials/grid_material 0 0 0 1 1
+( 184 968 128 ) ( 312 840 80 ) ( 184 840 80 ) materials/grid_material 0 0 0 1 1
+( 184 136 64 ) ( 185 136 64 ) ( 184 137 64 ) materials/grid_material 0 0 0 1 1
+( 200 968 80 ) ( 201 968 80 ) ( 200 968 81 ) materials/grid_material 0 0 0 1 1
+( 200 1032 80 ) ( 200 1032 81 ) ( 200 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 3
+{
+( 56 136 64 ) ( 56 137 64 ) ( 56 136 65 ) materials/grid_material 0 0 0 1 1
+( 56 840 64 ) ( 56 840 65 ) ( 57 840 64 ) materials/grid_material 0 0 0 1 1
+( 56 968 96 ) ( 184 840 80 ) ( 56 840 80 ) materials/grid_material 0 0 0 1 1
+( 56 136 64 ) ( 57 136 64 ) ( 56 137 64 ) materials/grid_material 0 0 0 1 1
+( 72 968 80 ) ( 73 968 80 ) ( 72 968 81 ) materials/grid_material 0 0 0 1 1
+( 72 1032 80 ) ( 72 1032 81 ) ( 72 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 4
+{
+( 248 136 64 ) ( 248 137 64 ) ( 248 136 65 ) materials/grid_material 0 0 0 1 1
+( 248 840 64 ) ( 248 840 65 ) ( 249 840 64 ) materials/grid_material 0 0 0 1 1
+( 248 968 144 ) ( 376 840 80 ) ( 248 840 80 ) materials/grid_material 0 0 0 1 1
+( 248 136 64 ) ( 249 136 64 ) ( 248 137 64 ) materials/grid_material 0 0 0 1 1
+( 264 968 80 ) ( 265 968 80 ) ( 264 968 81 ) materials/grid_material 0 0 0 1 1
+( 264 1032 80 ) ( 264 1032 81 ) ( 264 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 5
+{
+( 312 136 64 ) ( 312 137 64 ) ( 312 136 65 ) materials/grid_material 0 0 0 1 1
+( 312 840 64 ) ( 312 840 65 ) ( 313 840 64 ) materials/grid_material 0 0 0 1 1
+( 312 968 160 ) ( 440 840 80 ) ( 312 840 80 ) materials/grid_material 0 0 0 1 1
+( 312 136 64 ) ( 313 136 64 ) ( 312 137 64 ) materials/grid_material 0 0 0 1 1
+( 328 968 80 ) ( 329 968 80 ) ( 328 968 81 ) materials/grid_material 0 0 0 1 1
+( 328 1032 80 ) ( 328 1032 81 ) ( 328 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 6
+{
+( 376 136 64 ) ( 376 137 64 ) ( 376 136 65 ) materials/grid_material 0 0 0 1 1
+( 376 840 64 ) ( 376 840 65 ) ( 377 840 64 ) materials/grid_material 0 0 0 1 1
+( 376 968 176 ) ( 504 840 80 ) ( 376 840 80 ) materials/grid_material 0 0 0 1 1
+( 376 136 64 ) ( 377 136 64 ) ( 376 137 64 ) materials/grid_material 0 0 0 1 1
+( 392 968 80 ) ( 393 968 80 ) ( 392 968 81 ) materials/grid_material 0 0 0 1 1
+( 392 1032 80 ) ( 392 1032 81 ) ( 392 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 7
+{
+( 440 136 64 ) ( 440 137 64 ) ( 440 136 65 ) materials/grid_material 0 0 0 1 1
+( 440 840 64 ) ( 440 840 65 ) ( 441 840 64 ) materials/grid_material 0 0 0 1 1
+( 440 968 192 ) ( 568 840 80 ) ( 440 840 80 ) materials/grid_material 0 0 0 1 1
+( 440 136 64 ) ( 441 136 64 ) ( 440 137 64 ) materials/grid_material 0 0 0 1 1
+( 456 968 80 ) ( 457 968 80 ) ( 456 968 81 ) materials/grid_material 0 0 0 1 1
+( 456 1032 80 ) ( 456 1032 81 ) ( 456 1033 80 ) materials/grid_material 0 0 0 1 1
+}
+// brush 8
+{
+( 768 768 80 ) ( 768 769 80 ) ( 768 768 81 ) __TB_empty 0 0 0 1 1
+( 768 768 80 ) ( 768 768 81 ) ( 769 768 80 ) __TB_empty 0 0 0 1 1
+( 768 768 80 ) ( 769 768 80 ) ( 768 769 80 ) __TB_empty 0 0 0 1 1
+( 896 896 88 ) ( 896 897 88 ) ( 897 896 88 ) __TB_empty 0 0 0 1 1
+( 896 896 88 ) ( 897 896 88 ) ( 896 896 89 ) __TB_empty 0 0 0 1 1
+( 896 896 88 ) ( 896 896 89 ) ( 896 897 88 ) __TB_empty 0 0 0 1 1
+}
+// brush 9
+{
+( 768 640 80 ) ( 768 641 80 ) ( 768 640 81 ) __TB_empty 0 0 0 1 1
+( 768 640 80 ) ( 768 640 81 ) ( 769 640 80 ) __TB_empty 0 0 0 1 1
+( 768 640 80 ) ( 769 640 80 ) ( 768 641 80 ) __TB_empty 0 0 0 1 1
+( 896 768 96 ) ( 896 769 96 ) ( 897 768 96 ) __TB_empty 0 0 0 1 1
+( 896 768 88 ) ( 897 768 88 ) ( 896 768 89 ) __TB_empty 0 0 0 1 1
+( 896 768 88 ) ( 896 768 89 ) ( 896 769 88 ) __TB_empty 0 0 0 1 1
+}
+// brush 10
+{
+( 768 512 80 ) ( 768 513 80 ) ( 768 512 81 ) __TB_empty 0 0 0 1 1
+( 768 512 80 ) ( 768 512 81 ) ( 769 512 80 ) __TB_empty 0 0 0 1 1
+( 768 512 80 ) ( 769 512 80 ) ( 768 513 80 ) __TB_empty 0 0 0 1 1
+( 896 640 104 ) ( 896 641 104 ) ( 897 640 104 ) __TB_empty 0 0 0 1 1
+( 896 640 88 ) ( 897 640 88 ) ( 896 640 89 ) __TB_empty 0 0 0 1 1
+( 896 640 88 ) ( 896 640 89 ) ( 896 641 88 ) __TB_empty 0 0 0 1 1
+}
+// brush 11
+{
+( 768 384 80 ) ( 768 385 80 ) ( 768 384 81 ) __TB_empty 0 0 0 1 1
+( 768 384 80 ) ( 768 384 81 ) ( 769 384 80 ) __TB_empty 0 0 0 1 1
+( 768 384 80 ) ( 769 384 80 ) ( 768 385 80 ) __TB_empty 0 0 0 1 1
+( 896 512 112 ) ( 896 513 112 ) ( 897 512 112 ) __TB_empty 0 0 0 1 1
+( 896 512 88 ) ( 897 512 88 ) ( 896 512 89 ) __TB_empty 0 0 0 1 1
+( 896 512 88 ) ( 896 512 89 ) ( 896 513 88 ) __TB_empty 0 0 0 1 1
+}
+// brush 12
+{
+( 768 256 80 ) ( 768 257 80 ) ( 768 256 81 ) __TB_empty 0 0 0 1 1
+( 768 256 80 ) ( 768 256 81 ) ( 769 256 80 ) __TB_empty 0 0 0 1 1
+( 768 256 80 ) ( 769 256 80 ) ( 768 257 80 ) __TB_empty 0 0 0 1 1
+( 896 384 120 ) ( 896 385 120 ) ( 897 384 120 ) __TB_empty 0 0 0 1 1
+( 896 384 88 ) ( 897 384 88 ) ( 896 384 89 ) __TB_empty 0 0 0 1 1
+( 896 384 88 ) ( 896 384 89 ) ( 896 385 88 ) __TB_empty 0 0 0 1 1
+}
+// brush 13
+{
+( 768 128 80 ) ( 768 129 80 ) ( 768 128 81 ) __TB_empty 0 0 0 1 1
+( 768 128 80 ) ( 768 128 81 ) ( 769 128 80 ) __TB_empty 0 0 0 1 1
+( 768 128 80 ) ( 769 128 80 ) ( 768 129 80 ) __TB_empty 0 0 0 1 1
+( 896 248 128 ) ( 896 249 128 ) ( 897 248 128 ) __TB_empty 0 0 0 1 1
+( 896 256 88 ) ( 897 256 88 ) ( 896 256 89 ) __TB_empty 0 0 0 1 1
+( 896 248 88 ) ( 896 248 89 ) ( 896 249 88 ) __TB_empty 0 0 0 1 1
+}
+}

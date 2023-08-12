@@ -1,0 +1,23 @@
+[gd_resource type="Environment" format=2]
+
+[resource]
+resource_local_to_scene = true
+background_mode = 1
+background_energy = 0.0
+background_camera_feed_id = 2
+ambient_light_color = Color( 0.133333, 0.101961, 0.101961, 1 )
+ambient_light_energy = 0.0
+ambient_light_sky_contribution = 0.0
+fog_color = Color( 0.0392157, 0.027451, 0.0196078, 1 )
+fog_transmit_curve = 2.54912
+fog_height_enabled = true
+fog_height_min = 4000.0
+fog_height_max = -4000.0
+fog_height_curve = 8.87655
+tonemap_white = 0.13
+auto_exposure_scale = 0.19
+auto_exposure_min_luma = 0.07
+auto_exposure_max_luma = 1.22
+auto_exposure_speed = 2.48
+ssao_radius = 0.1
+dof_blur_near_distance = 0.84

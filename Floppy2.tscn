@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Floppy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Floppy2.gd" type="Script" id=2]
+
+[node name="Floppy" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Viewport" parent="." index="32"]
+render_target_v_flip = true

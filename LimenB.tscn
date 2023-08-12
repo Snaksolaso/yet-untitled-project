@@ -1,0 +1,151 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Portal.gd" type="Script" id=1]
+[ext_resource path="res://portal_mesh2.tres" type="CubeMesh" id=2]
+
+[sub_resource type="SpatialMaterial" id=12565]
+flags_use_shadow_to_opacity = true
+albedo_color = Color( 0, 0.368627, 1, 0.501961 )
+roughness = 0.0
+
+[sub_resource type="BoxShape" id=7551]
+extents = Vector3( 0.001, 0.5, 0.5 )
+
+[sub_resource type="GDScript" id=12564]
+
+[sub_resource type="Shader" id=1856]
+code = "shader_type spatial;
+render_mode unshaded;
+uniform sampler2D viewport_texture;
+
+void fragment(){
+    ALBEDO = vec3(texture(viewport_texture, SCREEN_UV).rgb);
+	    EMISSION = ALBEDO * vec3(2,2,2);
+}
+"
+script = SubResource( 12564 )
+
+[sub_resource type="ViewportTexture" id=12567]
+viewport_path = NodePath("Viewport")
+
+[sub_resource type="ShaderMaterial" id=12566]
+resource_local_to_scene = true
+render_priority = 1
+shader = SubResource( 1856 )
+shader_param/viewport_texture = SubResource( 12567 )
+
+[node name="LimenB" type="CSGMesh"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00138235, 0.00522155, -0.00136304 )
+layers = 4
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material = SubResource( 12565 )
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Viewport" type="Viewport" parent="."]
+process_priority = 1
+size = Vector2( 2, 2 )
+transparent_bg = true
+fxaa = true
+sharpen_intensity = 0.11
+keep_3d_linear = true
+usage = 3
+render_target_clear_mode = 2
+render_target_update_mode = 3
+gui_snap_controls_to_pixels = false
+shadow_atlas_quad_0 = 0
+shadow_atlas_quad_1 = 0
+shadow_atlas_quad_2 = 0
+shadow_atlas_quad_3 = 0
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Camera" type="Camera" parent="Viewport"]
+cull_mask = 1048555
+current = true
+
+[node name="Flashlight" type="SpotLight" parent="Viewport/Camera"]
+portal_mode = 1
+light_color = Color( 1, 0.772549, 0.560784, 1 )
+light_energy = 10.0
+light_indirect_energy = 7.718
+light_specular = 0.0
+light_bake_mode = 0
+light_cull_mask = 4294966303
+shadow_bias = 0.234
+shadow_contact = 0.26
+spot_range = 48.074
+spot_attenuation = 0.60371
+spot_angle = 30.0
+spot_angle_attenuation = 0.0189465
+
+[node name="Area" type="Area" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Area"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35, 0, 0 )
+shape = SubResource( 7551 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, -2.03288e-21, 2.5411e-21, 0, 1.2, -0.55, -0.55, 0 )
+layers = 4
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 12566 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1.1, 0, -1, 0, -4.37114e-08, -0.55, 0, 0.550049 )
+layers = 4
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 12566 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance3" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1.1, 0, -1, 0, -4.37114e-08, -0.55, 0, -0.55 )
+layers = 4
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 12566 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance4" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1.1, 0, 0, 0, 1.1, -1, 0, 0 )
+layers = 4
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 12566 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="MeshInstance5" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1.2, -0.55, 0.55, 0 )
+layers = 4
+cast_shadow = 0
+generate_lightmap = false
+mesh = ExtResource( 2 )
+material/0 = SubResource( 12566 )
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="VisibilityNotifier" type="VisibilityNotifier" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00166011, 0.0053457, -0.0012331 )
+aabb = AABB( 0, -0.5, -0.5, 0, 1, 1 )
+max_distance = 80.0

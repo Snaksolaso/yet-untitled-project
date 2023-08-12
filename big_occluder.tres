@@ -1,0 +1,5 @@
+[gd_resource type="OccluderShapePolygon" format=2]
+
+[resource]
+two_way = false
+polygon_points = PoolVector2Array( 200, 200, 200, -200, -200, 200, -200, -200 )

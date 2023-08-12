@@ -1,0 +1,10 @@
+OS:	Manjaro Linux
+Qt:	5.15.9
+GL_VENDOR:	Intel
+GL_RENDERER:	Mesa Intel(R) Xe Graphics (TGL GT2)
+GL_VERSION:	4.6 (Compatibility Profile) Mesa 23.0.4
+TrenchBroom Version:	2023.1
+TrenchBroom Build:	v2023.1 Release Linux-ubuntu-22.04
+Reason:	Cannot concatenate absolute path
+Stack trace:
+<uncaught exception>

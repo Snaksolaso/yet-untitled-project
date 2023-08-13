@@ -1,7 +1,6 @@
+# This script belongs to the physical body of the player. 
+# It processes movement inputs, and also acts as an agent for the player wrt view culling and 
 extends KinematicBody
-
-
-# The physical body of the player. Contains functions to process input 
 
 onready var flashlight = get_node("../Flashlight")
 onready var camera = get_node("CameraPivot/Camera")
@@ -23,7 +22,7 @@ export var air_acceleration = 2
 export var crouchwalk_speed = 1
 export var crouch_acceleration = 15
 export var deceleration = 10
-export var push = 100
+export var push = 200
 
 export var walk_speed = 2.8 # maximum walk speed
 export var sprint_speed = 7# maximum sprint speed
@@ -75,6 +74,9 @@ static func _short_angle_dist(from, to):
 # get angle velocity (minus y) points from the camera and angle the bauble slightly towards that direction
 func update_lean_pivot():
 	var angle = (velocity - velocity.y).angle_to(-transform.basis.z)
+
+func get_picked_area():
+	return picker.get_collider()
 
 func is_picking_area(area):
 	return $CameraPivot/Camera/PickerArea.overlaps_area(area)
@@ -308,7 +310,7 @@ func _physics_process(delta):
 	
 	var snap = Vector3.DOWN if not (jumping or ground) else Vector3.ZERO
 	if not jumping:
-		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), false)
+		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), true)
 	else:
 		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), false)
 	
@@ -317,12 +319,7 @@ func _physics_process(delta):
 		var body := collision.collider as PhysicsBody
 		if collision.collider.is_in_group("bodies"):
 			collision.collider.name
-			pass
-			if collision.collider == held_object:
-				var avertical_velocity = velocity - velocity.y
-				if collision.collider_velocity.length() < 0.1:
-					collision.collider.apply_central_force(-collision.normal * push)
-
+	
 	ground = is_on_floor()
 
 

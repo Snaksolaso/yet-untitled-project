@@ -1,12 +1,11 @@
+# This script is inherited by all holdable physics objects. It is what allows them to be held.
 class_name PhysicsEntityHoldable extends RigidBody
-
 
 export var linear_restitution_force = 1000
 export var angular_restitution_force = 16
 export var held_linear_damp = 30
 export var held_angular_damp = 10
 export var throw_force = 15
-export var inverse_drop_force = 30
 
 export var child_scene = false
 
@@ -46,6 +45,7 @@ func _ready():
 	if child_scene:
 		pause_mode = Node.PAUSE_MODE_PROCESS
 
+
 func _physics_process(delta):
 	if global_translation.y < -1000:
 		reset_target()
@@ -53,13 +53,19 @@ func _physics_process(delta):
 		linear_velocity = Vector3.ZERO
 		angular_velocity = Vector3.ZERO
 
-func _integrate_forces(state):
 
+# This function runs in addition to the default force integration algorithm. 
+# It enforces relative positioning for the object and target_spatial, similar to
+# a constraint in source engine.
+func _integrate_forces(state):
+	
 	if just_dropped:
 		reset_target()
 	elif just_thrown:
 		state.apply_central_impulse(throw_force * -target_spatial.global_transform.basis.z)
 		reset_target()
+	
+	# if the 
 	elif target_spatial != null:
 		state.add_central_force( linear_restitution_force * (target_spatial.global_translation - global_translation))
 		state.add_torque(angular_restitution_force * global_transform.basis.y.cross(target_spatial.global_transform.basis.y))

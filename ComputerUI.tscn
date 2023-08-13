@@ -14,7 +14,6 @@ animations = [ {
 [node name="ComputerUI" type="Node2D"]
 script = ExtResource( 2 )
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
-
-[node name="MouseCursor" type="AnimatedSprite" parent="."]
+[node name="Mouse" type="AnimatedSprite" parent="."]
+scale = Vector2( -0.015, 0.015 )
 frames = SubResource( 1 )

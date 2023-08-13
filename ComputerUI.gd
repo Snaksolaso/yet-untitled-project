@@ -1,12 +1,15 @@
 extends Node2D
 
+# mouse sensitivity
+export var mouse_speed = 1
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+onready var mouse = $Mouse
 
-func update_mouse(Direction: Vector2):
-	pass
+func process_mouse_input(direction: Vector2):
+	update_mouse(direction)
+
+func update_mouse(direction: Vector2):
+	mouse.position += (direction * mouse_speed).floor()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

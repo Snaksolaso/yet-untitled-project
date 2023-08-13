@@ -69,7 +69,6 @@ collision_mask = 5
 
 [node name="CarryArm" type="SpringArm" parent="KinematicBody/CameraPivot/Camera"]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
-spring_length = 1.25
 margin = 0.0
 
 [node name="RigidBody" type="RigidBody" parent="KinematicBody/CameraPivot/Camera/CarryArm"]

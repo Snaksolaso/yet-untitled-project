@@ -1,9 +1,10 @@
-[gd_scene load_steps=66 format=2]
+[gd_scene load_steps=67 format=2]
 
 [ext_resource path="res://Computer1.tres" type="ArrayMesh" id=1]
 [ext_resource path="res://PhysicsEntity.tscn" type="PackedScene" id=2]
 [ext_resource path="res://ComputerProp.gd" type="Script" id=3]
 [ext_resource path="res://screenmaterial1.tres" type="Material" id=4]
+[ext_resource path="res://ComputerUI.tscn" type="PackedScene" id=5]
 [ext_resource path="res://textures/allsmall/Metal17128x128.png" type="Texture" id=8]
 [ext_resource path="res://textures/allsmall/Metal04128x128.png" type="Texture" id=10]
 [ext_resource path="res://textures/allsmall/Plaster11128x128.png" type="Texture" id=11]
@@ -623,3 +624,5 @@ render_target_update_mode = 3
 margin_right = 128.0
 margin_bottom = 128.0
 color = Color( 0.00784314, 0.0156863, 0.00784314, 1 )
+
+[node name="ComputerUI" parent="Viewport" index="1" instance=ExtResource( 5 )]

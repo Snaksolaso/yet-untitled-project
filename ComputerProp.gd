@@ -56,14 +56,16 @@ func floppy_inserted(floppy):
 	$AnimationPlayer.play("Insert")
 
 func boot_floppy(floppy):
-	floppy.focus()
 	update_screen_path(stored_floppy.get_viewport_path())
+
 
 func _view_grabbed_process(delta):
 	if time_since_view_grabbed < 1:
 		time_since_view_grabbed += delta
 	elif time_since_view_grabbed > 1:
 		time_since_view_grabbed = 1
+		zoom_finished()
+		
 	grabbed_player.camera.global_transform = camera_starting_transform.interpolate_with($DummyCamera.global_transform, time_since_view_grabbed)
 	grabbed_player.camera.fov = lerp(camera_starting_fov, grabbed_fov, time_since_view_grabbed)
 	if Input.is_action_pressed("ui_cancel"):
@@ -82,6 +84,9 @@ func _ready():
 	$AnimationPlayer.connect("animation_finished", self,"on_animation_finished")
 	$AnimationPlayer.connect("animation_started", self,"on_animation_started")
 
+func zoom_finished():
+	if stored_floppy != null:
+		stored_floppy.focus()
 
 func grab_screen(player):
 	if not view_grabbed:

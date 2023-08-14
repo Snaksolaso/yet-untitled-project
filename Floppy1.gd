@@ -38,6 +38,4 @@ func _unhandled_input(event):
 				child_player.camera.rotate_x(-lerp(0, child_player.spin, event.relative.y/10))
 
 func _ready():
-	if child_scene:
-		pause_mode = Node.PAUSE_MODE_PROCESS
 	$FloppyMesh.mesh = load("res://floppy_1_mesh.tres")

@@ -9,9 +9,6 @@ onready var sprite = $Viewport/AnimatedSprite
 var loaded = false
 var focused = false
 
-func get_class():
-	return "FloppyDisk"
-
 func on_sprite_animation_finish():
 	sprite.play("default")
 
@@ -20,7 +17,6 @@ func insert():
 
 func focus():
 	focused = true
-
 
 func unfocus():
 	focused = false
@@ -33,8 +29,6 @@ func get_floppy_mesh():
 	return $FloppyMesh.mesh
 
 func _focused_process(delta):
-#	if Input.is_action_pressed("ui_cancel"):
-#		unfocus()
 	pass
 
 func _process(delta):

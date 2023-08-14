@@ -623,6 +623,6 @@ render_target_update_mode = 3
 [node name="ColorRect" type="ColorRect" parent="Viewport" index="0"]
 margin_right = 128.0
 margin_bottom = 128.0
-color = Color( 0.00784314, 0.0156863, 0.00784314, 1 )
+color = Color( 0.00784314, 0.00784314, 0.0117647, 1 )
 
 [node name="ComputerUI" parent="Viewport" index="1" instance=ExtResource( 5 )]

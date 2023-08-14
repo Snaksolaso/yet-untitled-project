@@ -1,11 +1,11 @@
 # This script is inherited by all holdable physics objects. It is what allows them to be held.
 class_name PhysicsEntityHoldable extends RigidBody
 
-export var linear_restitution_force = 1000
-export var angular_restitution_force = 16
-export var held_linear_damp = 30
-export var held_angular_damp = 10
-export var throw_force = 15
+export var linear_restitution_force = 1000.0
+export var angular_restitution_force = 16.0
+export var held_linear_damp = 30.0
+export var held_angular_damp = 10.0
+export var throw_force = 15.0
 
 export var child_scene = false
 
@@ -25,8 +25,6 @@ func reset_target():
 	target_spatial = null
 	just_thrown = false
 	just_dropped = false
-
-
 
 func start_being_held_by(target: Spatial):
 	reset_target()

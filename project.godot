@@ -9,6 +9,11 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Floppy1",
+"class": "Boo_floppy",
+"language": "GDScript",
+"path": "res://BootFloppy.gd"
+}, {
 "base": "PhysicsEntityHoldable",
 "class": "Computer",
 "language": "GDScript",
@@ -215,6 +220,7 @@ _global_script_classes=[ {
 "path": "res://addons/qodot/game_definitions/worldspawn_layers/liquid/water.gd"
 } ]
 _global_script_class_icons={
+"Boo_floppy": "",
 "Computer": "",
 "Floppy1": "",
 "Floppy2": "",
@@ -278,7 +284,7 @@ window/stretch/shrink=2.0
 
 [editor_plugins]
 
-enabled=PoolStringArray(  )
+enabled=PoolStringArray( "res://addons/qodot/plugin.cfg" )
 
 [gdnative]
 

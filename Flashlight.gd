@@ -6,4 +6,4 @@ func _ready():
 
 func interact(player):
 	$Flashlight.visible = not $Flashlight.visible
-	$entity_90_mesh_instance.get_surface_material(3).flags_unshaded = $Flashlight.visible
+	$entity_90_mesh_instance.get_surface_material(3).emission_enabled = $Flashlight.visible

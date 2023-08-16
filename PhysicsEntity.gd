@@ -6,6 +6,7 @@ export var angular_restitution_force = 16.0
 export var held_linear_damp = 30.0
 export var held_angular_damp = 10.0
 export var throw_force = 15.0
+export var default_hold_length = 1.0
 
 export var child_scene = false
 
@@ -15,6 +16,7 @@ var target_spatial = null
 
 var just_thrown = false
 var just_dropped = false
+var sleep = false
 # goals: entities must be able to be picked up and dropped and thrown and move through portals
 # most of these things I think should be handled in other places though, except maybe the portal one.
 
@@ -25,12 +27,20 @@ func reset_target():
 	target_spatial = null
 	just_thrown = false
 	just_dropped = false
+	set_collision_mask_bit(2, true)
 
 func start_being_held_by(target: Spatial):
 	reset_target()
+	set_collision_mask_bit(2, false)
 	linear_damp = held_linear_damp
 	angular_damp = held_angular_damp
 	target_spatial = target
+
+func freeze():
+	sleep = true
+
+func unfreeze():
+	sleep = false
 
 func throw():
 	just_thrown = true
@@ -56,6 +66,7 @@ func _physics_process(delta):
 # It enforces relative positioning for the object and target_spatial, similar to
 # a constraint in source engine.
 func _integrate_forces(state):
+	
 	
 	if just_dropped:
 		reset_target()

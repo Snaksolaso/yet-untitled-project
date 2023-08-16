@@ -7,6 +7,7 @@
 
 [node name="Floppy" instance=ExtResource( 1 )]
 physics_interpolation_mode = 2
+collision_layer = 6
 script = ExtResource( 2 )
 
 [node name="FloppyMesh" parent="." index="0"]

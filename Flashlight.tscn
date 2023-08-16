@@ -26,7 +26,7 @@ rim_texture = ExtResource( 4 )
 roughness_texture_channel = 4
 emission_enabled = true
 emission = Color( 0.623529, 0.992157, 0.196078, 1 )
-emission_energy = 1.0
+emission_energy = 0.1
 emission_operator = 1
 emission_on_uv2 = false
 emission_texture = ExtResource( 3 )
@@ -124,8 +124,9 @@ extents = Vector3( 0.05, 0.166932, 0.0641638 )
 mass = 0.1
 script = ExtResource( 6 )
 linear_restitution_force = 100.0
-angular_restitution_force = 3.0
-throw_force = 2.0
+angular_restitution_force = 8.0
+held_angular_damp = 16.0
+throw_force = 1.0
 
 [node name="entity_90_mesh_instance" type="MeshInstance" parent="." index="0"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.001, -0.043, 0 )
@@ -249,7 +250,7 @@ shape = SubResource( 33 )
 [node name="Flashlight" type="SpotLight" parent="." index="29"]
 physics_interpolation_mode = 2
 process_priority = 2
-transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.0165444, 0 )
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0.055061, 0 )
 portal_mode = 1
 light_color = Color( 1, 0.772549, 0.560784, 1 )
 light_energy = 10.933
@@ -257,9 +258,9 @@ light_indirect_energy = 7.718
 light_specular = 0.0
 shadow_bias = 0.234
 shadow_contact = 0.26
-spot_range = 48.074
+spot_range = 100.0
 spot_attenuation = 0.60371
-spot_angle = 30.0
+spot_angle = 25.0
 spot_angle_attenuation = 0.0189
 
 [node name="CollisionShape" type="CollisionShape" parent="." index="30"]

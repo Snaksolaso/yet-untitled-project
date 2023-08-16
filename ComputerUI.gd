@@ -1,7 +1,7 @@
 extends Node2D
 
 # mouse sensitivity
-export var mouse_speed = 1
+export var mouse_speed = 0.1
 
 onready var mouse = $Mouse
 

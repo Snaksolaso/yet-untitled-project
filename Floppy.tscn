@@ -233,6 +233,7 @@ animations = [ {
 [node name="Floppy" instance=ExtResource( 1 )]
 pause_mode = 2
 mass = 0.1
+continuous_cd = true
 script = ExtResource( 7 )
 linear_restitution_force = 100
 angular_restitution_force = 2

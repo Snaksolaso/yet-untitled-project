@@ -6,7 +6,7 @@
 
 [sub_resource type="CapsuleShape" id=4]
 radius = 0.3
-height = 2.0
+height = 1.7
 
 [sub_resource type="RayShape" id=7]
 length = 4.0
@@ -24,8 +24,8 @@ script = ExtResource( 4 )
 
 [node name="KinematicBody" type="KinematicBody" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.3018, 1.81493, 4.93841 )
-collision_layer = 5
-collision_mask = 5
+collision_layer = 2
+collision_mask = 7
 script = ExtResource( 3 )
 
 [node name="CollisionShape" type="CollisionShape" parent="KinematicBody"]
@@ -69,12 +69,12 @@ collision_mask = 5
 
 [node name="CarryArm" type="SpringArm" parent="KinematicBody/CameraPivot/Camera"]
 transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+spring_length = 1.25
 margin = 0.0
 
 [node name="RigidBody" type="RigidBody" parent="KinematicBody/CameraPivot/Camera/CarryArm"]
 transform = Transform( -1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, 0, 0 )
-collision_layer = 2
-collision_mask = 2
+collision_layer = 0
 custom_integrator = true
 continuous_cd = true
 can_sleep = false

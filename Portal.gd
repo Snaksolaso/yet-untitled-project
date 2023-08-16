@@ -109,6 +109,8 @@ func teleport_player(player, paired_portal: Spatial):
 	move_local_camera(player, paired_portal)
 
 func _physics_process(delta):
+	if not render:
+		viewport.size = Vector2(2,2)
 	if not window and area != null and playerbody != null and area.overlaps_body(playerbody) and not_duplicate > 0.1:
 		emit_signal("player_contact", self)
 	else:

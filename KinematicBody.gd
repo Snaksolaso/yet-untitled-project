@@ -11,18 +11,22 @@ onready var hud = get_node("../HUD")
 onready var visibility_area = get_node("CameraPivot/Camera/VisibilityArea")
 onready var held_object = null
 onready var hand = get_node("CameraPivot/Camera/CarryArm/RigidBody/CollisionShape")
+onready var arm = $CameraPivot/Camera/CarryArm
 
 onready var picker = get_node("CameraPivot/Camera/Picker")
 
 export var gravity = Vector3.DOWN * 20 # strength of gravity
 export var walk_acceleration = 15
 
+export var max_hold_length = 2
+export var default_min_hold_length = 0.3
+var min_hold_length = default_min_hold_length
 export var sprint_acceleration = 20
 export var air_acceleration = 2
 export var crouchwalk_speed = 1
 export var crouch_acceleration = 15
 export var deceleration = 10
-export var push = 200
+export var push = 0.5
 
 export var walk_speed = 2.8 # maximum walk speed
 export var sprint_speed = 7# maximum sprint speed
@@ -125,6 +129,20 @@ func get_input(delta):
 	# get rid of y velocity to make calculations easier
 	var vy = velocity.y
 	velocity.y = 0
+	
+	
+	for index in get_slide_count():
+		var collisioner := get_slide_collision(index)
+		var body := collisioner.collider
+		if body.get_class() == "RigidBody":
+			#collisioner.collider.apply_central_impulse(-collisioner.normal * velocity * push)
+			if body.global_translation.y < global_translation.y:
+				var travel = collisioner.travel
+				global_translation += Vector3(travel.x, -travel.y, travel.z) * delta
+				velocity += collisioner.collider_velocity * delta * delta
+				body.sleeping = true
+			elif body.sleeping:
+				body.sleeping = false
 	
 	var stopping = true
 	var max_speed = walk_speed
@@ -271,6 +289,9 @@ func get_input(delta):
 			var object = picker.get_collider()
 			if object.get_class() == "RigidBody":
 				hand.global_rotation = object.global_rotation
+				var distance = camera.global_translation.distance_to(object.global_translation)
+				print(distance)
+				arm.spring_length = min(distance, max_hold_length)
 				object.start_being_held_by(hand)
 				held_object = object
 	
@@ -280,6 +301,9 @@ func get_input(delta):
 			if object.has_method("interact"):
 				object.interact(self)
 
+func _ready():
+	set_collision_layer_bit(3, false)
+	set_collision_mask_bit(3, false)
 
 func _process(delta):
 	if paused:
@@ -287,6 +311,7 @@ func _process(delta):
 	hud.update_status(get_status_string())
 
 func _physics_process(delta):
+	
 	if paused:
 		return
 	for x in time_iterators.keys():
@@ -298,6 +323,10 @@ func _physics_process(delta):
 	if ground:
 		if jumping:
 			jumping = false
+
+	if get_slide_count() > 1:
+		var collisioner = get_slide_collision(get_slide_count() - 1)
+		velocity +=  gravity * delta
 	else:
 		velocity +=  gravity * delta
 	
@@ -310,21 +339,23 @@ func _physics_process(delta):
 	
 	var snap = Vector3.DOWN if not (jumping or ground) else Vector3.ZERO
 	if not jumping:
-		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), true)
+		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), false)
 	else:
 		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), false)
-	
-	for index in get_slide_count():
-		var collision := get_slide_collision(index)
-		var body := collision.collider as PhysicsBody
-		if collision.collider.is_in_group("bodies"):
-			collision.collider.name
+
 	
 	ground = is_on_floor()
 
 
 func _unhandled_input(event):
-
+	if event.is_action_pressed("increase_hold_length"):
+		if held_object != null:
+			if arm.spring_length < max_hold_length:
+				arm.spring_length += 0.1
+	if event.is_action_pressed("decrease_hold_length"):
+		if held_object != null:
+			if arm.spring_length > min_hold_length:
+				arm.spring_length -= 0.1
 	if paused or child_scene:
 		return
 	if event is InputEventMouseMotion:

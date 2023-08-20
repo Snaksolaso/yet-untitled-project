@@ -81,7 +81,9 @@ margin = 0.01
 points = PoolVector3Array( -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5 )
 
 [node name="Box" instance=ExtResource( 1 )]
-mass = 0.2
+mass = 1.0
+angular_restitution_force = 16.0
+throw_force = 6.0
 
 [node name="entity_94_mesh_instance" type="MeshInstance" parent="." index="0"]
 transform = Transform( 1.01, 0, 0, 0, 1.01, 0, 0, 0, 1.01, 0, 0, 0 )

@@ -31,7 +31,7 @@ func update_properties() -> void:
 		speed = properties.depth
 
 	if 'depth' in properties:
-		depth = properties.depth.to_float()
+		depth = properties.depth.to_float() if not properties.depth is float else properties.depth
 
 	if 'release_delay' in properties:
 		release_delay = properties.release_delay

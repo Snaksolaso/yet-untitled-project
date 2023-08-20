@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://QuakeLike.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Floppy3D.tscn" type="PackedScene" id=2]
+[ext_resource path="res://FloppyFPS.gd" type="Script" id=3]
+[ext_resource path="res://floppy_2_mesh.tres" type="ArrayMesh" id=4]
+
+[sub_resource type="Environment" id=3]
+resource_local_to_scene = true
+background_mode = 1
+background_energy = 0.0
+background_camera_feed_id = 2
+ambient_light_color = Color( 0.133333, 0.101961, 0.101961, 1 )
+ambient_light_energy = 0.0
+ambient_light_sky_contribution = 0.0
+fog_color = Color( 0.0392157, 0.027451, 0.0196078, 1 )
+fog_transmit_curve = 2.54912
+fog_height_enabled = true
+fog_height_min = 4000.0
+fog_height_max = -4000.0
+fog_height_curve = 8.87655
+tonemap_white = 0.13
+auto_exposure_scale = 0.19
+auto_exposure_min_luma = 0.07
+auto_exposure_max_luma = 1.22
+auto_exposure_speed = 2.48
+ssao_radius = 0.1
+dof_blur_near_distance = 0.84
+
+[sub_resource type="World" id=2]
+resource_local_to_scene = true
+environment = SubResource( 3 )
+
+[node name="FloppyFPS" instance=ExtResource( 2 )]
+script = ExtResource( 3 )
+linear_restitution_force = 50.0
+angular_restitution_force = 3.0
+throw_force = 1.0
+
+[node name="FloppyMesh" parent="." index="0"]
+transform = Transform( 1.1, 0, 0, 0, 2, -4.80825e-08, 0, 8.74228e-08, 1.1, 0, 0, 0 )
+mesh = ExtResource( 4 )
+
+[node name="Viewport" parent="." index="32"]
+world = SubResource( 2 )
+keep_3d_linear = true
+shadow_atlas_size = 4096
+
+[node name="QuakeLike" parent="Viewport" index="1" instance=ExtResource( 1 )]

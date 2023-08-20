@@ -1,0 +1,472 @@
+Renderer info: Mesa Intel(R) Xe Graphics (TGL GT2) version 4.6 (Compatibility Profile) Mesa 23.1.5 from Intel
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/.
+Loading document from /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map
+Unquoted float default value 0 (line 31, column 37)
+Unquoted float default value 1 (line 35, column 22)
+Unquoted float default value 1 (line 36, column 22)
+Unquoted float default value 1 (line 61, column 23)
+Unquoted float default value 360 (line 67, column 37)
+Unquoted float default value 1 (line 71, column 22)
+Unquoted float default value 0.8 (line 77, column 23)
+Unquoted float default value 0 (line 78, column 36)
+Unquoted float default value 0 (line 79, column 31)
+Unquoted float default value 0 (line 80, column 38)
+Unquoted float default value 8 (line 81, column 23)
+Unquoted float default value 0 (line 82, column 38)
+Loaded entity definition file Qodot.fgd
+Loaded texture collection 'textures' in 0ms
+Loaded texture collection 'textures/allsmall' in 728ms
+Loaded /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 913ms
+Renderer info: Mesa Intel(R) Xe Graphics (TGL GT2) version 4.6 (Compatibility Profile) Mesa 23.1.5 from Intel
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/.
+Loading document from /home/snax/Documents/Godot-Projects/YUP/thehouse.map
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/.
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/textures
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/autosave
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/addons
+Unquoted float default value 0 (line 32, column 37)
+Duplicate class info 'worldspawn' (line 13, column 13)
+Loaded entity definition file Qodot.fgd
+Loaded texture collection 'textures/allsmall' in 2468ms
+Loaded texture collection 'textures/special' in 19ms
+Loaded /home/snax/Documents/Godot-Projects/YUP/thehouse.map in 2591ms
+Saved /home/snax/Documents/Godot-Projects/YUP/thehouse.map in 29ms
+Saved /home/snax/Documents/Godot-Projects/YUP/thehouse.map in 36ms
+Saved /home/snax/Documents/Godot-Projects/YUP/thehouse.map in 22ms
+Renderer info: Mesa Intel(R) Xe Graphics (TGL GT2) version 4.6 (Compatibility Profile) Mesa 23.1.5 from Intel
+Depth buffer bits: 24
+Multisampling enabled
+Adding file system path /usr/share/TrenchBroom/defaults/assets
+Adding file system path /home/snax/Documents/Godot-Projects/YUP/.
+Loading document from /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map
+Unquoted float default value 0 (line 31, column 37)
+Unquoted float default value 1 (line 35, column 22)
+Unquoted float default value 1 (line 36, column 22)
+Unquoted float default value 1 (line 61, column 23)
+Unquoted float default value 360 (line 67, column 37)
+Unquoted float default value 1 (line 71, column 22)
+Unquoted float default value 0.8 (line 77, column 23)
+Unquoted float default value 0 (line 78, column 36)
+Unquoted float default value 0 (line 79, column 31)
+Unquoted float default value 0 (line 80, column 38)
+Unquoted float default value 8 (line 81, column 23)
+Unquoted float default value 0 (line 82, column 38)
+Loaded entity definition file Qodot.fgd
+Loaded texture collection 'textures' in 2ms
+Loaded texture collection 'textures/allsmall' in 801ms
+Loaded /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 885ms
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.2.map
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.3.map
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 20ms
+Could not resize brush: Brush has invalid face
+Parsed successfully as Standard entities (unknown position)
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 14ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 20ms
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.4.map
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 20ms
+Could not resize brush: Brush is incomplete
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 20ms
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+Could not clip brush: Brush is empty
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.5.map
+Loaded texture collection 'textures/OldIron/OldIron-texture' in 615ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 12ms
+updateProposedDragHandles called during a drag
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+updateProposedDragHandles called during a drag
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.6.map
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 22ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 30ms
+updateProposedDragHandles called during a drag
+updateProposedDragHandles called during a drag
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 22ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 36ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 24ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 22ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 21ms
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.7.map
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 25ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 30ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 33ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 32ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 38ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 29ms
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.8.map
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.9.map
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.10.map
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.11.map
+updateProposedDragHandles called during a drag
+updateProposedDragHandles called during a drag
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 26ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 23ms
+updateProposedDragHandles called during a drag
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 29ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 41ms
+Saved /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/ql1.map in 26ms
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not clip brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.12.map
+updateProposedDragHandles called during a drag
+updateProposedDragHandles called during a drag
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is incomplete
+Could not resize brush: Brush is incomplete
+Could not resize brush: Brush is incomplete
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+updateProposedDragHandles called during a drag
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Could not resize brush: Brush is empty
+Created autosave backup at /home/snax/Documents/Godot-Projects/yet-untitled-project/quakelike_maps/autosave/ql1.13.map

@@ -41,8 +41,8 @@ points = PoolVector3Array( -0.19323, 0.239583, -0.371501, -0.19323, 0.989583, -0
 points = PoolVector3Array( 0.420728, 0.114583, -0.374249, 0.306992, 0.114583, -0.376126, 0.306992, -0.510417, -0.376126, 0.420728, -0.510417, -0.374249, 0.422896, -0.510417, -0.24542, 0.422896, 0.114583, -0.24542, 0.309159, -0.510417, -0.247297, 0.309159, 0.114583, -0.247297 )
 
 [node name="Chair" instance=ExtResource( 1 )]
-linear_restitution_force = 1000.0
-angular_restitution_force = 16.0
+mass = 3.0
+angular_restitution_force = 30.0
 
 [node name="entity_95_mesh_instance" type="MeshInstance" parent="." index="0"]
 mesh = SubResource( 20394 )

@@ -11,5 +11,7 @@ mass = 5.0
 physics_material_override = SubResource( 1 )
 script = ExtResource( 1 )
 linear_restitution_force = 300.0
+angular_restitution_force = 8.0
 held_linear_damp = 20.0
 held_angular_damp = 8.0
+throw_force = 8.0

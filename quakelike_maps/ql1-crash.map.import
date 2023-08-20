@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/ql1-crash.map-ee05ca978f3d4fa735e5fb6b860e1529.tres"
+
+[deps]
+
+source_file="res://quakelike_maps/ql1-crash.map"
+dest_files=[ "res://.import/ql1-crash.map-ee05ca978f3d4fa735e5fb6b860e1529.tres" ]
+
+[params]
+

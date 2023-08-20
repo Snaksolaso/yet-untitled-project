@@ -18,8 +18,7 @@ var time_since_ejected = 0.0
 
 func on_body_entered(body: PhysicsBody):
 	if stored_floppy == null and time_since_ejected > 2:
-
-		if body.get_script() != null and body.get_script().get_path().begins_with("res://Floppy"):
+		if body.get_script() != null and "Floppy" in body.get_script().get_path():
 			floppy_inserted(body)
 
 func on_animation_started(anim_name):
@@ -65,7 +64,6 @@ func _view_grabbed_process(delta):
 	elif time_since_view_grabbed > 1:
 		time_since_view_grabbed = 1
 		zoom_finished()
-		
 	grabbed_player.camera.global_transform = camera_starting_transform.interpolate_with($DummyCamera.global_transform, time_since_view_grabbed)
 	grabbed_player.camera.fov = lerp(camera_starting_fov, grabbed_fov, time_since_view_grabbed)
 	if Input.is_action_pressed("ui_cancel"):
@@ -114,6 +112,8 @@ func release_screen():
 	else:
 		return false
 	return true
+
+
 func interact(player):
 	if view_grabbed:
 		release_screen()
@@ -131,11 +131,10 @@ func interact(player):
 	return true
 
 
-
-func _unhandled_input(event):
-	var direction = Vector2.ZERO
-	if not view_grabbed:
-		return
-	if event is InputEventMouseMotion:
-		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-		ui.process_mouse_input(event.relative)
+#func _unhandled_input(event):
+#	var direction = Vector2.ZERO
+#	if not view_grabbed:
+#		return
+#	if event is InputEventMouseMotion:
+#		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+#		ui.process_mouse_input(event.relative)

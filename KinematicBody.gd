@@ -74,6 +74,11 @@ static func _short_angle_dist(from, to):
 	var difference = fmod(to - from, max_angle)
 	return fmod(2 * difference, max_angle) - difference
 
+func pause():
+	paused = true
+
+func unpause():
+	paused = false
 
 # get angle velocity (minus y) points from the camera and angle the bauble slightly towards that direction
 func update_lean_pivot():
@@ -138,8 +143,8 @@ func get_input(delta):
 			#collisioner.collider.apply_central_impulse(-collisioner.normal * velocity * push)
 			if body.global_translation.y < global_translation.y:
 				var travel = collisioner.travel
-				global_translation += Vector3(travel.x, -travel.y, travel.z) * delta
-				velocity += collisioner.collider_velocity * delta * delta
+				global_translation += Vector3(travel.x, -travel.y, travel.z) * delta/2
+				velocity += collisioner.collider_velocity/20 * delta
 				body.sleeping = true
 			elif body.sleeping:
 				body.sleeping = false
@@ -157,7 +162,6 @@ func get_input(delta):
 	
 	# Check if crouched
 	if crouched:
-		
 		collision.scale = lerp(Vector3(1, 1, 1), Vector3(1, 0.4, 1), time_iterators.crouch)
 		max_speed = crouchwalk_speed if ground else INF
 		a = crouch_acceleration
@@ -306,9 +310,24 @@ func _ready():
 	set_collision_mask_bit(3, false)
 
 func _process(delta):
-	if paused:
+	if hud == null:
 		return
-	hud.update_status(get_status_string())
+	if paused or held_object != null:
+		hud.update_cursor(false)
+	else:
+		var picked = picker.get_collider()
+		if picked != null and (picked.has_method("interact") or picked.has_method("start_being_held_by")):
+			if picked.name == "ComputerProp":
+				if is_picking_area(picked.get_node("Area")):
+					print("yes")
+					hud.update_cursor(false)
+					pass
+				else:
+					hud.update_cursor(true)
+			else:
+				hud.update_cursor(true)
+		else:
+			hud.update_cursor(false)
 
 func _physics_process(delta):
 	
@@ -324,30 +343,31 @@ func _physics_process(delta):
 		if jumping:
 			jumping = false
 
-	if get_slide_count() > 1:
+	if not ground:
 		var collisioner = get_slide_collision(get_slide_count() - 1)
 		velocity +=  gravity * delta
 	else:
-		velocity +=  gravity * delta
+		pass
+		#velocity +=  gravity * delta
 	
 	get_input(delta)
 	update_flashlight()
-
-
+	
 	if Input.is_action_just_pressed("toggle_flashlight"):
 		flashlight.visible = not flashlight.visible
 	
-	var snap = Vector3.DOWN if not (jumping or ground) else Vector3.ZERO
+	var snap = Vector3.DOWN if not (jumping) else Vector3.ZERO
 	if not jumping:
-		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), false)
+		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(70))
 	else:
-		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(52), false)
+		velocity = move_and_slide_with_snap(velocity, snap, Vector3.UP, true, 4, deg2rad(70), false)
 
 	
 	ground = is_on_floor()
 
-
-func _unhandled_input(event):
+func process_input(event):
+	if paused:
+		return
 	if event.is_action_pressed("increase_hold_length"):
 		if held_object != null:
 			if arm.spring_length < max_hold_length:
@@ -356,8 +376,7 @@ func _unhandled_input(event):
 		if held_object != null:
 			if arm.spring_length > min_hold_length:
 				arm.spring_length -= 0.1
-	if paused or child_scene:
-		return
+
 	if event is InputEventMouseMotion:
 		if Input.is_action_pressed("rotate_object"):
 			if event.relative.x > 0:
@@ -379,3 +398,9 @@ func _unhandled_input(event):
 				camera.rotate_x(-lerp(0, spin, event.relative.y/10))
 			elif event.relative.y < 0 && camera.rotation.x <= PI/2:
 				camera.rotate_x(-lerp(0, spin, event.relative.y/10))
+
+func _unhandled_input(event):
+	if paused or child_scene:
+		return
+	else:
+		process_input(event)

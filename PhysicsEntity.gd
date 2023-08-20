@@ -6,7 +6,6 @@ export var angular_restitution_force = 16.0
 export var held_linear_damp = 30.0
 export var held_angular_damp = 10.0
 export var throw_force = 15.0
-export var default_hold_length = 1.0
 
 export var child_scene = false
 

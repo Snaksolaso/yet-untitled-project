@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Floppy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Floppy3D.gd" type="Script" id=2]
+
+[node name="Floppy3D" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+linear_restitution_force = 1000.0
+angular_restitution_force = 16.0
+held_linear_damp = 30.0
+held_angular_damp = 10.0
+throw_force = 15.0
+
+[node name="Viewport" parent="." index="32"]
+render_target_v_flip = true

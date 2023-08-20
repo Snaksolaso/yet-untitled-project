@@ -214,7 +214,8 @@ auto_exposure_speed = 2.48
 ssao_radius = 0.1
 dof_blur_near_distance = 0.84
 
-[sub_resource type="World" id=20198]
+[sub_resource type="World" id=20203]
+resource_local_to_scene = true
 environment = SubResource( 20199 )
 
 [sub_resource type="SpriteFrames" id=20202]
@@ -240,7 +241,7 @@ angular_restitution_force = 2
 throw_force = 2
 
 [node name="FloppyMesh" type="MeshInstance" parent="." index="0"]
-transform = Transform( 1, 0, 0, 0, 1, -4.37114e-08, 0, 4.37114e-08, 1, 0, 0, 0 )
+transform = Transform( 1.1, 0, 0, 0, 1.7, -4.80825e-08, 0, 7.43094e-08, 1.1, 0, 0, 0 )
 mesh = SubResource( 6 )
 
 [node name="entity_89_brush_0_collision_shape" type="CollisionShape" parent="." index="1"]
@@ -369,7 +370,7 @@ shape = SubResource( 37 )
 
 [node name="Viewport" type="Viewport" parent="." index="32"]
 size = Vector2( 128, 128 )
-world = SubResource( 20198 )
+world = SubResource( 20203 )
 debanding = true
 hdr = false
 

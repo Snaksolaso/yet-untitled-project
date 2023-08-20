@@ -101,4 +101,4 @@ spot_angle = 30.0
 spot_angle_attenuation = 0.0189
 
 [node name="HUD" parent="." instance=ExtResource( 2 )]
-visible = false
+follow_viewport_enable = false

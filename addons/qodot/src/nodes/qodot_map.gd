@@ -281,7 +281,6 @@ func register_build_steps() -> void:
 	register_build_step('build_worldspawn_layer_mesh_instances', [], 'worldspawn_layer_mesh_instances')
 	register_build_step('build_entity_collision_shape_nodes', [], 'entity_collision_shapes')
 	register_build_step('build_worldspawn_layer_collision_shape_nodes', [], 'worldspawn_layer_collision_shapes')
-
 func register_post_attach_steps() -> void:
 	register_build_step('build_entity_collision_shapes', [], "", true)
 	register_build_step('build_worldspawn_layer_collision_shapes', [], "", true)

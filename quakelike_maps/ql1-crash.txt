@@ -1,0 +1,32 @@
+OS:	Manjaro Linux
+Qt:	5.15.10
+GL_VENDOR:	Intel
+GL_RENDERER:	Mesa Intel(R) Xe Graphics (TGL GT2)
+GL_VERSION:	4.6 (Compatibility Profile) Mesa 23.1.5
+TrenchBroom Version:	2023.1
+TrenchBroom Build:	v2023.1 Release Linux-ubuntu-22.04
+Reason:	SIGSEGV
+Stack trace:
+trenchbroom(+0x87c3c0) [0x565410fd63c0]
+trenchbroom(+0x87b22a) [0x565410fd522a]
+/usr/lib/libc.so.6(+0x3e710) [0x7f7b8243e710]
+trenchbroom(+0x4d0319) [0x565410c2a319]
+trenchbroom(+0x78727e) [0x565410ee127e]
+trenchbroom(+0x78d3bb) [0x565410ee73bb]
+/usr/lib/libQt5Core.so.5(_ZN7QObject5eventEP6QEvent+0x234) [0x7f7b82ec4174]
+/usr/lib/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x8f) [0x7f7b83b7893f]
+trenchbroom(+0x87c181) [0x565410fd6181]
+/usr/lib/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x128) [0x7f7b82e9c6f8]
+/usr/lib/libQt5Core.so.5(_ZN23QCoreApplicationPrivate16sendPostedEventsEP7QObjectiP11QThreadData+0x19b) [0x7f7b82ea165b]
+/usr/lib/libQt5Core.so.5(+0x2e76d8) [0x7f7b82ee76d8]
+/usr/lib/libglib-2.0.so.0(g_main_context_dispatch+0x141) [0x7f7b8170fa31]
+/usr/lib/libglib-2.0.so.0(+0xb7cc9) [0x7f7b8176ccc9]
+/usr/lib/libglib-2.0.so.0(g_main_context_iteration+0x32) [0x7f7b8170d0e2]
+/usr/lib/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x6c) [0x7f7b82eeb51c]
+/usr/lib/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x134) [0x7f7b82e9b404]
+/usr/lib/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x93) [0x7f7b82e9c8a3]
+trenchbroom(+0x2b86e1) [0x565410a126e1]
+/usr/lib/libc.so.6(+0x27cd0) [0x7f7b82427cd0]
+/usr/lib/libc.so.6(__libc_start_main+0x8a) [0x7f7b82427d8a]
+trenchbroom(+0x2bfa65) [0x565410a19a65]
+
